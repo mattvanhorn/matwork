@@ -8,6 +8,28 @@ defmodule Matwork.Gyms.MembershipTest do
   describe "create_owner" do
     test "the gym's owner can create their own owner membership" do
       owner = generate(user())
+
+      # Seed the gym directly via the data layer, bypassing `Gym`'s :create
+      # action (and therefore its after_action hook that auto-creates the
+      # owner Membership), so this test can exercise `create_owner`'s allow
+      # path in isolation from a clean slate.
+      gym =
+        Ash.Seed.seed!(Matwork.Gyms.Gym, %{
+          name: "Rickson's Academy",
+          slug: "rickson-academy-seeded",
+          owner_id: owner.id
+        })
+
+      membership =
+        Gyms.create_owner_membership!(owner.id, actor: owner, tenant: gym.id)
+
+      assert membership.role == :owner
+      assert membership.status == :active
+      assert membership.user_id == owner.id
+    end
+
+    test "creating a duplicate owner membership fails on the unique constraint" do
+      owner = generate(user())
       gym = generate(gym(owner: owner))
 
       # The owner membership is now auto-created when the gym is created.
