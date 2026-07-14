@@ -39,7 +39,7 @@ defmodule Matwork.Gyms.Membership do
     end
 
     policy action(:remove) do
-      authorize_if {Matwork.Gyms.Checks.ActiveMember, roles: [:owner, :instructor]}
+      authorize_if Matwork.Gyms.Checks.CanRemoveMembership
     end
   end
 

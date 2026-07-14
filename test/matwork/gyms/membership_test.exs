@@ -92,5 +92,55 @@ defmodule Matwork.Gyms.MembershipTest do
         Gyms.remove_membership!(membership, actor: student, tenant: gym.id)
       end
     end
+
+    test "an owner can remove an instructor's membership" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      instructor = generate(user())
+      generate(membership(gym: gym, user: owner, role: :owner))
+      membership = generate(membership(gym: gym, user: instructor, role: :instructor))
+
+      updated = Gyms.remove_membership!(membership, actor: owner, tenant: gym.id)
+
+      assert updated.status == :removed
+    end
+
+    test "an instructor can remove a student's membership" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      instructor = generate(user())
+      generate(membership(gym: gym, user: instructor, role: :instructor))
+      student = generate(user())
+      membership = generate(membership(gym: gym, user: student, role: :student))
+
+      updated = Gyms.remove_membership!(membership, actor: instructor, tenant: gym.id)
+
+      assert updated.status == :removed
+    end
+
+    test "an instructor cannot remove the owner's membership" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      owner_membership = generate(membership(gym: gym, user: owner, role: :owner))
+      instructor = generate(user())
+      generate(membership(gym: gym, user: instructor, role: :instructor))
+
+      assert_raise Ash.Error.Forbidden, fn ->
+        Gyms.remove_membership!(owner_membership, actor: instructor, tenant: gym.id)
+      end
+    end
+
+    test "an instructor cannot remove another instructor's membership" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      instructor = generate(user())
+      generate(membership(gym: gym, user: instructor, role: :instructor))
+      other_instructor = generate(user())
+      membership = generate(membership(gym: gym, user: other_instructor, role: :instructor))
+
+      assert_raise Ash.Error.Forbidden, fn ->
+        Gyms.remove_membership!(membership, actor: instructor, tenant: gym.id)
+      end
+    end
   end
 end
