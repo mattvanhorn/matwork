@@ -1,0 +1,497 @@
+{
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.formatter.exs": {
+    "mtime": 1784054130.2872498,
+    "ast_hash": "359190d0b181c2976023af60591504ac",
+    "semantic_hash": "359190d0b181c2976023af60591504ac"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.igniter.exs": {
+    "mtime": 1784054130.2843537,
+    "ast_hash": "568186796f509f161ee580c7c0916ca1",
+    "semantic_hash": "568186796f509f161ee580c7c0916ca1"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/assets/js/app.js": {
+    "mtime": 1784053852.9822187,
+    "ast_hash": "43cf8292e505b8c6ed01d67dae93ed5a",
+    "semantic_hash": "43cf8292e505b8c6ed01d67dae93ed5a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/assets/tsconfig.json": {
+    "mtime": 1784053852.983017,
+    "ast_hash": "3500441e170c42ccc2c21d4f5b66e26e",
+    "semantic_hash": "3500441e170c42ccc2c21d4f5b66e26e"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/assets/vendor/heroicons.js": {
+    "mtime": 1784053852.983938,
+    "ast_hash": "3ad2161c3f6a49c7596486e492e07940",
+    "semantic_hash": "3ad2161c3f6a49c7596486e492e07940"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/assets/vendor/topbar.js": {
+    "mtime": 1784053852.9826632,
+    "ast_hash": "3288720f1f1e6a509836cca7c5554a64",
+    "semantic_hash": "3288720f1f1e6a509836cca7c5554a64"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/config.exs": {
+    "mtime": 1784054130.2893474,
+    "ast_hash": "c7156aa4a2d2cf8d2cebbb2721e45375",
+    "semantic_hash": "c7156aa4a2d2cf8d2cebbb2721e45375"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/dev.exs": {
+    "mtime": 1784054130.2902277,
+    "ast_hash": "2725eeda0376da5a8b538043f6968b2a",
+    "semantic_hash": "2725eeda0376da5a8b538043f6968b2a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/prod.exs": {
+    "mtime": 1784053852.9558303,
+    "ast_hash": "c00b70981e6a3146df45d401f5b7bcc5",
+    "semantic_hash": "c00b70981e6a3146df45d401f5b7bcc5"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/runtime.exs": {
+    "mtime": 1784054130.289671,
+    "ast_hash": "0db3853c6fcf0efc555c6f858d76e8a8",
+    "semantic_hash": "0db3853c6fcf0efc555c6f858d76e8a8"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/test.exs": {
+    "mtime": 1784054130.2900412,
+    "ast_hash": "7defdc4754c43b130a4ebc1649849488",
+    "semantic_hash": "7defdc4754c43b130a4ebc1649849488"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork.ex": {
+    "mtime": 1784053852.96286,
+    "ast_hash": "aad9b0473c466bd2164abd1f720408dd",
+    "semantic_hash": "aad9b0473c466bd2164abd1f720408dd"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/accounts.ex": {
+    "mtime": 1784054130.291839,
+    "ast_hash": "7f9342ed05a2c2a126be3a0df0ac11f5",
+    "semantic_hash": "7f9342ed05a2c2a126be3a0df0ac11f5"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/accounts/user.ex": {
+    "mtime": 1784054130.2927058,
+    "ast_hash": "7592f87cc54fa0fc51d1ba2a58240de6",
+    "semantic_hash": "7592f87cc54fa0fc51d1ba2a58240de6"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/accounts/user/senders/send_magic_link_email.ex": {
+    "mtime": 1784054130.3068476,
+    "ast_hash": "60eca2c9f6e6a49dc066a3245640da50",
+    "semantic_hash": "60eca2c9f6e6a49dc066a3245640da50"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/application.ex": {
+    "mtime": 1784054130.3058999,
+    "ast_hash": "acc1ebc1b7fb79c664252909f84da2dc",
+    "semantic_hash": "acc1ebc1b7fb79c664252909f84da2dc"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/mailer.ex": {
+    "mtime": 1784053852.979039,
+    "ast_hash": "f48d3453e9207e5e2c150347dc3f8d32",
+    "semantic_hash": "f48d3453e9207e5e2c150347dc3f8d32"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/repo.ex": {
+    "mtime": 1784054130.3061335,
+    "ast_hash": "957d96c4ac3fe0c8b3239998d9672c14",
+    "semantic_hash": "957d96c4ac3fe0c8b3239998d9672c14"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web.ex": {
+    "mtime": 1784053852.96504,
+    "ast_hash": "be93d8393c8c0b1d9febff1990649342",
+    "semantic_hash": "be93d8393c8c0b1d9febff1990649342"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/auth_overrides.ex": {
+    "mtime": 1784054130.3054285,
+    "ast_hash": "f2eda7c52d52a529744e124144679e56",
+    "semantic_hash": "f2eda7c52d52a529744e124144679e56"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/components/core_components.ex": {
+    "mtime": 1784053852.975964,
+    "ast_hash": "5a17e867fb9862472793ec029c1b6d22",
+    "semantic_hash": "5a17e867fb9862472793ec029c1b6d22"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/components/layouts.ex": {
+    "mtime": 1784053852.978279,
+    "ast_hash": "6c5fd3df11a0cf59d9c671e26b3432ee",
+    "semantic_hash": "6c5fd3df11a0cf59d9c671e26b3432ee"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/controllers/auth_controller.ex": {
+    "mtime": 1784054130.306632,
+    "ast_hash": "b4c480ccfd7ac6ff0d9c74aaaf3534f9",
+    "semantic_hash": "b4c480ccfd7ac6ff0d9c74aaaf3534f9"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/controllers/error_html.ex": {
+    "mtime": 1784053852.9751327,
+    "ast_hash": "6a82e8125b05281fb8a9c0c64d8a054b",
+    "semantic_hash": "6a82e8125b05281fb8a9c0c64d8a054b"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/controllers/error_json.ex": {
+    "mtime": 1784053852.9634588,
+    "ast_hash": "7755ea792c1c8707a5b1864164502c34",
+    "semantic_hash": "7755ea792c1c8707a5b1864164502c34"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/controllers/page_controller.ex": {
+    "mtime": 1784053852.9763346,
+    "ast_hash": "eb4da1f4395082b1657008dd4f722f97",
+    "semantic_hash": "eb4da1f4395082b1657008dd4f722f97"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/controllers/page_html.ex": {
+    "mtime": 1784053852.9766808,
+    "ast_hash": "ad8cd8160f8facbec05d2fc065fbc8d5",
+    "semantic_hash": "ad8cd8160f8facbec05d2fc065fbc8d5"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/endpoint.ex": {
+    "mtime": 1784054130.306316,
+    "ast_hash": "0044dad55b096f6b0a526c4bdc16e901",
+    "semantic_hash": "0044dad55b096f6b0a526c4bdc16e901"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/gettext.ex": {
+    "mtime": 1784053852.979339,
+    "ast_hash": "64e44d244ecd719ad79719bf6cb77d84",
+    "semantic_hash": "64e44d244ecd719ad79719bf6cb77d84"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/live_user_auth.ex": {
+    "mtime": 1784054130.305818,
+    "ast_hash": "ce1dde41c9bcdb58ca327e87d24faea7",
+    "semantic_hash": "ce1dde41c9bcdb58ca327e87d24faea7"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/router.ex": {
+    "mtime": 1784054130.3065014,
+    "ast_hash": "e7fa16d7379aa146f9dd559056ba63f3",
+    "semantic_hash": "e7fa16d7379aa146f9dd559056ba63f3"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/telemetry.ex": {
+    "mtime": 1784053852.9647315,
+    "ast_hash": "36160bc30f3859c357a4e066dfe883ab",
+    "semantic_hash": "36160bc30f3859c357a4e066dfe883ab"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/mix.exs": {
+    "mtime": 1784054986.7516203,
+    "ast_hash": "6d4bc3270f76b58b5b4e9435405bc41a",
+    "semantic_hash": "6d4bc3270f76b58b5b4e9435405bc41a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/.formatter.exs": {
+    "mtime": 1784053852.9706159,
+    "ast_hash": "aab3a8a44d65bd3a4a667dad021208b8",
+    "semantic_hash": "aab3a8a44d65bd3a4a667dad021208b8"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/20260714183442_add_oban.exs": {
+    "mtime": 1784054130.3071492,
+    "ast_hash": "e886adc36e7b9b0dbc4ec899013287e7",
+    "semantic_hash": "e886adc36e7b9b0dbc4ec899013287e7"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/20260714183555_initialize_and_add_authentication_resources_and_add_magic_link_auth_extensions_1.exs": {
+    "mtime": 1784054155.2601855,
+    "ast_hash": "43fcd5cf2a650f22844907e9cb682919",
+    "semantic_hash": "43fcd5cf2a650f22844907e9cb682919"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/20260714183556_initialize_and_add_authentication_resources_and_add_magic_link_auth.exs": {
+    "mtime": 1784054155.2606716,
+    "ast_hash": "bf4f11f22e367f9821c5d29e871eed8b",
+    "semantic_hash": "bf4f11f22e367f9821c5d29e871eed8b"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/seeds.exs": {
+    "mtime": 1784053852.970965,
+    "ast_hash": "0e7366996f4ffdf790faddf1b3474c75",
+    "semantic_hash": "0e7366996f4ffdf790faddf1b3474c75"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/resource_snapshots/repo/extensions.json": {
+    "mtime": 1784054155.2596025,
+    "ast_hash": "eeae2de42e8b6aa2ab5d38952908e04c",
+    "semantic_hash": "eeae2de42e8b6aa2ab5d38952908e04c"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/resource_snapshots/repo/tokens/20260714183557.json": {
+    "mtime": 1784054155.2610743,
+    "ast_hash": "41e8c88c86823446604128103a0c2300",
+    "semantic_hash": "41e8c88c86823446604128103a0c2300"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/resource_snapshots/repo/users/20260714183558.json": {
+    "mtime": 1784054155.2615354,
+    "ast_hash": "def3800e58bf82adc163d91ad8f39679",
+    "semantic_hash": "def3800e58bf82adc163d91ad8f39679"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/matwork_web/controllers/error_html_test.exs": {
+    "mtime": 1784053852.9755113,
+    "ast_hash": "38ca307853e502a213492763de9f5646",
+    "semantic_hash": "38ca307853e502a213492763de9f5646"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/matwork_web/controllers/error_json_test.exs": {
+    "mtime": 1784053852.969085,
+    "ast_hash": "632522e58309b0a8e41cfb7a3aebe4ec",
+    "semantic_hash": "632522e58309b0a8e41cfb7a3aebe4ec"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/matwork_web/controllers/page_controller_test.exs": {
+    "mtime": 1784053852.977499,
+    "ast_hash": "659a6af2f74bb45bc05ad7cf73b479c6",
+    "semantic_hash": "659a6af2f74bb45bc05ad7cf73b479c6"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/support/conn_case.ex": {
+    "mtime": 1784053852.9683492,
+    "ast_hash": "d08b18eff22813c76991bc1ae0e3e599",
+    "semantic_hash": "d08b18eff22813c76991bc1ae0e3e599"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/support/data_case.ex": {
+    "mtime": 1784053852.9713075,
+    "ast_hash": "ce7165705aa4efd33ad455bf2a3e6840",
+    "semantic_hash": "ce7165705aa4efd33ad455bf2a3e6840"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/test_helper.exs": {
+    "mtime": 1784053852.9686654,
+    "ast_hash": "0db4eae8ea77c353b88f11547cf68f8a",
+    "semantic_hash": "0db4eae8ea77c353b88f11547cf68f8a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/SKILL.md": {
+    "mtime": 1784055038.9361968,
+    "ast_hash": "7732ec8c05152ec4c5f27e2d34650ca5",
+    "semantic_hash": "7732ec8c05152ec4c5f27e2d34650ca5"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/actions.md": {
+    "mtime": 1784055038.94402,
+    "ast_hash": "f54136bdefa06252ef76161ac8374fa1",
+    "semantic_hash": "f54136bdefa06252ef76161ac8374fa1"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/advanced_features.md": {
+    "mtime": 1784055038.943491,
+    "ast_hash": "dab1e0693ae05261bab562f42770bada",
+    "semantic_hash": "dab1e0693ae05261bab562f42770bada"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/aggregates.md": {
+    "mtime": 1784055038.93298,
+    "ast_hash": "12dab52a433a023c45a2b03eb25a2886",
+    "semantic_hash": "12dab52a433a023c45a2b03eb25a2886"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/ash.md": {
+    "mtime": 1784055038.9410615,
+    "ast_hash": "70cc8dc2244b7c558286831aa69ad416",
+    "semantic_hash": "70cc8dc2244b7c558286831aa69ad416"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/ash_authentication.md": {
+    "mtime": 1784055038.9295688,
+    "ast_hash": "ae73c4ac848cea749a45ab9994ddb4f6",
+    "semantic_hash": "ae73c4ac848cea749a45ab9994ddb4f6"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/ash_oban.md": {
+    "mtime": 1784055038.9337063,
+    "ast_hash": "182050d7fa3d3707fd345f0df035b8bf",
+    "semantic_hash": "182050d7fa3d3707fd345f0df035b8bf"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/ash_phoenix.md": {
+    "mtime": 1784055038.943635,
+    "ast_hash": "d81059a8de60f32d099714e3f67f75e0",
+    "semantic_hash": "d81059a8de60f32d099714e3f67f75e0"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/ash_postgres.md": {
+    "mtime": 1784055038.940203,
+    "ast_hash": "35ab0149361265601603e02d2001900a",
+    "semantic_hash": "35ab0149361265601603e02d2001900a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/authorization.md": {
+    "mtime": 1784055038.929337,
+    "ast_hash": "52e9d933253a9e3e71d7e81425da8b5f",
+    "semantic_hash": "52e9d933253a9e3e71d7e81425da8b5f"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/best_practices.md": {
+    "mtime": 1784055038.9301932,
+    "ast_hash": "f1b2b125e2390bd39302f9b6a67bd113",
+    "semantic_hash": "f1b2b125e2390bd39302f9b6a67bd113"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/calculations.md": {
+    "mtime": 1784055038.9403763,
+    "ast_hash": "c5f7baee21c2180412a12ff9d29a71bd",
+    "semantic_hash": "c5f7baee21c2180412a12ff9d29a71bd"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/check_constraints.md": {
+    "mtime": 1784055038.930354,
+    "ast_hash": "818c308a26ae74d9c946145df323fc82",
+    "semantic_hash": "818c308a26ae74d9c946145df323fc82"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/code_interfaces.md": {
+    "mtime": 1784055038.9339063,
+    "ast_hash": "aaf968d5f1dee04bc4acb0458b03cc31",
+    "semantic_hash": "aaf968d5f1dee04bc4acb0458b03cc31"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/code_structure.md": {
+    "mtime": 1784055038.9398062,
+    "ast_hash": "21867b2986dd18ca667196b014558f2a",
+    "semantic_hash": "21867b2986dd18ca667196b014558f2a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/configuration.md": {
+    "mtime": 1784055038.9299884,
+    "ast_hash": "f559ff447cf3a1324bc0884970d37593",
+    "semantic_hash": "f559ff447cf3a1324bc0884970d37593"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/custom_indexes.md": {
+    "mtime": 1784055038.9297855,
+    "ast_hash": "7f8ec700cacb95f3b69387e6d666b728",
+    "semantic_hash": "7f8ec700cacb95f3b69387e6d666b728"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/custom_sql_statements.md": {
+    "mtime": 1784055038.9368653,
+    "ast_hash": "cd8928faff665f00857709450a5b8f76",
+    "semantic_hash": "cd8928faff665f00857709450a5b8f76"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/data_layers.md": {
+    "mtime": 1784055038.9433713,
+    "ast_hash": "76250801967a50c63ca2fd45d83d3f74",
+    "semantic_hash": "76250801967a50c63ca2fd45d83d3f74"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/debugging_and_error_handling.md": {
+    "mtime": 1784055038.9390817,
+    "ast_hash": "932691f445faf6b31dfc643913ef3d9f",
+    "semantic_hash": "932691f445faf6b31dfc643913ef3d9f"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/debugging_form_submissions.md": {
+    "mtime": 1784055038.940515,
+    "ast_hash": "cb2012b087e34bbdd900b10448dabca6",
+    "semantic_hash": "cb2012b087e34bbdd900b10448dabca6"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/defining_triggers.md": {
+    "mtime": 1784055038.9370594,
+    "ast_hash": "0fd384a4067cf945410d337211153d4c",
+    "semantic_hash": "0fd384a4067cf945410d337211153d4c"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/error_handling.md": {
+    "mtime": 1784055038.9325697,
+    "ast_hash": "9d32f893cb2425bd64d421124248fd06",
+    "semantic_hash": "9d32f893cb2425bd64d421124248fd06"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/exist_expressions.md": {
+    "mtime": 1784055038.937364,
+    "ast_hash": "ac6e2053ed8870bd64339e998653df90",
+    "semantic_hash": "ac6e2053ed8870bd64339e998653df90"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/foreign_keys.md": {
+    "mtime": 1784055038.9341273,
+    "ast_hash": "d49951d97f6e4215f37b6f379cbf54eb",
+    "semantic_hash": "d49951d97f6e4215f37b6f379cbf54eb"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/form_integration.md": {
+    "mtime": 1784055038.9365828,
+    "ast_hash": "2480a4c8d9d94848a00601f22f186082",
+    "semantic_hash": "2480a4c8d9d94848a00601f22f186082"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/generating_code.md": {
+    "mtime": 1784055038.9290628,
+    "ast_hash": "cc6bab3d1484bd399cce6e252c034ace",
+    "semantic_hash": "cc6bab3d1484bd399cce6e252c034ace"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/migrations.md": {
+    "mtime": 1784055038.933362,
+    "ast_hash": "7b51c528b60f7d32a0cad3a0b1d5370e",
+    "semantic_hash": "7b51c528b60f7d32a0cad3a0b1d5370e"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/multi_tenancy_support.md": {
+    "mtime": 1784055038.926936,
+    "ast_hash": "aeb734e8de7ba65ccc4cf32b47f8f3b6",
+    "semantic_hash": "aeb734e8de7ba65ccc4cf32b47f8f3b6"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/multitenancy.md": {
+    "mtime": 1784055038.9375067,
+    "ast_hash": "8b44f02bf5921ecaad11285be0971202",
+    "semantic_hash": "8b44f02bf5921ecaad11285be0971202"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/nested_forms.md": {
+    "mtime": 1784055038.9331605,
+    "ast_hash": "b223bc30b7052a6836da41af0aa13fad",
+    "semantic_hash": "b223bc30b7052a6836da41af0aa13fad"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/query_filter.md": {
+    "mtime": 1784055038.9427948,
+    "ast_hash": "1ec413a618df15925b3021fb83ae9916",
+    "semantic_hash": "1ec413a618df15925b3021fb83ae9916"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/querying_data.md": {
+    "mtime": 1784055038.9418433,
+    "ast_hash": "a541ab78daff0fdd05d42c72daaf63c1",
+    "semantic_hash": "a541ab78daff0fdd05d42c72daaf63c1"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/relationships.md": {
+    "mtime": 1784055038.937217,
+    "ast_hash": "4d674f0ae3f5a592e4650b78dd972db4",
+    "semantic_hash": "4d674f0ae3f5a592e4650b78dd972db4"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/scheduled_actions.md": {
+    "mtime": 1784055038.9317174,
+    "ast_hash": "11b6fd920a337466cdadc2e8633d1ebf",
+    "semantic_hash": "11b6fd920a337466cdadc2e8633d1ebf"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/setting_up_ash_oban.md": {
+    "mtime": 1784055038.9438174,
+    "ast_hash": "3f6d29ca1f4e6f7571b4ddf11589eed4",
+    "semantic_hash": "3f6d29ca1f4e6f7571b4ddf11589eed4"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/testing.md": {
+    "mtime": 1784055038.9408188,
+    "ast_hash": "388c47baab54ce76be699c7787c2f225",
+    "semantic_hash": "388c47baab54ce76be699c7787c2f225"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/triggering_jobs_programmatically.md": {
+    "mtime": 1784055038.9288383,
+    "ast_hash": "fa406effb9012bf4742b6f2f6302549b",
+    "semantic_hash": "fa406effb9012bf4742b6f2f6302549b"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/union_forms.md": {
+    "mtime": 1784055038.9406736,
+    "ast_hash": "088018e4be6af4b31f68f5b89ce00f4c",
+    "semantic_hash": "088018e4be6af4b31f68f5b89ce00f4c"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/ash-framework/references/working_with_actors.md": {
+    "mtime": 1784055038.9377081,
+    "ast_hash": "e4d3aeea9c855e6c8b76d469b0bd10ab",
+    "semantic_hash": "e4d3aeea9c855e6c8b76d469b0bd10ab"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/phoenix-framework/SKILL.md": {
+    "mtime": 1784055038.9353204,
+    "ast_hash": "36860ffe335cf2f1734c92d2163ed306",
+    "semantic_hash": "36860ffe335cf2f1734c92d2163ed306"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/phoenix-framework/references/ecto.md": {
+    "mtime": 1784055038.9380333,
+    "ast_hash": "18127bfd1cc6f716a78dfd91590310a8",
+    "semantic_hash": "18127bfd1cc6f716a78dfd91590310a8"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/phoenix-framework/references/elixir.md": {
+    "mtime": 1784055038.9416604,
+    "ast_hash": "947a47b21c5712099985860ec87ed521",
+    "semantic_hash": "947a47b21c5712099985860ec87ed521"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/phoenix-framework/references/html.md": {
+    "mtime": 1784055038.9282317,
+    "ast_hash": "caf6e35a1bc7fb8f3ca35f221f3f238e",
+    "semantic_hash": "caf6e35a1bc7fb8f3ca35f221f3f238e"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/phoenix-framework/references/liveview.md": {
+    "mtime": 1784055038.9343295,
+    "ast_hash": "22f102dcb0045c9c00993e4de2c3d946",
+    "semantic_hash": "22f102dcb0045c9c00993e4de2c3d946"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/skills/phoenix-framework/references/phoenix.md": {
+    "mtime": 1784055038.9335423,
+    "ast_hash": "4c7e389415de70b060cc2df4771f3c62",
+    "semantic_hash": "4c7e389415de70b060cc2df4771f3c62"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/AGENTS.md": {
+    "mtime": 1784054130.288059,
+    "ast_hash": "b566ef20be9ad761416f9ca3f7c18033",
+    "semantic_hash": "b566ef20be9ad761416f9ca3f7c18033"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/CLAUDE.md": {
+    "mtime": 1784055152.742582,
+    "ast_hash": "1e1b9771155503f7d45a403ac8a685ec",
+    "semantic_hash": "1e1b9771155503f7d45a403ac8a685ec"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/README.md": {
+    "mtime": 1784053852.9672892,
+    "ast_hash": "9b69d938c4b2cd964a992eb93c28a63b",
+    "semantic_hash": "9b69d938c4b2cd964a992eb93c28a63b"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/docs/design.md": {
+    "mtime": 1784054471.500682,
+    "ast_hash": "6d0578c127632d053a9556ce6d15db09",
+    "semantic_hash": "6d0578c127632d053a9556ce6d15db09"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/static/robots.txt": {
+    "mtime": 1784053852.9811597,
+    "ast_hash": "9e2c81b0855bbff2baa8371bc4a78186",
+    "semantic_hash": "9e2c81b0855bbff2baa8371bc4a78186"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/static/images/logo.svg": {
+    "mtime": 1784053852.9786875,
+    "ast_hash": "06a11be1f2cdde2c851763d00bdd2e80",
+    "semantic_hash": "06a11be1f2cdde2c851763d00bdd2e80"
+  }
+}

@@ -1,0 +1,4 @@
+# Local extraction cache and machine-specific paths - not portable across machines
+cache/
+.graphify_python
+.graphify_root
