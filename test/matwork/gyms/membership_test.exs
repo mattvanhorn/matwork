@@ -10,12 +10,11 @@ defmodule Matwork.Gyms.MembershipTest do
       owner = generate(user())
       gym = generate(gym(owner: owner))
 
-      membership =
+      # The owner membership is now auto-created when the gym is created.
+      # Verify that we can't create another one (unique constraint).
+      assert_raise Ash.Error.Invalid, fn ->
         Gyms.create_owner_membership!(owner.id, actor: owner, tenant: gym.id)
-
-      assert membership.role == :owner
-      assert membership.status == :active
-      assert membership.user_id == owner.id
+      end
     end
 
     test "a non-owner cannot create an owner membership for themselves" do
@@ -38,7 +37,8 @@ defmodule Matwork.Gyms.MembershipTest do
 
       roster = Gyms.list_memberships!(actor: student, tenant: gym.id)
 
-      assert length(roster) == 1
+      # Roster includes owner (auto-created) and student
+      assert length(roster) == 2
     end
 
     test "someone with no membership in the gym cannot list the roster" do
@@ -73,7 +73,7 @@ defmodule Matwork.Gyms.MembershipTest do
       gym = generate(gym(owner: owner))
       student = generate(user())
       membership = generate(membership(gym: gym, user: student, role: :student))
-      generate(membership(gym: gym, user: owner, role: :owner))
+      # Owner membership is auto-created, no need to generate it
 
       updated = Gyms.remove_membership!(membership, actor: owner, tenant: gym.id)
 
@@ -97,7 +97,7 @@ defmodule Matwork.Gyms.MembershipTest do
       owner = generate(user())
       gym = generate(gym(owner: owner))
       instructor = generate(user())
-      generate(membership(gym: gym, user: owner, role: :owner))
+      # Owner membership is auto-created, no need to generate it
       membership = generate(membership(gym: gym, user: instructor, role: :instructor))
 
       updated = Gyms.remove_membership!(membership, actor: owner, tenant: gym.id)
@@ -121,7 +121,11 @@ defmodule Matwork.Gyms.MembershipTest do
     test "an instructor cannot remove the owner's membership" do
       owner = generate(user())
       gym = generate(gym(owner: owner))
-      owner_membership = generate(membership(gym: gym, user: owner, role: :owner))
+      # Owner membership is auto-created, fetch it from the list
+      [owner_membership] =
+        Gyms.list_memberships!(actor: owner, tenant: gym.id)
+        |> Enum.filter(&(&1.role == :owner))
+
       instructor = generate(user())
       generate(membership(gym: gym, user: instructor, role: :instructor))
 

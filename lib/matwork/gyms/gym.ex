@@ -21,6 +21,7 @@ defmodule Matwork.Gyms.Gym do
     create :create do
       accept [:name, :slug]
       change relate_actor(:owner)
+      change Matwork.Gyms.Gym.Changes.CreateOwnerMembership
     end
   end
 
