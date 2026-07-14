@@ -4,6 +4,7 @@ defmodule Matwork.Generator do
 
   alias Matwork.Accounts.User
   alias Matwork.Gyms.Gym
+  alias Matwork.Gyms.Membership
 
   def user(opts \\ []) do
     seed_generator(
@@ -26,6 +27,26 @@ defmodule Matwork.Generator do
         slug: sequence(:gym_slug, &"gym-#{&1}")
       ],
       actor: owner,
+      overrides: opts
+    )
+  end
+
+  def membership(opts \\ []) do
+    {owning_gym, opts} = Keyword.pop(opts, :gym)
+    {as_user, opts} = Keyword.pop(opts, :user)
+    {role, opts} = Keyword.pop(opts, :role, :student)
+    {status, opts} = Keyword.pop(opts, :status, :active)
+
+    owning_gym = owning_gym || generate(gym())
+    as_user = as_user || generate(user())
+
+    seed_generator(
+      %Membership{
+        gym_id: owning_gym.id,
+        user_id: as_user.id,
+        role: role,
+        status: status
+      },
       overrides: opts
     )
   end
