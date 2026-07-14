@@ -12,7 +12,8 @@ defmodule Matwork.MixProject do
       deps: deps(),
       compilers: [:phoenix_live_view] ++ Mix.compilers(),
       listeners: [Phoenix.CodeReloader],
-      consolidate_protocols: Mix.env() != :dev
+      consolidate_protocols: Mix.env() != :dev,
+      usage_rules: usage_rules()
     ]
   end
 
@@ -83,7 +84,8 @@ defmodule Matwork.MixProject do
       {:gettext, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:usage_rules, "~> 1.0", only: [:dev]}
     ]
   end
 
@@ -107,6 +109,32 @@ defmodule Matwork.MixProject do
         "phx.digest"
       ],
       precommit: ["compile --warnings-as-errors", "deps.unlock --unused", "format", "test"]
+    ]
+  end
+
+  defp usage_rules do
+    [
+      file: "CLAUDE.md",
+      # Keep CLAUDE.md lean: only the meta-rules inline
+      usage_rules: [:usage_rules],
+      skills: [
+        location: ".claude/skills",
+        build: [
+          "ash-framework": [
+            description:
+              "Use this skill when working with Ash Framework or any of its extensions " <>
+                "(resources, domains, actions, policies, multitenancy, AshAuthentication, " <>
+                "AshPostgres, AshOban). Always consult it before making domain changes.",
+            usage_rules: [:ash, ~r/^ash_/]
+          ],
+          "phoenix-framework": [
+            description:
+              "Use this skill when working with the web layer: Phoenix controllers, " <>
+                "routing, LiveView, components, and templates.",
+            usage_rules: [:phoenix, ~r/^phoenix_/]
+          ]
+        ]
+      ]
     ]
   end
 end
