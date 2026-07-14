@@ -44,6 +44,7 @@ defmodule Matwork.MixProject do
     [
       {:picosat_elixir, "~> 0.2"},
       {:sourceror, "~> 1.8", only: [:dev, :test]},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:oban, "~> 2.0"},
       {:ash_oban, "~> 0.8"},
       {:ash_authentication_phoenix, "~> 2.0"},
@@ -108,7 +109,13 @@ defmodule Matwork.MixProject do
         "esbuild matwork --minify",
         "phx.digest"
       ],
-      precommit: ["compile --warnings-as-errors", "deps.unlock --unused", "format", "test"]
+      precommit: [
+        "compile --warnings-as-errors",
+        "deps.unlock --unused",
+        "format",
+        "credo --strict",
+        "test"
+      ]
     ]
   end
 
