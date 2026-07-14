@@ -17,7 +17,7 @@ defmodule Matwork.Gyms.GymTest do
     end
 
     test "no actor cannot create a gym" do
-      assert_raise Ash.Error.Forbidden, fn ->
+      assert_raise Ash.Error.Invalid, fn ->
         Gyms.create_gym!("Rickson's Academy", "rickson-academy", actor: nil)
       end
     end
