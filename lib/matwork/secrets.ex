@@ -1,4 +1,5 @@
 defmodule Matwork.Secrets do
+  @moduledoc "Resolves signing secrets for AshAuthentication at runtime."
   use AshAuthentication.Secret
 
   def secret_for(

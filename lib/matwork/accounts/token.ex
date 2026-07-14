@@ -1,4 +1,5 @@
 defmodule Matwork.Accounts.Token do
+  @moduledoc "AshAuthentication's token resource: stores and revokes auth tokens."
   use Ash.Resource,
     otp_app: :matwork,
     domain: Matwork.Accounts,

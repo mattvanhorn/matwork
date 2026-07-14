@@ -1,4 +1,5 @@
 defmodule Matwork.Accounts.User do
+  @moduledoc "A platform user, authenticated via magic link. Global resource — one account per email, not tenant-scoped."
   use Ash.Resource,
     otp_app: :matwork,
     domain: Matwork.Accounts,

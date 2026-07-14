@@ -1,4 +1,5 @@
 defmodule MatworkWeb.AuthOverrides do
+  @moduledoc "UI overrides for AshAuthentication.Phoenix's generated sign-in/register views."
   use AshAuthentication.Phoenix.Overrides
 
   # configure your UI overrides here
