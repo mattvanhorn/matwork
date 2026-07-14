@@ -30,6 +30,17 @@ defmodule Matwork.Gyms.GymTest do
         Gyms.create_gym!("Gym Two", "same-slug", actor: owner)
       end
     end
+
+    test "creating a gym also creates the owner's active owner Membership" do
+      owner = generate(user())
+
+      gym = Gyms.create_gym!("Rickson's Academy", "rickson-academy", actor: owner)
+
+      roster = Gyms.list_memberships!(actor: owner, tenant: gym.id)
+
+      assert [%{role: :owner, status: :active, user_id: owner_id}] = roster
+      assert owner_id == owner.id
+    end
   end
 
   describe "read" do
