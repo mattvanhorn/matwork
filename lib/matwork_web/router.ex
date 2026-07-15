@@ -39,6 +39,8 @@ defmodule MatworkWeb.Router do
       #
       # If an authenticated user must *not* be present:
       # on_mount {MatworkWeb.LiveUserAuth, :live_no_user}
+
+      live "/gyms/new", GymNewLive
     end
   end
 
