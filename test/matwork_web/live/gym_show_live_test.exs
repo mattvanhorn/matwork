@@ -38,11 +38,13 @@ defmodule MatworkWeb.GymShowLiveTest do
   end
 
   describe "as a student" do
-    test "does not show the roster or an invite form", %{conn: conn} do
+    test "does not show the roster, an invite form, or another member's email", %{conn: conn} do
       owner = generate(user())
       gym = generate(gym(owner: owner))
       student = generate(user())
       generate(membership(gym: gym, user: student, role: :student))
+      other_student = generate(user())
+      generate(membership(gym: gym, user: other_student, role: :student))
 
       conn = sign_in(conn, student)
       {:ok, view, html} = live(conn, ~p"/g/#{gym.slug}")
@@ -50,6 +52,7 @@ defmodule MatworkWeb.GymShowLiveTest do
       refute has_element?(view, "#roster")
       refute has_element?(view, "#invite-form")
       assert has_element?(view, "#student-view")
+      refute html =~ to_string(Ash.CiString.value(other_student.email))
       assert html =~ gym.name
     end
   end
