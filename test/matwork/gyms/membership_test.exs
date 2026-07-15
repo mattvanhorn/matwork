@@ -174,9 +174,13 @@ defmodule Matwork.Gyms.MembershipTest do
     test "a logged-in user can accept a valid invite and becomes an active member" do
       owner = generate(user())
       gym = generate(gym(owner: owner))
-      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
-
       student = generate(user())
+
+      invite =
+        Gyms.create_invite!(Ash.CiString.value(student.email), :student,
+          actor: owner,
+          tenant: gym.id
+        )
 
       membership =
         Gyms.accept_invite!(invite.token, actor: student, tenant: gym.id)
@@ -192,9 +196,14 @@ defmodule Matwork.Gyms.MembershipTest do
     test "an already-accepted invite cannot be accepted again" do
       owner = generate(user())
       gym = generate(gym(owner: owner))
-      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
-
       first_student = generate(user())
+
+      invite =
+        Gyms.create_invite!(Ash.CiString.value(first_student.email), :student,
+          actor: owner,
+          tenant: gym.id
+        )
+
       Gyms.accept_invite!(invite.token, actor: first_student, tenant: gym.id)
 
       second_student = generate(user())
@@ -244,6 +253,18 @@ defmodule Matwork.Gyms.MembershipTest do
       assert reactivated.id == membership.id
       assert reactivated.status == :active
       assert reactivated.role == :instructor
+    end
+
+    test "an invite cannot be accepted by someone whose email doesn't match" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
+
+      mismatched_user = generate(user())
+
+      assert_raise Ash.Error.Invalid, fn ->
+        Gyms.accept_invite!(invite.token, actor: mismatched_user, tenant: gym.id)
+      end
     end
   end
 end
