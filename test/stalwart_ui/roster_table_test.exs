@@ -23,4 +23,18 @@ defmodule StalwartUI.RosterTableTest do
 
     assert html =~ "No members yet."
   end
+
+  test "renders with fallback badge for unrecognized role" do
+    memberships = [
+      %{id: "m1", role: :unknown, status: :active, user: %{email: "unknown@example.com"}}
+    ]
+
+    html = render_component(&roster_table/1, memberships: memberships)
+
+    assert html =~ "unknown@example.com"
+    assert html =~ "badge"
+    refute html =~ "badge-primary"
+    refute html =~ "badge-secondary"
+    refute html =~ "badge-ghost"
+  end
 end

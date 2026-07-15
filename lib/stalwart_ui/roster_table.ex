@@ -38,4 +38,5 @@ defmodule StalwartUI.RosterTable do
   defp role_badge_class(:owner), do: "badge badge-primary"
   defp role_badge_class(:instructor), do: "badge badge-secondary"
   defp role_badge_class(:student), do: "badge badge-ghost"
+  defp role_badge_class(_role), do: "badge"
 end
