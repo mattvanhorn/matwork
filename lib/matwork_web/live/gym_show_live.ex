@@ -36,13 +36,9 @@ defmodule MatworkWeb.GymShowLive do
     actor = socket.assigns.current_user
     membership = socket.assigns.current_membership
 
-    if membership do
+    if membership && membership.role in [:owner, :instructor] do
       memberships = Gyms.list_memberships!(actor: actor, tenant: gym.id, load: [:user])
-
-      invite_form =
-        if membership.role in [:owner, :instructor] do
-          Gyms.form_to_create_invite(actor: actor, tenant: gym.id) |> to_form()
-        end
+      invite_form = Gyms.form_to_create_invite(actor: actor, tenant: gym.id) |> to_form()
 
       socket
       |> assign(:memberships, memberships)
@@ -63,12 +59,16 @@ defmodule MatworkWeb.GymShowLive do
         <p>You don't have access to this gym yet.</p>
       </div>
 
-      <div :if={@current_membership}>
+      <div :if={@current_membership && @current_membership.role in [:owner, :instructor]}>
         <.roster_table id="roster" memberships={@memberships} />
 
         <div :if={@invite_form}>
           <.invite_form form={@invite_form} />
         </div>
+      </div>
+
+      <div :if={@current_membership && @current_membership.role == :student} id="student-view">
+        <p>You're a member of {@current_gym.name}.</p>
       </div>
     </Layouts.app>
     """
