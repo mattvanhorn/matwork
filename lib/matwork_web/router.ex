@@ -15,6 +15,10 @@ defmodule MatworkWeb.Router do
     plug :load_from_session
   end
 
+  pipeline :gym do
+    plug MatworkWeb.Plugs.LoadGym
+  end
+
   pipeline :api do
     plug :accepts, ["json"]
     plug :load_from_bearer
@@ -36,6 +40,14 @@ defmodule MatworkWeb.Router do
       # If an authenticated user must *not* be present:
       # on_mount {MatworkWeb.LiveUserAuth, :live_no_user}
     end
+  end
+
+  scope "/g/:slug", MatworkWeb do
+    pipe_through [:browser, :gym]
+
+    # LiveViews are added inside this scope in later tasks (Task 3 for
+    # /gyms/new — a sibling scope, not gym-scoped — and Tasks 4/5 for the
+    # gym home page and accept-invite page here).
   end
 
   scope "/", MatworkWeb do

@@ -17,6 +17,10 @@ defmodule MatworkWeb.ConnCase do
 
   use ExUnit.CaseTemplate
 
+  alias AshAuthentication.Jwt
+  alias AshAuthentication.Plug.Helpers
+  alias Plug.Conn
+
   using do
     quote do
       # The default endpoint for testing
@@ -34,5 +38,19 @@ defmodule MatworkWeb.ConnCase do
   setup tags do
     Matwork.DataCase.setup_sandbox(tags)
     {:ok, conn: Phoenix.ConnTest.build_conn()}
+  end
+
+  @doc """
+  Signs `user` into `conn`'s session the same way a real magic-link
+  sign-in would, for use in controller and LiveView tests.
+  """
+  def sign_in(conn, user) do
+    {:ok, token, _claims} = Jwt.token_for_user(user)
+    user_with_token = %{user | __metadata__: Map.put(user.__metadata__, :token, token)}
+
+    conn
+    |> Plug.Test.init_test_session(%{})
+    |> Helpers.store_in_session(user_with_token)
+    |> Conn.assign(:current_user, user)
   end
 end
