@@ -15,5 +15,12 @@ defmodule Matwork.Gyms do
       define :remove_membership, action: :remove
       define :list_memberships, action: :read
     end
+
+    resource Matwork.Gyms.Invite do
+      define :create_invite, action: :create, args: [:email, :role]
+      define :get_invite_by_token, action: :get_by_token, args: [:token]
+      define :mark_invite_accepted, action: :mark_accepted
+      define :list_invites, action: :read
+    end
   end
 end
