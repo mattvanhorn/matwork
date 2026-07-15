@@ -32,7 +32,7 @@ defmodule Matwork.Gyms.Invite do
 
     update :mark_accepted do
       accept []
-      change set_attribute(:accepted_at, expr(now()))
+      change set_attribute(:accepted_at, &DateTime.utc_now/0)
     end
   end
 

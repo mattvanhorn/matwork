@@ -76,6 +76,21 @@ defmodule Matwork.Gyms.InviteTest do
     end
   end
 
+  describe "mark_accepted" do
+    test "accepting an invite sets accepted_at, even for an actor with no membership" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
+
+      invited_student = generate(user())
+
+      accepted =
+        Gyms.mark_invite_accepted!(invite, actor: invited_student, tenant: gym.id)
+
+      refute is_nil(accepted.accepted_at)
+    end
+  end
+
   describe "read (listing invites)" do
     test "an owner can list outstanding invites" do
       owner = generate(user())
@@ -95,6 +110,20 @@ defmodule Matwork.Gyms.InviteTest do
       generate(invite(gym: gym, inviter: owner))
 
       invites = Gyms.list_invites!(actor: student, tenant: gym.id)
+
+      assert invites == []
+    end
+
+    test "tenancy isolation: an owner of gym A cannot see gym B's invites" do
+      owner_a = generate(user())
+      gym_a = generate(gym(owner: owner_a))
+      generate(invite(gym: gym_a, inviter: owner_a))
+
+      owner_b = generate(user())
+      gym_b = generate(gym(owner: owner_b))
+      generate(invite(gym: gym_b, inviter: owner_b))
+
+      invites = Gyms.list_invites!(actor: owner_a, tenant: gym_b.id)
 
       assert invites == []
     end
