@@ -14,6 +14,7 @@ defmodule Matwork.Gyms do
       define :create_owner_membership, action: :create_owner, args: [:user_id]
       define :remove_membership, action: :remove
       define :list_memberships, action: :read
+      define :accept_invite, action: :accept_invite, args: [:token]
     end
 
     resource Matwork.Gyms.Invite do
