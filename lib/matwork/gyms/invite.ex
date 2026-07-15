@@ -38,7 +38,7 @@ defmodule Matwork.Gyms.Invite do
 
   policies do
     policy action_type(:create) do
-      authorize_if {Matwork.Gyms.Checks.ActiveMember, roles: [:owner, :instructor]}
+      authorize_if Matwork.Gyms.Checks.CanInviteRole
     end
 
     policy action(:read) do
