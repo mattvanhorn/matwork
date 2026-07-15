@@ -84,8 +84,14 @@ config :matwork,
   generators: [timestamp_type: :utc_datetime],
   ash_domains: [Matwork.Accounts, Matwork.Gyms],
   ash_authentication: [return_error_on_invalid_magic_link_token?: true],
-  default_application_fee_percent: Decimal.new("10.0")
+  default_application_fee_percent: "10.0"
 ```
+
+`Decimal` is a transitive dependency (via `ash`/`ecto`/`postgrex`) but is not yet loaded when
+`config/config.exs` is evaluated in this project's build, so `Decimal.new("10.0")` cannot run
+here — use the plain string literal. The `Gym` resource's `:decimal` attribute type casts it
+to a proper `Decimal` at runtime when a `Gym` is created (verified: the stored/returned value
+is `Decimal.new("10.0")`, not a string).
 
 - [ ] **Step 2: Write the `Gym` resource**
 
