@@ -50,4 +50,24 @@ defmodule Matwork.Generator do
       overrides: opts
     )
   end
+
+  def invite(opts \\ []) do
+    {owning_gym, opts} = Keyword.pop(opts, :gym)
+    {inviter, opts} = Keyword.pop(opts, :inviter)
+
+    owning_gym = owning_gym || generate(gym())
+    inviter = inviter || owning_gym.owner_id |> then(&%Matwork.Accounts.User{id: &1})
+
+    changeset_generator(
+      Matwork.Gyms.Invite,
+      :create,
+      defaults: [
+        email: sequence(:invite_email, &"student-#{&1}@example.com"),
+        role: :student
+      ],
+      actor: inviter,
+      tenant: owning_gym.id,
+      overrides: opts
+    )
+  end
 end
