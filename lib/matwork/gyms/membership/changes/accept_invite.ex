@@ -24,11 +24,18 @@ defmodule Matwork.Gyms.Membership.Changes.AcceptInvite do
   defp apply_invite(changeset, token, actor, tenant) do
     case Matwork.Gyms.get_invite_by_token(token, actor: actor, tenant: tenant) do
       {:ok, %{accepted_at: nil} = invite} ->
-        changeset
-        |> Ash.Changeset.force_change_attribute(:user_id, actor.id)
-        |> Ash.Changeset.force_change_attribute(:role, invite.role)
-        |> Ash.Changeset.force_change_attribute(:status, :active)
-        |> Ash.Changeset.put_context(:invite, invite)
+        if Ash.CiString.compare(actor.email, invite.email) == :eq do
+          changeset
+          |> Ash.Changeset.force_change_attribute(:user_id, actor.id)
+          |> Ash.Changeset.force_change_attribute(:role, invite.role)
+          |> Ash.Changeset.force_change_attribute(:status, :active)
+          |> Ash.Changeset.put_context(:invite, invite)
+        else
+          Ash.Changeset.add_error(changeset,
+            field: :token,
+            message: "invite email does not match the signed-in account"
+          )
+        end
 
       {:ok, _already_accepted} ->
         Ash.Changeset.add_error(changeset,

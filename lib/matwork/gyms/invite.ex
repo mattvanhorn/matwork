@@ -54,7 +54,7 @@ defmodule Matwork.Gyms.Invite do
     end
 
     policy action(:mark_accepted) do
-      authorize_if always()
+      authorize_if actor_present()
     end
   end
 
