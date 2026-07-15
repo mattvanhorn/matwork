@@ -30,9 +30,9 @@
     "semantic_hash": "3288720f1f1e6a509836cca7c5554a64"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/config.exs": {
-    "mtime": 1784054130.2893474,
-    "ast_hash": "c7156aa4a2d2cf8d2cebbb2721e45375",
-    "semantic_hash": "c7156aa4a2d2cf8d2cebbb2721e45375"
+    "mtime": 1784066039.8548377,
+    "ast_hash": "f5d09b9fd37273ccbe27dce881da4855",
+    "semantic_hash": "f5d09b9fd37273ccbe27dce881da4855"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/config/dev.exs": {
     "mtime": 1784054130.2902277,
@@ -60,19 +60,19 @@
     "semantic_hash": "aad9b0473c466bd2164abd1f720408dd"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/accounts.ex": {
-    "mtime": 1784054130.291839,
-    "ast_hash": "7f9342ed05a2c2a126be3a0df0ac11f5",
-    "semantic_hash": "7f9342ed05a2c2a126be3a0df0ac11f5"
+    "mtime": 1784060185.488896,
+    "ast_hash": "780986e7e3c638ec7eadd11fa3e40d68",
+    "semantic_hash": "780986e7e3c638ec7eadd11fa3e40d68"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/accounts/user.ex": {
-    "mtime": 1784054130.2927058,
-    "ast_hash": "7592f87cc54fa0fc51d1ba2a58240de6",
-    "semantic_hash": "7592f87cc54fa0fc51d1ba2a58240de6"
+    "mtime": 1784060145.0389671,
+    "ast_hash": "442acbfb30c19daaec45c79aa088b2c7",
+    "semantic_hash": "442acbfb30c19daaec45c79aa088b2c7"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/accounts/user/senders/send_magic_link_email.ex": {
-    "mtime": 1784054130.3068476,
-    "ast_hash": "60eca2c9f6e6a49dc066a3245640da50",
-    "semantic_hash": "60eca2c9f6e6a49dc066a3245640da50"
+    "mtime": 1784060143.4054933,
+    "ast_hash": "2fd531a5e3fb34463f4ced07e57fbe39",
+    "semantic_hash": "2fd531a5e3fb34463f4ced07e57fbe39"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/application.ex": {
     "mtime": 1784054130.3058999,
@@ -90,19 +90,19 @@
     "semantic_hash": "957d96c4ac3fe0c8b3239998d9672c14"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web.ex": {
-    "mtime": 1784053852.96504,
-    "ast_hash": "be93d8393c8c0b1d9febff1990649342",
-    "semantic_hash": "be93d8393c8c0b1d9febff1990649342"
+    "mtime": 1784059994.6349223,
+    "ast_hash": "0071bd389a56592e8aa9049a42d49a62",
+    "semantic_hash": "0071bd389a56592e8aa9049a42d49a62"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/auth_overrides.ex": {
-    "mtime": 1784054130.3054285,
-    "ast_hash": "f2eda7c52d52a529744e124144679e56",
-    "semantic_hash": "f2eda7c52d52a529744e124144679e56"
+    "mtime": 1784060090.07595,
+    "ast_hash": "a48f033211e83d2d20a818d6e4199582",
+    "semantic_hash": "a48f033211e83d2d20a818d6e4199582"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/components/core_components.ex": {
-    "mtime": 1784053852.975964,
-    "ast_hash": "5a17e867fb9862472793ec029c1b6d22",
-    "semantic_hash": "5a17e867fb9862472793ec029c1b6d22"
+    "mtime": 1784059985.1378872,
+    "ast_hash": "84b403cb50e7f971f43d2ba9aa708907",
+    "semantic_hash": "84b403cb50e7f971f43d2ba9aa708907"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/components/layouts.ex": {
     "mtime": 1784053852.978279,
@@ -145,9 +145,9 @@
     "semantic_hash": "64e44d244ecd719ad79719bf6cb77d84"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/live_user_auth.ex": {
-    "mtime": 1784054130.305818,
-    "ast_hash": "ce1dde41c9bcdb58ca327e87d24faea7",
-    "semantic_hash": "ce1dde41c9bcdb58ca327e87d24faea7"
+    "mtime": 1784060015.1420164,
+    "ast_hash": "ee34b0160aa95afd543e952b17eed09d",
+    "semantic_hash": "ee34b0160aa95afd543e952b17eed09d"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork_web/router.ex": {
     "mtime": 1784054130.3065014,
@@ -160,9 +160,9 @@
     "semantic_hash": "36160bc30f3859c357a4e066dfe883ab"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/mix.exs": {
-    "mtime": 1784054986.7516203,
-    "ast_hash": "6d4bc3270f76b58b5b4e9435405bc41a",
-    "semantic_hash": "6d4bc3270f76b58b5b4e9435405bc41a"
+    "mtime": 1784059620.5581899,
+    "ast_hash": "c06907b802e58324959490f926b554b0",
+    "semantic_hash": "c06907b802e58324959490f926b554b0"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/.formatter.exs": {
     "mtime": 1784053852.9706159,
@@ -225,9 +225,9 @@
     "semantic_hash": "d08b18eff22813c76991bc1ae0e3e599"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/support/data_case.ex": {
-    "mtime": 1784053852.9713075,
-    "ast_hash": "ce7165705aa4efd33ad455bf2a3e6840",
-    "semantic_hash": "ce7165705aa4efd33ad455bf2a3e6840"
+    "mtime": 1784060042.2009368,
+    "ast_hash": "78e4f85eb005ed5788000dee88d7998a",
+    "semantic_hash": "78e4f85eb005ed5788000dee88d7998a"
   },
   "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/test_helper.exs": {
     "mtime": 1784053852.9686654,
@@ -493,5 +493,180 @@
     "mtime": 1784053852.9786875,
     "ast_hash": "06a11be1f2cdde2c851763d00bdd2e80",
     "semantic_hash": "06a11be1f2cdde2c851763d00bdd2e80"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.claude/settings.local.json": {
+    "mtime": 1784069469.543756,
+    "ast_hash": "4c65daaf08a9888c3ec952a5183d9350",
+    "semantic_hash": "4c65daaf08a9888c3ec952a5183d9350"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.credo.exs": {
+    "mtime": 1784059595.9922266,
+    "ast_hash": "932f7ea8b86ef4d88af6736173b8a5cf",
+    "semantic_hash": "932f7ea8b86ef4d88af6736173b8a5cf"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms.ex": {
+    "mtime": 1784081407.2719305,
+    "ast_hash": "5da465b8420e9e8bcf6d38a8f6723b55",
+    "semantic_hash": "5da465b8420e9e8bcf6d38a8f6723b55"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/checks/active_member.ex": {
+    "mtime": 1784068999.6010869,
+    "ast_hash": "4ab91459717c12c35e17c24adc34898d",
+    "semantic_hash": "4ab91459717c12c35e17c24adc34898d"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/checks/can_invite_role.ex": {
+    "mtime": 1784083214.417526,
+    "ast_hash": "6cdc158d60931ac873d3662f0addaee3",
+    "semantic_hash": "6cdc158d60931ac873d3662f0addaee3"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/checks/can_remove_membership.ex": {
+    "mtime": 1784070156.589777,
+    "ast_hash": "b33ae59dca6dc259b902685b2547b867",
+    "semantic_hash": "b33ae59dca6dc259b902685b2547b867"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/gym.ex": {
+    "mtime": 1784071285.071879,
+    "ast_hash": "695cd25cefc57b269202333567f9b60e",
+    "semantic_hash": "695cd25cefc57b269202333567f9b60e"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/gym/changes/create_owner_membership.ex": {
+    "mtime": 1784070732.8366416,
+    "ast_hash": "3699c969a30248ac2455e30e3bea9093",
+    "semantic_hash": "3699c969a30248ac2455e30e3bea9093"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/invite.ex": {
+    "mtime": 1784124608.396832,
+    "ast_hash": "bbe5eb565ef307da9633db9601487549",
+    "semantic_hash": "bbe5eb565ef307da9633db9601487549"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/membership.ex": {
+    "mtime": 1784081397.289458,
+    "ast_hash": "d9a894011a0a8567513e8bf90622ccb9",
+    "semantic_hash": "d9a894011a0a8567513e8bf90622ccb9"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/lib/matwork/gyms/membership/changes/accept_invite.ex": {
+    "mtime": 1784124592.1641123,
+    "ast_hash": "f5c7e8cedf563e3c6779b2f8b911ce03",
+    "semantic_hash": "f5c7e8cedf563e3c6779b2f8b911ce03"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/20260714204928_add_gyms_domain_and_gym.exs": {
+    "mtime": 1784062588.2656436,
+    "ast_hash": "aa71f8576e15a66e9839ad79e3ff9efb",
+    "semantic_hash": "aa71f8576e15a66e9839ad79e3ff9efb"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/20260714224329_add_membership.exs": {
+    "mtime": 1784069441.232764,
+    "ast_hash": "6ad5f020a38808ff1f65f212f599eacf",
+    "semantic_hash": "6ad5f020a38808ff1f65f212f599eacf"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/repo/migrations/20260714235142_add_invite.exs": {
+    "mtime": 1784079977.7231176,
+    "ast_hash": "52cbbb526e22d78e0fbb86f91f3eeb12",
+    "semantic_hash": "52cbbb526e22d78e0fbb86f91f3eeb12"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/resource_snapshots/repo/gyms/20260714204929.json": {
+    "mtime": 1784062168.1897008,
+    "ast_hash": "f1673b04a6a88a96ab43c94095e7f5cc",
+    "semantic_hash": "f1673b04a6a88a96ab43c94095e7f5cc"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/resource_snapshots/repo/invites/20260714235143.json": {
+    "mtime": 1784073102.9446132,
+    "ast_hash": "2a9b3ecb7cfbed4013acee1667b122f2",
+    "semantic_hash": "2a9b3ecb7cfbed4013acee1667b122f2"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/priv/resource_snapshots/repo/memberships/20260714224330.json": {
+    "mtime": 1784069009.0827975,
+    "ast_hash": "93bccd5b4d3933c3b3b8cc80738618b6",
+    "semantic_hash": "93bccd5b4d3933c3b3b8cc80738618b6"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/matwork/gyms/gym_test.exs": {
+    "mtime": 1784071417.5569367,
+    "ast_hash": "084b44f8d8ce55043f4a3094d0adde01",
+    "semantic_hash": "084b44f8d8ce55043f4a3094d0adde01"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/matwork/gyms/invite_test.exs": {
+    "mtime": 1784083228.6010625,
+    "ast_hash": "7c083a9506cab8debff26f91fe341032",
+    "semantic_hash": "7c083a9506cab8debff26f91fe341032"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/matwork/gyms/membership_test.exs": {
+    "mtime": 1784124652.6636355,
+    "ast_hash": "9b12855fe5b28c96ce5382a4826cc35d",
+    "semantic_hash": "9b12855fe5b28c96ce5382a4826cc35d"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/test/support/generator.ex": {
+    "mtime": 1784079890.9934907,
+    "ast_hash": "3a256e95cdee3d70330f570662980003",
+    "semantic_hash": "3a256e95cdee3d70330f570662980003"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/progress.md": {
+    "mtime": 1784125248.692416,
+    "ast_hash": "56726a4f0a52524dc2646930c421793a",
+    "semantic_hash": "56726a4f0a52524dc2646930c421793a"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-1-brief.md": {
+    "mtime": 1784061191.2703555,
+    "ast_hash": "7b6a80440830752cbff8b2a0287ddddd",
+    "semantic_hash": "7b6a80440830752cbff8b2a0287ddddd"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-1-report.md": {
+    "mtime": 1784066706.6160111,
+    "ast_hash": "f5b10f885ca5ca2b7dafbad1f15c9cba",
+    "semantic_hash": "f5b10f885ca5ca2b7dafbad1f15c9cba"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-2-brief.md": {
+    "mtime": 1784068587.6496892,
+    "ast_hash": "100d6395229f367612becf48eeb36edf",
+    "semantic_hash": "100d6395229f367612becf48eeb36edf"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-2-report.md": {
+    "mtime": 1784070264.9027638,
+    "ast_hash": "56f0c1cc633ca08b48f3651f74eb0b69",
+    "semantic_hash": "56f0c1cc633ca08b48f3651f74eb0b69"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-3-brief.md": {
+    "mtime": 1784070700.6684034,
+    "ast_hash": "12b367fe0340d04b4786bbe6153260df",
+    "semantic_hash": "12b367fe0340d04b4786bbe6153260df"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-3-report.md": {
+    "mtime": 1784072498.0503001,
+    "ast_hash": "5d4b5b384fc95ec0fc741463516313fe",
+    "semantic_hash": "5d4b5b384fc95ec0fc741463516313fe"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-4-brief.md": {
+    "mtime": 1784072896.6147132,
+    "ast_hash": "1cecabc8d8e128658610376e5ad9ea4f",
+    "semantic_hash": "1cecabc8d8e128658610376e5ad9ea4f"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-4-report.md": {
+    "mtime": 1784081162.063416,
+    "ast_hash": "81da7bb64dd25ff765b84dfee05428b7",
+    "semantic_hash": "81da7bb64dd25ff765b84dfee05428b7"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-5-brief.md": {
+    "mtime": 1784081322.0400949,
+    "ast_hash": "5ed28704d8552302e19c0f8b1fe41592",
+    "semantic_hash": "5ed28704d8552302e19c0f8b1fe41592"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-5-report.md": {
+    "mtime": 1784081647.1156554,
+    "ast_hash": "1c113891741b5ca3e2d6e97e1ca39d6e",
+    "semantic_hash": "1c113891741b5ca3e2d6e97e1ca39d6e"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-6-report.md": {
+    "mtime": 1784083321.551993,
+    "ast_hash": "007db7635d43cd1e01514e39746fb7fa",
+    "semantic_hash": "007db7635d43cd1e01514e39746fb7fa"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/.superpowers/sdd/task-7-report.md": {
+    "mtime": 1784124698.5962963,
+    "ast_hash": "1ee74919a7f4cd68533f149b0b014763",
+    "semantic_hash": "1ee74919a7f4cd68533f149b0b014763"
+  },
+  "/Users/mattvanhorn/Projects/stalwart_studios_llc/matwork/docs/superpowers/plans/2026-07-14-milestone-0-session-2-gym-membership-invite.md": {
+    "mtime": 1784124485.133314,
+    "ast_hash": "1225d99b16037adb7641bc7ac1cbda8c",
+    "semantic_hash": "1225d99b16037adb7641bc7ac1cbda8c"
   }
 }
