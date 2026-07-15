@@ -22,6 +22,7 @@ defmodule Matwork.Gyms.Invite do
     create :create do
       accept [:email, :role]
       change Matwork.Gyms.Invite.Changes.GenerateToken
+      change Matwork.Gyms.Invite.Changes.SendInviteEmail
     end
 
     read :get_by_token do

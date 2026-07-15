@@ -47,9 +47,9 @@ defmodule MatworkWeb.Router do
   scope "/g/:slug", MatworkWeb do
     pipe_through [:browser, :gym]
 
-    # LiveViews are added inside this scope in later tasks (Task 3 for
-    # /gyms/new — a sibling scope, not gym-scoped — and Tasks 4/5 for the
-    # gym home page and accept-invite page here).
+    ash_authentication_live_session :gym_routes do
+      live "/", GymShowLive
+    end
   end
 
   scope "/", MatworkWeb do

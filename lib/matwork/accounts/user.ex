@@ -96,6 +96,20 @@ defmodule Matwork.Accounts.User do
     bypass AshAuthentication.Checks.AshAuthenticationInteraction do
       authorize_if always()
     end
+
+    # Any signed-in user may read any User. `User` only exposes `:id` and
+    # `:email` (no profile data), and rosters already need to display a
+    # gym's members' emails to their fellow members — see
+    # `MatworkWeb.GymShowLive`, which loads `Membership.user` for the
+    # roster table. Flagged here as a deviation from the session 2 plan,
+    # which never added a general read policy to `User` because nothing
+    # before this session needed to load the relationship with
+    # authorization active. Worth narrowing (e.g. to "shares an active
+    # membership with the actor in some gym") before this is a public
+    # product rather than a POC.
+    policy action_type(:read) do
+      authorize_if actor_present()
+    end
   end
 
   attributes do
