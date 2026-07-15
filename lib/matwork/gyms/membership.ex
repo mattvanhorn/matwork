@@ -27,6 +27,18 @@ defmodule Matwork.Gyms.Membership do
       accept []
       change set_attribute(:status, :removed)
     end
+
+    create :accept_invite do
+      argument :token, :string do
+        allow_nil? false
+      end
+
+      upsert? true
+      upsert_identity :unique_user_per_gym
+      upsert_fields [:role, :status]
+
+      change Matwork.Gyms.Membership.Changes.AcceptInvite
+    end
   end
 
   policies do
@@ -40,6 +52,14 @@ defmodule Matwork.Gyms.Membership do
 
     policy action(:remove) do
       authorize_if Matwork.Gyms.Checks.CanRemoveMembership
+    end
+
+    # Mirrors Invite's :get_by_token / :mark_accepted policies: token
+    # possession is the credential, the same trust model as magic-link
+    # sign-in. The actor accepting an invite has no Membership yet, so
+    # an ActiveMember check could never pass for them.
+    policy action(:accept_invite) do
+      authorize_if actor_present()
     end
   end
 

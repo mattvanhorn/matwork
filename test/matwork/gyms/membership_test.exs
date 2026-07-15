@@ -169,4 +169,81 @@ defmodule Matwork.Gyms.MembershipTest do
       end
     end
   end
+
+  describe "accept_invite" do
+    test "a logged-in user can accept a valid invite and becomes an active member" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
+
+      student = generate(user())
+
+      membership =
+        Gyms.accept_invite!(invite.token, actor: student, tenant: gym.id)
+
+      assert membership.role == :student
+      assert membership.status == :active
+      assert membership.user_id == student.id
+
+      accepted_invite = Gyms.get_invite_by_token!(invite.token, actor: student, tenant: gym.id)
+      refute is_nil(accepted_invite.accepted_at)
+    end
+
+    test "an already-accepted invite cannot be accepted again" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
+
+      first_student = generate(user())
+      Gyms.accept_invite!(invite.token, actor: first_student, tenant: gym.id)
+
+      second_student = generate(user())
+
+      assert_raise Ash.Error.Invalid, fn ->
+        Gyms.accept_invite!(invite.token, actor: second_student, tenant: gym.id)
+      end
+    end
+
+    test "an invalid token cannot be accepted" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      student = generate(user())
+
+      assert_raise Ash.Error.Invalid, fn ->
+        Gyms.accept_invite!("not-a-real-token", actor: student, tenant: gym.id)
+      end
+    end
+
+    test "no actor cannot accept an invite" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
+
+      assert_raise Ash.Error.Forbidden, fn ->
+        Gyms.accept_invite!(invite.token, actor: nil, tenant: gym.id)
+      end
+    end
+
+    test "accepting an invite reactivates a previously-removed membership" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      student = generate(user())
+      membership = generate(membership(gym: gym, user: student, role: :student))
+      Gyms.remove_membership!(membership, actor: owner, tenant: gym.id)
+
+      invite =
+        Gyms.create_invite!(
+          Ash.CiString.value(student.email),
+          :instructor,
+          actor: owner,
+          tenant: gym.id
+        )
+
+      reactivated = Gyms.accept_invite!(invite.token, actor: student, tenant: gym.id)
+
+      assert reactivated.id == membership.id
+      assert reactivated.status == :active
+      assert reactivated.role == :instructor
+    end
+  end
 end
