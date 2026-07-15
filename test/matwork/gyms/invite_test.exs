@@ -50,6 +50,44 @@ defmodule Matwork.Gyms.InviteTest do
         Gyms.create_invite!("student@example.com", :student, actor: outsider, tenant: gym.id)
       end
     end
+
+    test "an owner can invite an instructor" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+
+      invite =
+        Gyms.create_invite!("future-instructor@example.com", :instructor,
+          actor: owner,
+          tenant: gym.id
+        )
+
+      assert invite.role == :instructor
+    end
+
+    test "an instructor cannot invite an owner" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      instructor = generate(user())
+      generate(membership(gym: gym, user: instructor, role: :instructor))
+
+      assert_raise Ash.Error.Forbidden, fn ->
+        Gyms.create_invite!("new-owner@example.com", :owner, actor: instructor, tenant: gym.id)
+      end
+    end
+
+    test "an instructor cannot invite another instructor" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      instructor = generate(user())
+      generate(membership(gym: gym, user: instructor, role: :instructor))
+
+      assert_raise Ash.Error.Forbidden, fn ->
+        Gyms.create_invite!("new-instructor@example.com", :instructor,
+          actor: instructor,
+          tenant: gym.id
+        )
+      end
+    end
   end
 
   describe "get_by_token" do
