@@ -118,14 +118,30 @@ defmodule Matwork.Gyms.InviteTest do
     test "accepting an invite sets accepted_at, even for an actor with no membership" do
       owner = generate(user())
       gym = generate(gym(owner: owner))
-      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
-
       invited_student = generate(user())
+
+      invite =
+        Gyms.create_invite!(Ash.CiString.value(invited_student.email), :student,
+          actor: owner,
+          tenant: gym.id
+        )
 
       accepted =
         Gyms.mark_invite_accepted!(invite, actor: invited_student, tenant: gym.id)
 
       refute is_nil(accepted.accepted_at)
+    end
+
+    test "an unrelated actor cannot mark someone else's invite accepted" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      invite = Gyms.create_invite!("student@example.com", :student, actor: owner, tenant: gym.id)
+
+      unrelated_user = generate(user())
+
+      assert_raise Ash.Error.Forbidden, fn ->
+        Gyms.mark_invite_accepted!(invite, actor: unrelated_user, tenant: gym.id)
+      end
     end
   end
 
