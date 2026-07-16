@@ -49,6 +49,7 @@ defmodule MatworkWeb.Router do
 
     ash_authentication_live_session :gym_routes do
       live "/", GymShowLive
+      live "/invite/:token", InviteAcceptLive
     end
   end
 
