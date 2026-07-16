@@ -37,7 +37,14 @@ defmodule MatworkWeb.GymShowLive do
     membership = socket.assigns.current_membership
 
     if membership && membership.role in [:owner, :instructor] do
-      memberships = Gyms.list_memberships!(actor: actor, tenant: gym.id, load: [:user])
+      memberships =
+        Gyms.list_memberships!(
+          actor: actor,
+          tenant: gym.id,
+          query: [filter: [status: :active]],
+          load: [:user]
+        )
+
       invite_form = Gyms.form_to_create_invite(actor: actor, tenant: gym.id) |> to_form()
 
       socket
