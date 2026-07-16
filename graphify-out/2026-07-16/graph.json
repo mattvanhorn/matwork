@@ -141,14 +141,144 @@
   },
   "nodes": [
     {
+      "label": "2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold",
+      "community": 114,
+      "norm_label": "2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md"
+    },
+    {
+      "label": "Milestone 0, Session 3: Tenant Resolution, Gym LiveViews, and Deploy Scaffold Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "community": 114,
+      "norm_label": "milestone 0, session 3: tenant resolution, gym liveviews, and deploy scaffold implementation plan"
+    },
+    {
+      "label": "Global Constraints",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_global_constraints",
+      "community": 114,
+      "norm_label": "global constraints"
+    },
+    {
+      "label": "Scope note (confirmed with the human before writing this plan)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_scope_note_confirmed_with_the_human_before_writing_this_plan",
+      "community": 114,
+      "norm_label": "scope note (confirmed with the human before writing this plan)"
+    },
+    {
+      "label": "Design notes worth recording",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_design_notes_worth_recording",
+      "community": 114,
+      "norm_label": "design notes worth recording"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "community": 114,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Tenant resolution \u2014 plug, `on_mount` hook, router wiring, test sign-in helper",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_1_tenant_resolution_plug_on_mount_hook_router_wiring_test_sign_in_helper",
+      "community": 114,
+      "norm_label": "task 1: tenant resolution \u2014 plug, `on_mount` hook, router wiring, test sign-in helper"
+    },
+    {
+      "label": "Task 2: `StalwartUI` roster table and invite form components",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L460",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_2_stalwartui_roster_table_and_invite_form_components",
+      "community": 114,
+      "norm_label": "task 2: `stalwartui` roster table and invite form components"
+    },
+    {
+      "label": "Task 3: Gym creation LiveView",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L676",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_3_gym_creation_liveview",
+      "community": 114,
+      "norm_label": "task 3: gym creation liveview"
+    },
+    {
+      "label": "Task 4: Gym home LiveView (roster + invite) and invite email",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L861",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_4_gym_home_liveview_roster_invite_and_invite_email",
+      "community": 114,
+      "norm_label": "task 4: gym home liveview (roster + invite) and invite email"
+    },
+    {
+      "label": "Task 5: Accept-invite LiveView \u2014 the invite \u2192 join critical flow",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1171",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_5_accept_invite_liveview_the_invite_join_critical_flow",
+      "community": 114,
+      "norm_label": "task 5: accept-invite liveview \u2014 the invite \u2192 join critical flow"
+    },
+    {
+      "label": "Task 6: Fly deploy scaffold (no launch)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1376",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_6_fly_deploy_scaffold_no_launch",
+      "community": 114,
+      "norm_label": "task 6: fly deploy scaffold (no launch)"
+    },
+    {
+      "label": "After this session",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1524",
+      "_origin": "ast",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session",
+      "community": 114,
+      "norm_label": "after this session"
+    },
+    {
       "label": "gym_show_live.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live",
       "community": 73,
-      "norm_label": "gym_show_live.ex"
+      "norm_label": "gym_show_live.ex",
+      "id": "live_gym_show_live"
     },
     {
       "label": "MatworkWeb.GymShowLive",
@@ -156,9 +286,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive",
       "community": 73,
-      "norm_label": "matworkweb.gymshowlive"
+      "norm_label": "matworkweb.gymshowlive",
+      "id": "live_gym_show_live_matworkweb_gymshowlive"
     },
     {
       "label": "mount()",
@@ -166,9 +296,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_mount",
       "community": 73,
-      "norm_label": "mount()"
+      "norm_label": "mount()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_mount"
     },
     {
       "label": "handle_event()",
@@ -176,9 +306,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_handle_event",
       "community": 73,
-      "norm_label": "handle_event()"
+      "norm_label": "handle_event()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_handle_event"
     },
     {
       "label": "assign_roster_and_form()",
@@ -186,9 +316,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form",
       "community": 73,
-      "norm_label": "assign_roster_and_form()"
+      "norm_label": "assign_roster_and_form()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
     },
     {
       "label": "render()",
@@ -196,9 +326,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L60",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_render",
       "community": 73,
-      "norm_label": "render()"
+      "norm_label": "render()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_render"
     },
     {
       "label": "gym_show_live_test.exs",
@@ -206,9 +336,9 @@
       "source_file": "test/matwork_web/live/gym_show_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live_test",
       "community": 73,
-      "norm_label": "gym_show_live_test.exs"
+      "norm_label": "gym_show_live_test.exs",
+      "id": "live_gym_show_live_test"
     },
     {
       "label": "MatworkWeb.GymShowLiveTest",
@@ -216,9 +346,9 @@
       "source_file": "test/matwork_web/live/gym_show_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live_test_matworkweb_gymshowlivetest",
       "community": 73,
-      "norm_label": "matworkweb.gymshowlivetest"
+      "norm_label": "matworkweb.gymshowlivetest",
+      "id": "live_gym_show_live_test_matworkweb_gymshowlivetest"
     },
     {
       "label": "deploy.md",
@@ -4886,7 +5016,7 @@
       "source_file": ".claude/skills/ash-framework/references/multi_tenancy_support.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "multi_tenancy_support.md",
       "id": "references_multi_tenancy_support"
     },
@@ -4896,7 +5026,7 @@
       "source_file": ".claude/skills/ash-framework/references/multi_tenancy_support.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "multi-tenancy support",
       "id": "references_multi_tenancy_support_multi_tenancy_support"
     },
@@ -5136,7 +5266,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 115,
       "norm_label": "scheduled_actions.md",
       "id": "references_scheduled_actions"
     },
@@ -5146,7 +5276,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 115,
       "norm_label": "scheduled actions",
       "id": "references_scheduled_actions_scheduled_actions"
     },
@@ -5156,7 +5286,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 66,
+      "community": 115,
       "norm_label": "scheduled action configuration options",
       "id": "references_scheduled_actions_scheduled_action_configuration_options"
     },
@@ -7460,7 +7590,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 66,
       "norm_label": "ashoban list_tenants configuration",
       "id": "ash_oban_list_tenants"
     },
@@ -7473,7 +7603,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 66,
       "norm_label": "ashpostgres schema-based multitenancy (manage_tenant)",
       "id": "ashpostgres_multitenancy"
     },
@@ -7564,7 +7694,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 115,
       "norm_label": "ashoban scheduled_actions dsl",
       "id": "ash_oban_scheduled_action"
     },
@@ -7668,7 +7798,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 77,
       "norm_label": "ashoban.persistactor behaviour",
       "id": "ash_oban_persist_actor"
     },
@@ -8447,6 +8577,126 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1524",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_design_notes_worth_recording",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_global_constraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_scope_note_confirmed_with_the_human_before_writing_this_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_1_tenant_resolution_plug_on_mount_hook_router_wiring_test_sign_in_helper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L460",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_2_stalwartui_roster_table_and_invite_form_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L676",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_3_gym_creation_liveview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L861",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_4_gym_home_liveview_roster_invite_and_invite_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1171",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_5_accept_invite_liveview_the_invite_join_critical_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "source_location": "L1376",
+      "weight": 1.0,
+      "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_6_fly_deploy_scaffold_no_launch",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -16575,5 +16825,5 @@
       "source_file": "docs/design.md"
     }
   ],
-  "built_at_commit": "18e5a5d80e69b69b335d51fa7cc0604fcbef7639"
+  "built_at_commit": "315d1f604c447de2c8cb8cb7e6db9ea2a6c96198"
 }

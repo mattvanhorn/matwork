@@ -700,8 +700,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/progress.md": {
-    "mtime": 1784221212.5625935,
-    "ast_hash": "991f797901209d3787eeef130a578410",
+    "mtime": 1784221667.8861678,
+    "ast_hash": "f683d9b5eb50d8f8b67592596264535e",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-1-brief.md": {
@@ -867,6 +867,11 @@
   ".superpowers/sdd/task-6-report.md": {
     "mtime": 1784221058.7079332,
     "ast_hash": "a85ccca946dacedc5eb0f4e31d332f60",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/final-review-fix-report.md": {
+    "mtime": 1784221649.1293855,
+    "ast_hash": "45603dda68ae235bd6f5251cae1d1094",
     "semantic_hash": ""
   }
 }

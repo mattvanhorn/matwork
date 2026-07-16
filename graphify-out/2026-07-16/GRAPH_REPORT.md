@@ -1,16 +1,16 @@
 # Graph Report - milestone-0-session-3  (2026-07-16)
 
 ## Corpus Check
-- 172 files · ~71,283 words
+- 173 files · ~71,852 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 793 nodes · 795 edges · 114 communities (57 shown, 57 thin omitted)
+- 806 nodes · 807 edges · 116 communities (59 shown, 57 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 41 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `18e5a5d8`
+- Built from commit: `315d1f60`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -117,6 +117,8 @@
 - [[_COMMUNITY_Community 111|Community 111]]
 - [[_COMMUNITY_Community 112|Community 112]]
 - [[_COMMUNITY_Community 113|Community 113]]
+- [[_COMMUNITY_Community 114|Community 114]]
+- [[_COMMUNITY_Community 115|Community 115]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `MatworkWeb.CoreComponents` - 12 edges
@@ -156,7 +158,7 @@
 - **Tenant-Independent Global Resources** — docs_design_user, docs_design_token, docs_design_gym, docs_design_webhookevent [EXTRACTED 1.00]
 - **Paywall / Content-Gating Authorization Flow** — docs_design_lesson, docs_design_membership, docs_design_subscription, docs_design_mux, docs_design_authorization_policies [INFERRED 0.85]
 
-## Communities (114 total, 57 thin omitted)
+## Communities (116 total, 57 thin omitted)
 
 ### Community 0 - "AshOban & Ash.Query Reference"
 Cohesion: 0.15
@@ -255,8 +257,8 @@ Cohesion: 0.12
 Nodes (11): Ash.Query module, exists/2 query expression, Ash.Query.filter/2 macro, Matwork.Gyms.Checks.ActiveMember, Exists Expressions, Related Exists, Unrelated Exists, Ash.Query.filter is a macro (+3 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.15
-Nodes (10): AshOban extension, AshOban.PersistActor behaviour, AshOban scheduled_actions DSL, AshOban trigger DSL, Basic Trigger, Defining Triggers, Trigger Configuration Options, Scheduled Action Configuration Options (+2 more)
+Cohesion: 0.17
+Nodes (9): AshOban extension, AshOban list_tenants configuration, AshOban trigger DSL, AshPostgres schema-based multitenancy (manage_tenant), Basic Trigger, Defining Triggers, Trigger Configuration Options, Multi-tenancy Support (+1 more)
 
 ### Community 67 - "Community 67"
 Cohesion: 0.17
@@ -267,8 +269,8 @@ Cohesion: 0.40
 Nodes (5): change run_oban_trigger/1, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3, Triggering Jobs Programmatically
 
 ### Community 69 - "Community 69"
-Cohesion: 0.14
-Nodes (12): AshOban list_tenants configuration, AshPostgres schema-based multitenancy (manage_tenant), mix ash.codegen, mix ash.migrate, mix ash_postgres.migrate --tenants, --dev migration workflow avoids premature migration naming, Development Migration Workflow (Recommended), Migrations and Codegen (+4 more)
+Cohesion: 0.20
+Nodes (9): mix ash.codegen, mix ash.migrate, mix ash_postgres.migrate --tenants, --dev migration workflow avoids premature migration naming, Development Migration Workflow (Recommended), Migrations and Codegen, Traditional Migration Generation, Multitenancy (+1 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.18
@@ -299,8 +301,8 @@ Cohesion: 0.40
 Nodes (4): AshPhoenix.Form, AshPhoenix.LiveView, Rules for working with AshPhoenix, Understanding AshPhoenix
 
 ### Community 77 - "Community 77"
-Cohesion: 0.40
-Nodes (4): config :ash_oban, :actor_persister, Setting up Actor Persistence, Using Actor in Triggers, Working with Actors
+Cohesion: 0.33
+Nodes (5): config :ash_oban, :actor_persister, AshOban.PersistActor behaviour, Setting up Actor Persistence, Using Actor in Triggers, Working with Actors
 
 ### Community 78 - "Community 78"
 Cohesion: 0.50
@@ -338,16 +340,24 @@ Nodes (3): InviteForm (`StalwartUI.InviteForm.invite_form/1`), RosterTable (`Sta
 Cohesion: 0.40
 Nodes (4): Deploying to Fly.io, Every deploy after that, First-time setup, Verifying a deploy
 
+### Community 114 - "Community 114"
+Cohesion: 0.15
+Nodes (12): After this session, Design notes worth recording, File Structure, Global Constraints, Milestone 0, Session 3: Tenant Resolution, Gym LiveViews, and Deploy Scaffold Implementation Plan, Scope note (confirmed with the human before writing this plan), Task 1: Tenant resolution — plug, `on_mount` hook, router wiring, test sign-in helper, Task 2: `StalwartUI` roster table and invite form components (+4 more)
+
+### Community 115 - "Community 115"
+Cohesion: 0.50
+Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
+
 ## Knowledge Gaps
-- **345 isolated node(s):** `MatworkWeb.GymShowLiveTest`, `First-time setup`, `Every deploy after that`, `Verifying a deploy`, `MatworkWeb.Router` (+340 more)
+- **355 isolated node(s):** `Global Constraints`, `Scope note (confirmed with the human before writing this plan)`, `Design notes worth recording`, `Task 1: Tenant resolution — plug, `on_mount` hook, router wiring, test sign-in helper`, `Task 2: `StalwartUI` roster table and invite form components` (+350 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **57 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `MatworkWeb.GymShowLiveTest`, `First-time setup`, `Every deploy after that` to the rest of the system?**
-  _360 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Global Constraints`, `Scope note (confirmed with the human before writing this plan)`, `Design notes worth recording` to the rest of the system?**
+  _370 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Ash Actions, Changes & Validations` be split into smaller, more focused modules?**

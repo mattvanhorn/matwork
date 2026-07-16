@@ -141,14 +141,124 @@
   },
   "nodes": [
     {
+      "label": "endpoint.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/endpoint.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "matwork_web_endpoint",
+      "community": 39,
+      "norm_label": "endpoint.ex"
+    },
+    {
+      "label": "MatworkWeb.Endpoint",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/endpoint.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "matwork_web_endpoint_matworkweb_endpoint",
+      "community": 39,
+      "norm_label": "matworkweb.endpoint"
+    },
+    {
+      "label": "mix.exs",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mix",
+      "community": 12,
+      "norm_label": "mix.exs"
+    },
+    {
+      "label": "Matwork.MixProject",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject",
+      "community": 12,
+      "norm_label": "matwork.mixproject"
+    },
+    {
+      "label": "project()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_project",
+      "community": 12,
+      "norm_label": "project()"
+    },
+    {
+      "label": "application()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_application",
+      "community": 12,
+      "norm_label": "application()"
+    },
+    {
+      "label": "cli()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_cli",
+      "community": 12,
+      "norm_label": "cli()"
+    },
+    {
+      "label": "elixirc_paths()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_elixirc_paths",
+      "community": 12,
+      "norm_label": "elixirc_paths()"
+    },
+    {
+      "label": "deps()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_deps",
+      "community": 12,
+      "norm_label": "deps()"
+    },
+    {
+      "label": "aliases()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_aliases",
+      "community": 12,
+      "norm_label": "aliases()"
+    },
+    {
+      "label": "usage_rules()",
+      "file_type": "code",
+      "source_file": "mix.exs",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "mix_matwork_mixproject_usage_rules",
+      "community": 12,
+      "norm_label": "usage_rules()"
+    },
+    {
       "label": "2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "file_type": "document",
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold",
       "community": 114,
-      "norm_label": "2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md"
+      "norm_label": "2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold"
     },
     {
       "label": "Milestone 0, Session 3: Tenant Resolution, Gym LiveViews, and Deploy Scaffold Implementation Plan",
@@ -156,9 +266,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
       "community": 114,
-      "norm_label": "milestone 0, session 3: tenant resolution, gym liveviews, and deploy scaffold implementation plan"
+      "norm_label": "milestone 0, session 3: tenant resolution, gym liveviews, and deploy scaffold implementation plan",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan"
     },
     {
       "label": "Global Constraints",
@@ -166,9 +276,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_global_constraints",
       "community": 114,
-      "norm_label": "global constraints"
+      "norm_label": "global constraints",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_global_constraints"
     },
     {
       "label": "Scope note (confirmed with the human before writing this plan)",
@@ -176,9 +286,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_scope_note_confirmed_with_the_human_before_writing_this_plan",
       "community": 114,
-      "norm_label": "scope note (confirmed with the human before writing this plan)"
+      "norm_label": "scope note (confirmed with the human before writing this plan)",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_scope_note_confirmed_with_the_human_before_writing_this_plan"
     },
     {
       "label": "Design notes worth recording",
@@ -186,9 +296,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_design_notes_worth_recording",
       "community": 114,
-      "norm_label": "design notes worth recording"
+      "norm_label": "design notes worth recording",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_design_notes_worth_recording"
     },
     {
       "label": "File Structure",
@@ -196,9 +306,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
       "community": 114,
-      "norm_label": "file structure"
+      "norm_label": "file structure",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure"
     },
     {
       "label": "Task 1: Tenant resolution \u2014 plug, `on_mount` hook, router wiring, test sign-in helper",
@@ -206,9 +316,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_1_tenant_resolution_plug_on_mount_hook_router_wiring_test_sign_in_helper",
       "community": 114,
-      "norm_label": "task 1: tenant resolution \u2014 plug, `on_mount` hook, router wiring, test sign-in helper"
+      "norm_label": "task 1: tenant resolution \u2014 plug, `on_mount` hook, router wiring, test sign-in helper",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_1_tenant_resolution_plug_on_mount_hook_router_wiring_test_sign_in_helper"
     },
     {
       "label": "Task 2: `StalwartUI` roster table and invite form components",
@@ -216,9 +326,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L460",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_2_stalwartui_roster_table_and_invite_form_components",
       "community": 114,
-      "norm_label": "task 2: `stalwartui` roster table and invite form components"
+      "norm_label": "task 2: `stalwartui` roster table and invite form components",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_2_stalwartui_roster_table_and_invite_form_components"
     },
     {
       "label": "Task 3: Gym creation LiveView",
@@ -226,9 +336,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L676",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_3_gym_creation_liveview",
       "community": 114,
-      "norm_label": "task 3: gym creation liveview"
+      "norm_label": "task 3: gym creation liveview",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_3_gym_creation_liveview"
     },
     {
       "label": "Task 4: Gym home LiveView (roster + invite) and invite email",
@@ -236,9 +346,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L861",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_4_gym_home_liveview_roster_invite_and_invite_email",
       "community": 114,
-      "norm_label": "task 4: gym home liveview (roster + invite) and invite email"
+      "norm_label": "task 4: gym home liveview (roster + invite) and invite email",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_4_gym_home_liveview_roster_invite_and_invite_email"
     },
     {
       "label": "Task 5: Accept-invite LiveView \u2014 the invite \u2192 join critical flow",
@@ -246,9 +356,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1171",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_5_accept_invite_liveview_the_invite_join_critical_flow",
       "community": 114,
-      "norm_label": "task 5: accept-invite liveview \u2014 the invite \u2192 join critical flow"
+      "norm_label": "task 5: accept-invite liveview \u2014 the invite \u2192 join critical flow",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_5_accept_invite_liveview_the_invite_join_critical_flow"
     },
     {
       "label": "Task 6: Fly deploy scaffold (no launch)",
@@ -256,9 +366,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1376",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_6_fly_deploy_scaffold_no_launch",
       "community": 114,
-      "norm_label": "task 6: fly deploy scaffold (no launch)"
+      "norm_label": "task 6: fly deploy scaffold (no launch)",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_6_fly_deploy_scaffold_no_launch"
     },
     {
       "label": "After this session",
@@ -266,9 +376,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1524",
       "_origin": "ast",
-      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session",
       "community": 114,
-      "norm_label": "after this session"
+      "norm_label": "after this session",
+      "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session"
     },
     {
       "label": "gym_show_live.ex",
@@ -2141,26 +2251,6 @@
       "id": "controllers_page_html_matworkweb_pagehtml"
     },
     {
-      "label": "endpoint.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/endpoint.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 39,
-      "norm_label": "endpoint.ex",
-      "id": "matwork_web_endpoint"
-    },
-    {
-      "label": "MatworkWeb.Endpoint",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/endpoint.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 39,
-      "norm_label": "matworkweb.endpoint",
-      "id": "matwork_web_endpoint_matworkweb_endpoint"
-    },
-    {
       "label": "gettext.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/gettext.ex",
@@ -2269,96 +2359,6 @@
       "community": 14,
       "norm_label": "periodic_measurements()",
       "id": "matwork_web_telemetry_matworkweb_telemetry_periodic_measurements"
-    },
-    {
-      "label": "mix.exs",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "mix.exs",
-      "id": "mix"
-    },
-    {
-      "label": "Matwork.MixProject",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "matwork.mixproject",
-      "id": "mix_matwork_mixproject"
-    },
-    {
-      "label": "project()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "project()",
-      "id": "mix_matwork_mixproject_project"
-    },
-    {
-      "label": "application()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "application()",
-      "id": "mix_matwork_mixproject_application"
-    },
-    {
-      "label": "cli()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L30",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "cli()",
-      "id": "mix_matwork_mixproject_cli"
-    },
-    {
-      "label": "elixirc_paths()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "elixirc_paths()",
-      "id": "mix_matwork_mixproject_elixirc_paths"
-    },
-    {
-      "label": "deps()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L43",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "deps()",
-      "id": "mix_matwork_mixproject_deps"
-    },
-    {
-      "label": "aliases()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L99",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "aliases()",
-      "id": "mix_matwork_mixproject_aliases"
-    },
-    {
-      "label": "usage_rules()",
-      "file_type": "code",
-      "source_file": "mix.exs",
-      "source_location": "L122",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "usage_rules()",
-      "id": "mix_matwork_mixproject_usage_rules"
     },
     {
       "label": ".formatter.exs",
@@ -8580,12 +8580,146 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/endpoint.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "matwork_web_endpoint",
+      "target": "matwork_web_endpoint_matworkweb_endpoint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix",
+      "target": "mix_matwork_mixproject"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_aliases"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_application"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_cli"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_deps"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_elixirc_paths"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_project"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject",
+      "target": "mix_matwork_mixproject_usage_rules"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject_project",
+      "target": "mix_matwork_mixproject_aliases"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject_project",
+      "target": "mix_matwork_mixproject_deps"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject_project",
+      "target": "mix_matwork_mixproject_elixirc_paths"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mix.exs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "mix_matwork_mixproject_project",
+      "target": "mix_matwork_mixproject_usage_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan"
     },
     {
       "relation": "contains",
@@ -8593,9 +8727,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1524",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session"
     },
     {
       "relation": "contains",
@@ -8603,9 +8737,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_design_notes_worth_recording",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_design_notes_worth_recording"
     },
     {
       "relation": "contains",
@@ -8613,9 +8747,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure"
     },
     {
       "relation": "contains",
@@ -8623,9 +8757,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_global_constraints",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_global_constraints"
     },
     {
       "relation": "contains",
@@ -8633,9 +8767,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_milestone_0_session_3_tenant_resolution_gym_liveviews_and_deploy_scaffold_implementation_plan",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_scope_note_confirmed_with_the_human_before_writing_this_plan",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_scope_note_confirmed_with_the_human_before_writing_this_plan"
     },
     {
       "relation": "contains",
@@ -8643,9 +8777,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_1_tenant_resolution_plug_on_mount_hook_router_wiring_test_sign_in_helper",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_1_tenant_resolution_plug_on_mount_hook_router_wiring_test_sign_in_helper"
     },
     {
       "relation": "contains",
@@ -8653,9 +8787,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L460",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_2_stalwartui_roster_table_and_invite_form_components",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_2_stalwartui_roster_table_and_invite_form_components"
     },
     {
       "relation": "contains",
@@ -8663,9 +8797,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L676",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_3_gym_creation_liveview",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_3_gym_creation_liveview"
     },
     {
       "relation": "contains",
@@ -8673,9 +8807,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L861",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_4_gym_home_liveview_roster_invite_and_invite_email",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_4_gym_home_liveview_roster_invite_and_invite_email"
     },
     {
       "relation": "contains",
@@ -8683,9 +8817,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_5_accept_invite_liveview_the_invite_join_critical_flow",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_5_accept_invite_liveview_the_invite_join_critical_flow"
     },
     {
       "relation": "contains",
@@ -8693,9 +8827,9 @@
       "source_file": "docs/superpowers/plans/2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
       "source_location": "L1376",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_file_structure",
-      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_6_fly_deploy_scaffold_no_launch",
-      "confidence_score": 1.0
+      "target": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_task_6_fly_deploy_scaffold_no_launch"
     },
     {
       "relation": "contains",
@@ -10331,16 +10465,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/endpoint.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "matwork_web_endpoint",
-      "target": "matwork_web_endpoint_matworkweb_endpoint"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "lib/matwork_web/gettext.ex",
       "source_location": "L1",
       "weight": 1.0,
@@ -10428,130 +10552,6 @@
       "confidence_score": 1.0,
       "source": "matwork_web_telemetry_matworkweb_telemetry_init",
       "target": "matwork_web_telemetry_matworkweb_telemetry_periodic_measurements"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix",
-      "target": "mix_matwork_mixproject"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L98",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_aliases"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_application"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_cli"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_deps"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_elixirc_paths"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_project"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L115",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject",
-      "target": "mix_matwork_mixproject_usage_rules"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L11",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject_project",
-      "target": "mix_matwork_mixproject_aliases"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject_project",
-      "target": "mix_matwork_mixproject_deps"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L9",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject_project",
-      "target": "mix_matwork_mixproject_elixirc_paths"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "mix.exs",
-      "source_location": "L16",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "mix_matwork_mixproject_project",
-      "target": "mix_matwork_mixproject_usage_rules"
     },
     {
       "relation": "contains",
@@ -16825,5 +16825,5 @@
       "source_file": "docs/design.md"
     }
   ],
-  "built_at_commit": "315d1f604c447de2c8cb8cb7e6db9ea2a6c96198"
+  "built_at_commit": "fa0cee28ca5ee16c332b8d28eeffd509fe9af7e3"
 }
