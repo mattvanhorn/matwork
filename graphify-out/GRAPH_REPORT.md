@@ -1,16 +1,16 @@
-# Graph Report - matwork  (2026-07-15)
+# Graph Report - milestone-0-session-3  (2026-07-16)
 
 ## Corpus Check
-- 113 files · ~45,673 words
+- 173 files · ~71,852 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 660 nodes · 672 edges · 90 communities (51 shown, 39 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 41 edges (avg confidence: 0.89)
+- 806 nodes · 807 edges · 116 communities (59 shown, 57 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 41 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4c48b2e3`
+- Built from commit: `315d1f60`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -92,18 +92,45 @@
 - [[_COMMUNITY_Community 85|Community 85]]
 - [[_COMMUNITY_Community 86|Community 86]]
 - [[_COMMUNITY_Community 87|Community 87]]
+- [[_COMMUNITY_Community 89|Community 89]]
+- [[_COMMUNITY_Community 90|Community 90]]
+- [[_COMMUNITY_Community 91|Community 91]]
+- [[_COMMUNITY_Community 92|Community 92]]
+- [[_COMMUNITY_Community 93|Community 93]]
+- [[_COMMUNITY_Community 94|Community 94]]
+- [[_COMMUNITY_Community 95|Community 95]]
+- [[_COMMUNITY_Community 96|Community 96]]
+- [[_COMMUNITY_Community 97|Community 97]]
+- [[_COMMUNITY_Community 98|Community 98]]
+- [[_COMMUNITY_Community 99|Community 99]]
+- [[_COMMUNITY_Community 100|Community 100]]
+- [[_COMMUNITY_Community 101|Community 101]]
+- [[_COMMUNITY_Community 102|Community 102]]
+- [[_COMMUNITY_Community 103|Community 103]]
+- [[_COMMUNITY_Community 104|Community 104]]
+- [[_COMMUNITY_Community 105|Community 105]]
+- [[_COMMUNITY_Community 106|Community 106]]
+- [[_COMMUNITY_Community 107|Community 107]]
+- [[_COMMUNITY_Community 108|Community 108]]
+- [[_COMMUNITY_Community 109|Community 109]]
+- [[_COMMUNITY_Community 110|Community 110]]
+- [[_COMMUNITY_Community 111|Community 111]]
+- [[_COMMUNITY_Community 112|Community 112]]
+- [[_COMMUNITY_Community 113|Community 113]]
+- [[_COMMUNITY_Community 114|Community 114]]
+- [[_COMMUNITY_Community 115|Community 115]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `MatworkWeb.CoreComponents` - 12 edges
 2. `AshAuthentication Usage Rules` - 12 edges
-3. `BJJ Instructor Platform — POC Design Document` - 11 edges
-4. `MatworkWeb` - 10 edges
-5. `Matwork — BJJ instructor income platform (POC)` - 10 edges
-6. `Elixir Core Usage Rules` - 10 edges
-7. `BJJ Instructor Platform POC Design Document` - 10 edges
-8. `Actions` - 9 edges
-9. `Task 2 report: `Membership` resource` - 9 edges
-10. `Matwork.MixProject` - 8 edges
+3. `What You Must Do When Invoked` - 11 edges
+4. `BJJ Instructor Platform — POC Design Document` - 11 edges
+5. `MatworkWeb` - 10 edges
+6. `/graphify` - 10 edges
+7. `Matwork — BJJ instructor income platform (POC)` - 10 edges
+8. `Elixir Core Usage Rules` - 10 edges
+9. `BJJ Instructor Platform POC Design Document` - 10 edges
+10. `Actions` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Matwork README (generic Phoenix boilerplate)` --semantically_similar_to--> `Phoenix Framework Skill`  [INFERRED] [semantically similar]
@@ -131,7 +158,7 @@
 - **Tenant-Independent Global Resources** — docs_design_user, docs_design_token, docs_design_gym, docs_design_webhookevent [EXTRACTED 1.00]
 - **Paywall / Content-Gating Authorization Flow** — docs_design_lesson, docs_design_membership, docs_design_subscription, docs_design_mux, docs_design_authorization_policies [INFERRED 0.85]
 
-## Communities (90 total, 39 thin omitted)
+## Communities (116 total, 57 thin omitted)
 
 ### Community 0 - "AshOban & Ash.Query Reference"
 Cohesion: 0.15
@@ -142,8 +169,8 @@ Cohesion: 0.09
 Nodes (35): Migrations & Codegen Rule, Money & External Services Iron Rules, Matwork Project Overview & Design-Doc Authority Rule, Matwork Stack Summary, Tenancy & Authorization Iron Rules, Testing Requirements (allow/deny policy paths, tenancy isolation), Development Workflow Rules, Accounts domain (+27 more)
 
 ### Community 2 - "Ash Actions, Changes & Validations"
-Cohesion: 0.06
-Nodes (33): Action Types, Actions, Atomic Changes, Ash Changes, Custom Change Modules (Ash.Resource.Change), Custom Modules vs Anonymous Functions, Custom Modules vs. Anonymous Functions, Custom Validation Modules (Ash.Resource.Validation) (+25 more)
+Cohesion: 0.12
+Nodes (18): Action Types, Actions, Atomic Changes, Ash Changes, Custom Change Modules (Ash.Resource.Change), Custom Modules vs Anonymous Functions, Custom Modules vs. Anonymous Functions, Custom Validation Modules (Ash.Resource.Validation) (+10 more)
 
 ### Community 3 - "AshAuthentication Strategies & Policies"
 Cohesion: 0.06
@@ -182,52 +209,52 @@ Cohesion: 0.33
 Nodes (6): Matwork.MixProject, aliases(), deps(), elixirc_paths(), project(), usage_rules()
 
 ### Community 13 - "Magic Link Mailer"
-Cohesion: 0.40
-Nodes (4): Matwork.Mailer, Matwork.Accounts.User.Senders.SendMagicLinkEmail, body(), send()
+Cohesion: 0.24
+Nodes (7): Matwork.Mailer, Matwork.Gyms.Invite.Senders.SendInviteEmail, body(), send(), Matwork.Accounts.User.Senders.SendMagicLinkEmail, body(), send()
 
 ### Community 14 - "Telemetry Setup"
 Cohesion: 0.40
 Nodes (3): MatworkWeb.Telemetry, init(), periodic_measurements()
 
 ### Community 15 - "AshOban Programmatic Triggers"
-Cohesion: 0.40
-Nodes (5): change run_oban_trigger/1, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3, Triggering Jobs Programmatically
+Cohesion: 0.14
+Nodes (15): Ash Validations, Aggregate Types, Aggregates, Inline Aggregates, Join Filters, Using Aggregates, Ash.Expr, Calculations (+7 more)
 
 ### Community 18 - "Ash Testing Utilities"
-Cohesion: 0.25
-Nodes (7): Ash.Generator, Ash.Test utilities, Creating Reusable Test Generators, Preventing Deadlocks in Concurrent Tests, Testing, Globally unique identity values prevent concurrent test deadlocks, Use Globally Unique Values
+Cohesion: 0.19
+Nodes (12): Ash.Generator, Ash.Test utilities, Creating Reusable Test Generators, Preventing Deadlocks in Concurrent Tests, Testing, Globally unique identity values prevent concurrent test deadlocks, Use Globally Unique Values, Matwork.Generator (+4 more)
 
 ### Community 24 - "Heroicons Build Plugin"
 Cohesion: 0.50
 Nodes (3): fs, path, plugin
 
 ### Community 59 - "Community 59"
-Cohesion: 0.08
-Nodes (25): Common Mistakes to Avoid, Data Structures, Debugging, Elixir Core Usage Rules, Error Handling, Fault Tolerance, Function Design, GenServer Best Practices (+17 more)
+Cohesion: 0.07
+Nodes (26): Common Mistakes to Avoid, Data Structures, Debugging, Elixir Core Usage Rules, Error Handling, Fault Tolerance, Function Design, GenServer Best Practices (+18 more)
 
 ### Community 60 - "Community 60"
 Cohesion: 0.12
 Nodes (16): 10. Deferred decisions, recorded, 1. Goals and non-goals, 2. Stack summary, 3. Multi-tenancy model, 4. Domains and resources, 5. Stripe Connect design, 6. Authorization: policies on resources, 7. UI component strategy (the future library) (+8 more)
 
 ### Community 61 - "Community 61"
-Cohesion: 0.12
-Nodes (16): Commit, Commit, Files Changed, Fix Applied, Follow-up Fix: Restore Isolated Allow-Path Test (commit c44daa0), Format and Lint, Full Test Suite, Gym Tests (+8 more)
+Cohesion: 0.08
+Nodes (23): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+15 more)
 
 ### Community 62 - "Community 62"
 Cohesion: 0.12
-Nodes (15): Code Quality, Commit Details, Concerns, Configuration Note, Failing Test (1/5):, Files Changed, Fix Applied, Follow-up: Test Expectation Fix (+7 more)
+Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
 
 ### Community 63 - "Community 63"
-Cohesion: 0.14
-Nodes (13): Commit, Commit, Deviation from the brief: `require Ash.Query`, Files changed (committed in 904d4d0), Implementation, Original test failure (now resolved): brief-sequencing gap, not my error, Post-review follow-up: restrict `Membership.remove` (commit 8cef58c), Status: DONE (commit 904d4d0) (+5 more)
+Cohesion: 0.12
+Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
 
 ### Community 64 - "Community 64"
-Cohesion: 0.14
-Nodes (13): Addendum: `mark_accepted` still didn't check *who* the actor was (commit 819423e), Concerns, Concerns, Files changed, Files changed (this addendum), Fix, Fix 1: email-match guard on `accept_invite`, Fix 2: `Invite.mark_accepted` policy tightened (+5 more)
+Cohesion: 0.12
+Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
 
 ### Community 65 - "Community 65"
-Cohesion: 0.15
-Nodes (10): Ash.Query module, exists/2 query expression, Ash.Query.filter/2 macro, Exists Expressions, Related Exists, Unrelated Exists, Ash.Query.filter is a macro, Common Query Operations (+2 more)
+Cohesion: 0.12
+Nodes (11): Ash.Query module, exists/2 query expression, Ash.Query.filter/2 macro, Matwork.Gyms.Checks.ActiveMember, Exists Expressions, Related Exists, Unrelated Exists, Ash.Query.filter is a macro (+3 more)
 
 ### Community 66 - "Community 66"
 Cohesion: 0.17
@@ -238,8 +265,8 @@ Cohesion: 0.17
 Nodes (11): Avoiding form errors, Creating a form from changesets, Creating a form from params, External phx-hook, Form handling, Inline colocated js hooks, LiveView JavaScript interop, LiveView streams (+3 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.17
-Nodes (11): A real bug surfaced while writing the `mark_accepted` test — and the fix, Addendum: reviewer-flagged coverage gaps (commit cbbeeec), Concern for the coordinator / plan author, Files changed, Issues or concerns (original submission), New tests added, Self-review findings, Task 4 Report: `Invite` resource (+3 more)
+Cohesion: 0.40
+Nodes (5): change run_oban_trigger/1, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3, Triggering Jobs Programmatically
 
 ### Community 69 - "Community 69"
 Cohesion: 0.20
@@ -258,24 +285,24 @@ Cohesion: 0.25
 Nodes (6): Rules for working with AshOban, Understanding AshOban, AshOban.Errors.CancelJob, Debugging and Error Handling, AshOban.Errors.SnoozeJob, Snoozing and Cancelling Jobs
 
 ### Community 73 - "Community 73"
-Cohesion: 0.25
-Nodes (7): Concerns, Deviation from the brief: credo nesting violation, Files changed, Self-review findings, Task 5 Report: `Membership.accept_invite`, What I implemented, What I tested and results
+Cohesion: 0.08
+Nodes (14): Matwork.Gyms.GymTest, Matwork.Gyms.InviteTest, Matwork.Gyms.MembershipTest, MatworkWeb.GymNewLive, MatworkWeb.GymShowLive, assign_roster_and_form(), handle_event(), mount() (+6 more)
 
 ### Community 74 - "Community 74"
-Cohesion: 0.29
-Nodes (6): Empirical verification: does `Ash.Changeset.get_attribute(context.subject, :role)` see the submitted role at policy-check time?, Files changed, Issues or concerns, Task 6 Report: Restrict `Invite.create` so only an owner can grant owner/instructor roles, Test / format / credo output, What I built
+Cohesion: 0.25
+Nodes (7): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
 
 ### Community 75 - "Community 75"
-Cohesion: 0.33
-Nodes (5): config :ash_oban, :actor_persister, AshOban.PersistActor behaviour, Setting up Actor Persistence, Using Actor in Triggers, Working with Actors
+Cohesion: 0.53
+Nodes (5): Matwork.Release, load_app(), migrate(), repos(), rollback()
 
 ### Community 76 - "Community 76"
 Cohesion: 0.40
 Nodes (4): AshPhoenix.Form, AshPhoenix.LiveView, Rules for working with AshPhoenix, Understanding AshPhoenix
 
 ### Community 77 - "Community 77"
-Cohesion: 0.50
-Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
+Cohesion: 0.33
+Nodes (5): config :ash_oban, :actor_persister, AshOban.PersistActor behaviour, Setting up Actor Persistence, Using Actor in Triggers, Working with Actors
 
 ### Community 78 - "Community 78"
 Cohesion: 0.50
@@ -285,20 +312,56 @@ Nodes (3): Additional References, Available Mix Tasks, Searching Documentation
 Cohesion: 0.50
 Nodes (3): Ash Framework Core Philosophy, Rules for working with Ash, Understanding Ash
 
+### Community 83 - "Community 83"
+Cohesion: 0.53
+Nodes (5): Matwork.Gyms.Membership.Changes.AcceptInvite, apply_invite(), change(), finalize_invite(), mark_invite_accepted()
+
+### Community 84 - "Community 84"
+Cohesion: 0.33
+Nodes (5): For /graphify explain, For /graphify path, graphify reference: query, path, explain, Step 0 — Constrained query expansion (REQUIRED before traversal), Step 1 — Traversal
+
+### Community 92 - "Community 92"
+Cohesion: 0.50
+Nodes (3): For /graphify add, For --watch, graphify reference: add a URL and watch a folder
+
+### Community 93 - "Community 93"
+Cohesion: 0.50
+Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify reference: commit hook and native CLAUDE.md integration
+
+### Community 94 - "Community 94"
+Cohesion: 0.50
+Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
+
+### Community 104 - "Community 104"
+Cohesion: 0.50
+Nodes (3): InviteForm (`StalwartUI.InviteForm.invite_form/1`), RosterTable (`StalwartUI.RosterTable.roster_table/1`), StalwartUI Components
+
+### Community 113 - "Community 113"
+Cohesion: 0.40
+Nodes (4): Deploying to Fly.io, Every deploy after that, First-time setup, Verifying a deploy
+
+### Community 114 - "Community 114"
+Cohesion: 0.15
+Nodes (12): After this session, Design notes worth recording, File Structure, Global Constraints, Milestone 0, Session 3: Tenant Resolution, Gym LiveViews, and Deploy Scaffold Implementation Plan, Scope note (confirmed with the human before writing this plan), Task 1: Tenant resolution — plug, `on_mount` hook, router wiring, test sign-in helper, Task 2: `StalwartUI` roster table and invite form components (+4 more)
+
+### Community 115 - "Community 115"
+Cohesion: 0.50
+Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
+
 ## Knowledge Gaps
-- **310 isolated node(s):** `allow`, `csrfToken`, `liveSocket`, `plugin`, `fs` (+305 more)
+- **355 isolated node(s):** `Global Constraints`, `Scope note (confirmed with the human before writing this plan)`, `Design notes worth recording`, `Task 1: Tenant resolution — plug, `on_mount` hook, router wiring, test sign-in helper`, `Task 2: `StalwartUI` roster table and invite form components` (+350 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **39 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **57 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `allow`, `csrfToken`, `liveSocket` to the rest of the system?**
-  _325 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Global Constraints`, `Scope note (confirmed with the human before writing this plan)`, `Design notes worth recording` to the rest of the system?**
+  _370 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Ash Actions, Changes & Validations` be split into smaller, more focused modules?**
-  _Cohesion score 0.06456456456456457 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12105263157894737 - nodes in this community are weakly interconnected._
 - **Should `AshAuthentication Strategies & Policies` be split into smaller, more focused modules?**
   _Cohesion score 0.05807200929152149 - nodes in this community are weakly interconnected._
 - **Should `AshPostgres Migration Snapshot (auth ext 1)` be split into smaller, more focused modules?**

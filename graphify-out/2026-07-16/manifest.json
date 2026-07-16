@@ -65,8 +65,8 @@
     "semantic_hash": ""
   },
   "lib/matwork/accounts/user.ex": {
-    "mtime": 1784147457.49444,
-    "ast_hash": "01c9c14aaf8ec29df3eeebbf84a3f7c3",
+    "mtime": 1784176661.8591526,
+    "ast_hash": "bef669a2cd35b29c32545ceeb56dc1b3",
     "semantic_hash": ""
   },
   "lib/matwork/accounts/user/senders/send_magic_link_email.ex": {
@@ -145,13 +145,13 @@
     "semantic_hash": "64e44d244ecd719ad79719bf6cb77d84"
   },
   "lib/matwork_web/live_user_auth.ex": {
-    "mtime": 1784139509.5882487,
+    "mtime": 1784220820.0759149,
     "ast_hash": "ee34b0160aa95afd543e952b17eed09d",
     "semantic_hash": ""
   },
   "lib/matwork_web/router.ex": {
-    "mtime": 1784147125.161513,
-    "ast_hash": "6b92913abf519d7c0a33542056d83b8e",
+    "mtime": 1784220379.862454,
+    "ast_hash": "d26408994ffa1fa7c6fec675efc6d1a4",
     "semantic_hash": ""
   },
   "lib/matwork_web/telemetry.ex": {
@@ -700,8 +700,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/progress.md": {
-    "mtime": 1784144812.6590974,
-    "ast_hash": "5b34034d767e661f516345dbc8e2709f",
+    "mtime": 1784221212.5625935,
+    "ast_hash": "991f797901209d3787eeef130a578410",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-1-brief.md": {
@@ -760,13 +760,13 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/live/gym_show_live.ex": {
-    "mtime": 1784147483.5528939,
-    "ast_hash": "d605febbba40558b930a5990a6a0e31e",
+    "mtime": 1784221609.8468862,
+    "ast_hash": "033aed3b84c42d7d0b82d99d341c07a5",
     "semantic_hash": ""
   },
   "test/matwork_web/live/gym_show_live_test.exs": {
-    "mtime": 1784147462.67893,
-    "ast_hash": "69c4c55d848022f7345aab884dde5df1",
+    "mtime": 1784221589.8559732,
+    "ast_hash": "3abc39c34a2ba4fd3bd1148253738504",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-3-report.md": {
@@ -777,6 +777,96 @@
   ".superpowers/sdd/task-4-brief.md": {
     "mtime": 1784147036.0481596,
     "ast_hash": "a7b26ffd637e56eaa55728aa882c29ae",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-4-fix-brief.md": {
+    "mtime": 1784148271.510754,
+    "ast_hash": "23e6fa96ce0a15e6a77da446675673f3",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-4-report.md": {
+    "mtime": 1784147611.4016004,
+    "ast_hash": "2c37bf7144f857ccff046452fe8bdf6e",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-4-fix-report.md": {
+    "mtime": 1784148931.025493,
+    "ast_hash": "26b5c1ac4eb72a581bac6121cc115870",
+    "semantic_hash": ""
+  },
+  "lib/matwork/gyms/checks/roster_visible.ex": {
+    "mtime": 1784216882.1943762,
+    "ast_hash": "fb996978e63eb076e7e5756bb149e3ed",
+    "semantic_hash": ""
+  },
+  "test/matwork/accounts/user_test.exs": {
+    "mtime": 1784217088.4540489,
+    "ast_hash": "5e5c7269f892be5df714f9b0b5a9db5b",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-4-fix2-brief.md": {
+    "mtime": 1784176514.5727584,
+    "ast_hash": "5e19c8a0b963204f3c9a1bcbb6156b5b",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-4-fix2-report.md": {
+    "mtime": 1784217137.314795,
+    "ast_hash": "5061eabe59c01334d2de07aff51ac556",
+    "semantic_hash": ""
+  },
+  "lib/matwork_web/live/invite_accept_live.ex": {
+    "mtime": 1784218855.0832293,
+    "ast_hash": "a22bab89793d6be98828ef23f023619f",
+    "semantic_hash": ""
+  },
+  "test/matwork_web/live/invite_accept_live_test.exs": {
+    "mtime": 1784220429.882033,
+    "ast_hash": "f01110433be073bd53218c812db93639",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-5-brief.md": {
+    "mtime": 1784218690.2195792,
+    "ast_hash": "e208704a7e51ac142de5d9d7aeeee0a2",
+    "semantic_hash": ""
+  },
+  "lib/matwork/release.ex": {
+    "mtime": 1784220829.566208,
+    "ast_hash": "32bdd4536765a1aa80ff5ad11c320a69",
+    "semantic_hash": ""
+  },
+  "rel/overlays/bin/migrate": {
+    "mtime": 1784220835.0,
+    "ast_hash": "26ed94603fa9695108df6cfbb3fac214",
+    "semantic_hash": ""
+  },
+  "rel/overlays/bin/server": {
+    "mtime": 1784220835.0,
+    "ast_hash": "124d31466991454a8ba639e0f00bc47c",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-5-report.md": {
+    "mtime": 1784220501.6887584,
+    "ast_hash": "5e0d8eccb13c9291f926e2647fc9a44b",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-6-brief.md": {
+    "mtime": 1784220713.8388412,
+    "ast_hash": "37709831752d158c7382840f3d4685ff",
+    "semantic_hash": ""
+  },
+  "docs/deploy.md": {
+    "mtime": 1784220974.7940543,
+    "ast_hash": "8009c61f3f75efefae9eaac581e2289d",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/final-review-fix-brief.md": {
+    "mtime": 1784221531.772249,
+    "ast_hash": "4ede2764102892e796bc8abb753d5b87",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/task-6-report.md": {
+    "mtime": 1784221058.7079332,
+    "ast_hash": "a85ccca946dacedc5eb0f4e31d332f60",
     "semantic_hash": ""
   }
 }
