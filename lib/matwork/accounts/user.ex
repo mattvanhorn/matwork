@@ -98,19 +98,14 @@ defmodule Matwork.Accounts.User do
     end
 
     # Reading a User is restricted to: the actor reading their own record,
-    # or an actor with an active owner/instructor membership in some gym
-    # (needed so GymShowLive's roster can load Membership.user for owners
-    # and instructors). Deliberately NOT open to students: showing member
-    # emails to fellow students risks harassment/stalking between gym
-    # members, so roster visibility — and this read policy — is
-    # owner/instructor-only. Note this check is not scoped to "the same
-    # gym as the User being read" (User has no gym concept at this layer);
-    # it's "does the actor hold an owner/instructor role in some gym."
-    # Acceptable for this POC since User only exposes :id/:email — revisit
-    # if that changes.
+    # or an actor with an active owner/instructor membership in the SAME
+    # gym the target User also has an active membership in (see
+    # RosterVisible — this is what scopes gym-roster visibility to that
+    # gym's own owners/instructors, not "owner/instructor of any gym can
+    # read any user," which was an earlier, looser version of this check).
     policy action_type(:read) do
       authorize_if expr(id == ^actor(:id))
-      authorize_if {Matwork.Gyms.Checks.ActiveMember, roles: [:owner, :instructor]}
+      authorize_if {Matwork.Gyms.Checks.RosterVisible, roles: [:owner, :instructor]}
     end
   end
 
