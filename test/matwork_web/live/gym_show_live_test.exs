@@ -20,6 +20,22 @@ defmodule MatworkWeb.GymShowLiveTest do
       assert has_element?(view, "#invite-form")
     end
 
+    test "excludes removed members from the roster", %{conn: conn} do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      student = generate(user())
+      generate(membership(gym: gym, user: student, role: :student))
+      removed_student = generate(user())
+      removed_membership = generate(membership(gym: gym, user: removed_student, role: :student))
+      Gyms.remove_membership!(removed_membership, actor: owner, tenant: gym.id)
+
+      conn = sign_in(conn, owner)
+      {:ok, _view, html} = live(conn, ~p"/g/#{gym.slug}")
+
+      assert html =~ to_string(Ash.CiString.value(student.email))
+      refute html =~ to_string(Ash.CiString.value(removed_student.email))
+    end
+
     test "sending an invite adds it and re-renders the invite form", %{conn: conn} do
       owner = generate(user())
       gym = generate(gym(owner: owner))
