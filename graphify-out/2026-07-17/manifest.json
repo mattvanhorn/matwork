@@ -665,8 +665,8 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/gym_live_auth.ex": {
-    "mtime": 1784316691.0608606,
-    "ast_hash": "da2a2505ca3cf1ddebf40580c984105d",
+    "mtime": 1784258191.7120674,
+    "ast_hash": "703d69d5f156b210865fdef41e50e1f3",
     "semantic_hash": ""
   },
   "lib/matwork_web/plugs/load_gym.ex": {
@@ -700,8 +700,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/progress.md": {
-    "mtime": 1784307539.9569395,
-    "ast_hash": "611d44eff627e6a90cd75c61bdda9b9f",
+    "mtime": 1784307172.34617,
+    "ast_hash": "9cdf90be65630d220182aaeb928616f6",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-1-brief.md": {
@@ -835,8 +835,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-6-report.md": {
-    "mtime": 1784307381.125479,
-    "ast_hash": "a1d2e21c0cd100f24892f96d0a9740cb",
+    "mtime": 1784083321.551993,
+    "ast_hash": "007db7635d43cd1e01514e39746fb7fa",
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md": {
@@ -870,8 +870,8 @@
     "semantic_hash": ""
   },
   "lib/matwork/curriculum.ex": {
-    "mtime": 1784316656.4230583,
-    "ast_hash": "908d45d3aeea7b400586723f849976f9",
+    "mtime": 1784304970.4136064,
+    "ast_hash": "962bc3f841ce0d7f5c60570b066749a4",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/checks/course_visible.ex": {
@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/course.ex": {
-    "mtime": 1784316671.969063,
-    "ast_hash": "47f65cb6b2b8179298e6b0c8c86a4361",
+    "mtime": 1784307269.1957822,
+    "ast_hash": "963abd64d7b73ee1876fb41d20693911",
     "semantic_hash": ""
   },
   "priv/repo/migrations/20260717153400_create_courses.exs": {
@@ -900,8 +900,8 @@
     "semantic_hash": ""
   },
   "test/matwork/curriculum/course_test.exs": {
-    "mtime": 1784316714.6941109,
-    "ast_hash": "c071c9e2d27c36124cfa97e5a3698b14",
+    "mtime": 1784302540.2330153,
+    "ast_hash": "e720452870672eafee370ccb77328ddd",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/checks/section_visible.ex": {
@@ -910,8 +910,8 @@
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/course_section.ex": {
-    "mtime": 1784316680.8503156,
-    "ast_hash": "4bf031b220131e5e5e075f93ab6d2357",
+    "mtime": 1784307270.7273998,
+    "ast_hash": "4c6ad6bde89835c24c73ad2c36e344de",
     "semantic_hash": ""
   },
   "priv/repo/migrations/20260717154327_create_course_sections.exs": {
@@ -940,8 +940,8 @@
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/lesson.ex": {
-    "mtime": 1784316683.3582544,
-    "ast_hash": "448822bd8c7049fadf8c6f98561d0e11",
+    "mtime": 1784304957.7514327,
+    "ast_hash": "c3ab1bb46a29b661af18fa90bc4a5a33",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/validations/section_in_tenant.ex": {
@@ -975,8 +975,8 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/live/course_index_live.ex": {
-    "mtime": 1784316702.437698,
-    "ast_hash": "df17b7ececeacc04befdb5a9fa34ed65",
+    "mtime": 1784306885.6476872,
+    "ast_hash": "1aa9870590aabb03a7e2cd18a3c2dd72",
     "semantic_hash": ""
   },
   "test/matwork_web/live/course_index_live_test.exs": {
@@ -985,38 +985,18 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/live/course_builder_live.ex": {
-    "mtime": 1784316779.7348034,
-    "ast_hash": "6efe0cd3872cc48414203de9c98d6f2b",
+    "mtime": 1784307293.5740294,
+    "ast_hash": "6c18758894df6923a60b0a96d16572ae",
     "semantic_hash": ""
   },
   "test/matwork_web/live/course_builder_live_test.exs": {
-    "mtime": 1784316897.4500613,
-    "ast_hash": "187bba15eab9402f5c8e58df7f3cefad",
+    "mtime": 1784307293.553629,
+    "ast_hash": "db715e69a04092e6e66e22ca469ac89f",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-6-brief.md": {
     "mtime": 1784307173.7017663,
     "ast_hash": "6696b09847bcb3f8422d6f81221fb55c",
-    "semantic_hash": ""
-  },
-  "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs": {
-    "mtime": 1784316823.2527463,
-    "ast_hash": "fef9401ed9d4dd2e9dd007cd39fcef44",
-    "semantic_hash": ""
-  },
-  "priv/resource_snapshots/repo/course_sections/20260717193344.json": {
-    "mtime": 1784316823.2533674,
-    "ast_hash": "562de7509ffc32de5dc150b98c5955d4",
-    "semantic_hash": ""
-  },
-  "priv/resource_snapshots/repo/courses/20260717193345.json": {
-    "mtime": 1784316823.2538385,
-    "ast_hash": "cb3cd8363c183a21ea5a4c571f925fa4",
-    "semantic_hash": ""
-  },
-  "priv/resource_snapshots/repo/lessons/20260717193346.json": {
-    "mtime": 1784316823.2543628,
-    "ast_hash": "221f8c13b65c5c7bd9b699df2a81f76a",
     "semantic_hash": ""
   }
 }
