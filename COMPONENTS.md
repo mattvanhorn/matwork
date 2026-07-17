@@ -19,3 +19,16 @@ Email + role form for inviting someone to a gym.
 `[:instructor, :student]`), `id` (string, default `"invite-form"`), `on_change`
 (string phx-change event name, default `"validate"`), `on_submit` (string
 phx-submit event name, default `"invite"`).
+
+## CurriculumTree (`StalwartUI.CurriculumTree.curriculum_tree/1`)
+
+Renders a course's sections and lessons with author controls (add / rename /
+delete / reorder / toggle free-preview), emitting parent-supplied phx event
+names.
+
+**Assigns:** `sections` (required) — sorted list of `%{id, title, lessons:
+[%{id, title, free_preview}]}`; plus event-name overrides `on_add_section`,
+`on_rename_section`, `on_delete_section`, `on_move_section`, `on_add_lesson`,
+`on_rename_lesson`, `on_delete_lesson`, `on_move_lesson`, `on_toggle_preview`
+(all default to their obvious event name). Move events carry `phx-value-id`
+and `phx-value-direction` (`"up"`/`"down"`).
