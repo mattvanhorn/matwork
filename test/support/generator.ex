@@ -85,4 +85,19 @@ defmodule Matwork.Generator do
       overrides: opts
     )
   end
+
+  def section(opts \\ []) do
+    {owning_course, opts} = Keyword.pop(opts, :course)
+    owning_course = owning_course || generate(course())
+
+    seed_generator(
+      %Matwork.Curriculum.CourseSection{
+        gym_id: owning_course.gym_id,
+        course_id: owning_course.id,
+        title: sequence(:section_title, &"Section #{&1}"),
+        position: 0
+      },
+      overrides: opts
+    )
+  end
 end
