@@ -1,0 +1,57 @@
+defmodule MatworkWeb.CourseBuilderLiveTest do
+  use MatworkWeb.ConnCase, async: true
+
+  import Phoenix.LiveViewTest
+  import Matwork.Generator
+
+  alias Matwork.Curriculum
+
+  setup do
+    owner = generate(user())
+    gym = generate(gym(owner: owner))
+    course = generate(course(gym: gym, title: "Half Guard"))
+    %{owner: owner, gym: gym, course: course}
+  end
+
+  test "owner builds a section then a lesson", %{
+    conn: conn,
+    owner: owner,
+    gym: gym,
+    course: course
+  } do
+    conn = sign_in(conn, owner)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    lv
+    |> form("#curriculum-tree form[phx-submit=add_section]", %{title: "Sweeps"})
+    |> render_submit()
+
+    assert render(lv) =~ "Sweeps"
+
+    lv
+    |> form("#curriculum-tree form[phx-submit=add_lesson]", %{title: "Old-school sweep"})
+    |> render_submit()
+
+    assert render(lv) =~ "Old-school sweep"
+  end
+
+  test "owner can publish the course", %{conn: conn, owner: owner, gym: gym, course: course} do
+    conn = sign_in(conn, owner)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    lv |> element("button", "Publish") |> render_click()
+
+    reloaded = Curriculum.get_course!(course.id, actor: owner, tenant: gym.id)
+    assert reloaded.status == :published
+  end
+
+  test "a student is denied the builder", %{conn: conn, gym: gym, course: course} do
+    student = generate(user())
+    generate(membership(gym: gym, user: student, role: :student))
+
+    conn = sign_in(conn, student)
+    {:ok, _lv, html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    assert html =~ "have access"
+  end
+end
