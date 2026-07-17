@@ -77,5 +77,9 @@ defmodule Matwork.Curriculum.CourseSection do
       allow_nil? false
       public? true
     end
+
+    has_many :lessons, Matwork.Curriculum.Lesson do
+      destination_attribute :section_id
+    end
   end
 end
