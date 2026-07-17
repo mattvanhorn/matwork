@@ -25,6 +25,14 @@ defmodule Matwork.Curriculum do
       define :set_section_position, action: :set_position
       define :destroy_section, action: :destroy
     end
+
+    resource Matwork.Curriculum.Lesson do
+      define :create_lesson, action: :create, args: [:section_id, :title]
+      define :list_lessons, action: :read
+      define :update_lesson, action: :update
+      define :set_lesson_position, action: :set_position
+      define :destroy_lesson, action: :destroy
+    end
   end
 
   @doc """
@@ -50,6 +58,29 @@ defmodule Matwork.Curriculum do
       section,
       direction,
       &set_section_position!/3,
+      opts
+    )
+  end
+
+  @doc "Create a lesson at the end of its section."
+  def add_lesson(section, title, opts) do
+    position = next_position(Matwork.Curriculum.Lesson, [section_id: section.id], opts)
+    create_lesson(section.id, title, %{position: position}, opts)
+  end
+
+  @doc "Toggle/set a lesson's free-preview flag."
+  def set_lesson_preview(lesson, value, opts) when is_boolean(value) do
+    update_lesson(lesson, %{free_preview: value}, opts)
+  end
+
+  @doc "Move a lesson one slot `:up`/`:down` among its section siblings."
+  def reorder_lesson(lesson, direction, opts) do
+    swap_position(
+      Matwork.Curriculum.Lesson,
+      [section_id: lesson.section_id],
+      lesson,
+      direction,
+      &set_lesson_position!/3,
       opts
     )
   end
