@@ -1,16 +1,16 @@
 # Graph Report - milestone-0-session-3  (2026-07-16)
 
 ## Corpus Check
-- 175 files · ~73,846 words
+- 175 files · ~73,805 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 816 nodes · 816 edges · 117 communities (60 shown, 57 thin omitted)
+- 820 nodes · 819 edges · 117 communities (60 shown, 57 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 41 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f885e3bb`
+- Built from commit: `b302c7e2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -190,8 +190,8 @@ Cohesion: 0.06
 Nodes (32): Elixir guidelines, Embedded Elixir Guidelines Block, External phx-hook, Embedded Phoenix HTML Guidelines Block, Inline colocated js hooks, JS and CSS guidelines, Embedded Phoenix LiveView Guidelines Block, LiveView JavaScript interop (+24 more)
 
 ### Community 7 - "AshPhoenix.Form Reference"
-Cohesion: 0.10
-Nodes (18): AshPhoenix domain form_to_* code interface, AshPhoenix.Form, AshPhoenix.Form.add_form/2, AshPhoenix.Form.for_create/3, AshPhoenix.Form.for_update/3, AshPhoenix.Form.submit/2, AshPhoenix.Form.validate/2, AshPhoenix.FormData.Error protocol (+10 more)
+Cohesion: 0.18
+Nodes (9): AshPhoenix.Form, AshPhoenix.Form.add_form/2, AshPhoenix.Form.submit/2, AshPhoenix.FormData.Error protocol, AshPhoenix union type forms (_union_type), Debugging Form Submission, Form errors only display when protocol + field implemented, Error Handling (+1 more)
 
 ### Community 8 - "StalwartUI Core Components"
 Cohesion: 0.17
@@ -202,8 +202,8 @@ Cohesion: 0.29
 Nodes (8): MatworkWeb, controller(), html(), html_helpers(), live_component(), live_view(), static_paths(), verified_routes()
 
 ### Community 10 - "Ash Relationships & Foreign Keys"
-Cohesion: 0.08
-Nodes (21): manage_relationship change/argument, Polymorphic relationships via Ash.Type.Union, Ash relationships DSL (belongs_to/has_one/has_many/many_to_many), AshPhoenix.Form.remove_form/2, AshPostgres references (foreign key) DSL, FK on_delete/on_update bypass resource logic (DB-level only), Foreign Key Actions, Foreign Key References (+13 more)
+Cohesion: 0.20
+Nodes (10): 1. Using `change manage_relationship/2-3` in Actions, 2. Using `Ash.Changeset.manage_relationship/3-4` in Custom Changes, Best Practices for Relationships, Examples, Loading Relationships, Managing Relationships, Quick Reference - Common Options, Quick Reference - Management Types (+2 more)
 
 ### Community 12 - "Mix Project Config"
 Cohesion: 0.33
@@ -258,20 +258,20 @@ Cohesion: 0.12
 Nodes (11): Ash.Query module, exists/2 query expression, Ash.Query.filter/2 macro, Matwork.Gyms.Checks.ActiveMember, Exists Expressions, Related Exists, Unrelated Exists, Ash.Query.filter is a macro (+3 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.17
-Nodes (9): AshOban extension, AshOban list_tenants configuration, AshOban trigger DSL, AshPostgres schema-based multitenancy (manage_tenant), Basic Trigger, Defining Triggers, Trigger Configuration Options, Multi-tenancy Support (+1 more)
+Cohesion: 0.05
+Nodes (31): change run_oban_trigger/1, AshOban extension, config :ash_oban, :actor_persister, AshOban list_tenants configuration, AshOban.PersistActor behaviour, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3 (+23 more)
 
 ### Community 67 - "Community 67"
 Cohesion: 0.17
 Nodes (11): Avoiding form errors, Creating a form from changesets, Creating a form from params, External phx-hook, Form handling, Inline colocated js hooks, LiveView JavaScript interop, LiveView streams (+3 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.40
-Nodes (5): change run_oban_trigger/1, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3, Triggering Jobs Programmatically
+Cohesion: 0.20
+Nodes (9): AshPhoenix domain form_to_* code interface, AshPhoenix.Form.for_create/3, AshPhoenix.Form.for_update/3, AshPhoenix.Form.validate/2, Code Interfaces, Creating Forms, Form Integration, Handling Form Submission (+1 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.20
-Nodes (9): mix ash.codegen, mix ash.migrate, mix ash_postgres.migrate --tenants, --dev migration workflow avoids premature migration naming, Development Migration Workflow (Recommended), Migrations and Codegen, Traditional Migration Generation, Multitenancy (+1 more)
+Cohesion: 0.25
+Nodes (6): manage_relationship change/argument, Polymorphic relationships via Ash.Type.Union, AshPhoenix.Form.remove_form/2, Adding and Removing Nested Forms, Automatically Inferred Nested Forms, Nested Forms
 
 ### Community 70 - "Community 70"
 Cohesion: 0.18
@@ -303,7 +303,7 @@ Nodes (4): AshPhoenix.Form, AshPhoenix.LiveView, Rules for working with AshPhoen
 
 ### Community 77 - "Community 77"
 Cohesion: 0.33
-Nodes (5): config :ash_oban, :actor_persister, AshOban.PersistActor behaviour, Setting up Actor Persistence, Using Actor in Triggers, Working with Actors
+Nodes (5): Ash relationships DSL (belongs_to/has_one/has_many/many_to_many), AshPostgres references (foreign key) DSL, FK on_delete/on_update bypass resource logic (DB-level only), Foreign Key Actions, Foreign Key References
 
 ### Community 78 - "Community 78"
 Cohesion: 0.50
@@ -347,22 +347,24 @@ Nodes (12): After this session, Design notes worth recording, File Structure, Gl
 
 ### Community 115 - "Community 115"
 Cohesion: 0.50
-Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
+Nodes (3): Global Constraints, Role/Auth-Aware Nav Bar Implementation Plan, Task 1: Role/auth-aware `Layouts.app` nav bar
 
 ### Community 116 - "Community 116"
 Cohesion: 0.20
 Nodes (9): Brand mark (left side of header), Call site changes, Design, `Layouts.app/1` attrs, Nav bar: role/auth-aware layout, removing Phoenix scaffold leftovers, Problem, Right side of header, by auth state, Scope (+1 more)
 
 ## Knowledge Gaps
-- **362 isolated node(s):** `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest`, `Problem`, `Scope` (+357 more)
+- **363 isolated node(s):** `Task 1: Role/auth-aware `Layouts.app` nav bar`, `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest`, `Problem` (+358 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **57 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest` to the rest of the system?**
-  _377 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Relationships` connect `Ash Relationships & Foreign Keys` to `Community 69`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **What connects `Task 1: Role/auth-aware `Layouts.app` nav bar`, `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest` to the rest of the system?**
+  _378 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Ash Actions, Changes & Validations` be split into smaller, more focused modules?**
@@ -373,5 +375,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `AshPostgres Migration Snapshot (auth ext 2)` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
-- **Should `Embedded Usage-Rules Guideline Blocks` be split into smaller, more focused modules?**
-  _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._

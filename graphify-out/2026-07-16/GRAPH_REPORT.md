@@ -1,7 +1,7 @@
 # Graph Report - milestone-0-session-3  (2026-07-16)
 
 ## Corpus Check
-- 174 files · ~72,415 words
+- 175 files · ~73,846 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a08f37c9`
+- Built from commit: `f885e3bb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -354,14 +354,14 @@ Cohesion: 0.20
 Nodes (9): Brand mark (left side of header), Call site changes, Design, `Layouts.app/1` attrs, Nav bar: role/auth-aware layout, removing Phoenix scaffold leftovers, Problem, Right side of header, by auth state, Scope (+1 more)
 
 ## Knowledge Gaps
-- **362 isolated node(s):** `Problem`, `Scope`, ``Layouts.app/1` attrs`, `Brand mark (left side of header)`, `Right side of header, by auth state` (+357 more)
+- **362 isolated node(s):** `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest`, `Problem`, `Scope` (+357 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **57 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `Problem`, `Scope`, ``Layouts.app/1` attrs` to the rest of the system?**
+- **What connects `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest` to the rest of the system?**
   _377 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._

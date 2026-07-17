@@ -141,14 +141,54 @@
   },
   "nodes": [
     {
+      "label": "2026-07-16-nav-role-auth-layout.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "plans_2026_07_16_nav_role_auth_layout",
+      "community": 115,
+      "norm_label": "2026-07-16-nav-role-auth-layout.md"
+    },
+    {
+      "label": "Role/Auth-Aware Nav Bar Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "plans_2026_07_16_nav_role_auth_layout_role_auth_aware_nav_bar_implementation_plan",
+      "community": 115,
+      "norm_label": "role/auth-aware nav bar implementation plan"
+    },
+    {
+      "label": "Global Constraints",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "plans_2026_07_16_nav_role_auth_layout_global_constraints",
+      "community": 115,
+      "norm_label": "global constraints"
+    },
+    {
+      "label": "Task 1: Role/auth-aware `Layouts.app` nav bar",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "plans_2026_07_16_nav_role_auth_layout_task_1_role_auth_aware_layouts_app_nav_bar",
+      "community": 115,
+      "norm_label": "task 1: role/auth-aware `layouts.app` nav bar"
+    },
+    {
       "label": "layouts.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/components/layouts.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_layouts",
       "community": 16,
-      "norm_label": "layouts.ex"
+      "norm_label": "layouts.ex",
+      "id": "components_layouts"
     },
     {
       "label": "MatworkWeb.Layouts",
@@ -156,9 +196,9 @@
       "source_file": "lib/matwork_web/components/layouts.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_layouts_matworkweb_layouts",
       "community": 16,
-      "norm_label": "matworkweb.layouts"
+      "norm_label": "matworkweb.layouts",
+      "id": "components_layouts_matworkweb_layouts"
     },
     {
       "label": "app()",
@@ -166,9 +206,9 @@
       "source_file": "lib/matwork_web/components/layouts.ex",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "components_layouts_matworkweb_layouts_app",
       "community": 16,
-      "norm_label": "app()"
+      "norm_label": "app()",
+      "id": "components_layouts_matworkweb_layouts_app"
     },
     {
       "label": "flash_group()",
@@ -176,9 +216,9 @@
       "source_file": "lib/matwork_web/components/layouts.ex",
       "source_location": "L104",
       "_origin": "ast",
-      "id": "components_layouts_matworkweb_layouts_flash_group",
       "community": 16,
-      "norm_label": "flash_group()"
+      "norm_label": "flash_group()",
+      "id": "components_layouts_matworkweb_layouts_flash_group"
     },
     {
       "label": "theme_toggle()",
@@ -186,9 +226,9 @@
       "source_file": "lib/matwork_web/components/layouts.ex",
       "source_location": "L148",
       "_origin": "ast",
-      "id": "components_layouts_matworkweb_layouts_theme_toggle",
       "community": 16,
-      "norm_label": "theme_toggle()"
+      "norm_label": "theme_toggle()",
+      "id": "components_layouts_matworkweb_layouts_theme_toggle"
     },
     {
       "label": "gym_new_live.ex",
@@ -196,9 +236,9 @@
       "source_file": "lib/matwork_web/live/gym_new_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_new_live",
       "community": 73,
-      "norm_label": "gym_new_live.ex"
+      "norm_label": "gym_new_live.ex",
+      "id": "live_gym_new_live"
     },
     {
       "label": "MatworkWeb.GymNewLive",
@@ -206,9 +246,9 @@
       "source_file": "lib/matwork_web/live/gym_new_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_new_live_matworkweb_gymnewlive",
       "community": 73,
-      "norm_label": "matworkweb.gymnewlive"
+      "norm_label": "matworkweb.gymnewlive",
+      "id": "live_gym_new_live_matworkweb_gymnewlive"
     },
     {
       "label": "mount()",
@@ -216,9 +256,9 @@
       "source_file": "lib/matwork_web/live/gym_new_live.ex",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "live_gym_new_live_matworkweb_gymnewlive_mount",
       "community": 73,
-      "norm_label": "mount()"
+      "norm_label": "mount()",
+      "id": "live_gym_new_live_matworkweb_gymnewlive_mount"
     },
     {
       "label": "handle_event()",
@@ -226,9 +266,9 @@
       "source_file": "lib/matwork_web/live/gym_new_live.ex",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "live_gym_new_live_matworkweb_gymnewlive_handle_event",
       "community": 73,
-      "norm_label": "handle_event()"
+      "norm_label": "handle_event()",
+      "id": "live_gym_new_live_matworkweb_gymnewlive_handle_event"
     },
     {
       "label": "render()",
@@ -236,9 +276,9 @@
       "source_file": "lib/matwork_web/live/gym_new_live.ex",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "live_gym_new_live_matworkweb_gymnewlive_render",
       "community": 73,
-      "norm_label": "render()"
+      "norm_label": "render()",
+      "id": "live_gym_new_live_matworkweb_gymnewlive_render"
     },
     {
       "label": "gym_show_live.ex",
@@ -246,9 +286,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live",
       "community": 73,
-      "norm_label": "gym_show_live.ex"
+      "norm_label": "gym_show_live.ex",
+      "id": "live_gym_show_live"
     },
     {
       "label": "MatworkWeb.GymShowLive",
@@ -256,9 +296,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive",
       "community": 73,
-      "norm_label": "matworkweb.gymshowlive"
+      "norm_label": "matworkweb.gymshowlive",
+      "id": "live_gym_show_live_matworkweb_gymshowlive"
     },
     {
       "label": "mount()",
@@ -266,9 +306,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_mount",
       "community": 73,
-      "norm_label": "mount()"
+      "norm_label": "mount()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_mount"
     },
     {
       "label": "handle_event()",
@@ -276,9 +316,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_handle_event",
       "community": 73,
-      "norm_label": "handle_event()"
+      "norm_label": "handle_event()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_handle_event"
     },
     {
       "label": "assign_roster_and_form()",
@@ -286,9 +326,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form",
       "community": 73,
-      "norm_label": "assign_roster_and_form()"
+      "norm_label": "assign_roster_and_form()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
     },
     {
       "label": "render()",
@@ -296,9 +336,9 @@
       "source_file": "lib/matwork_web/live/gym_show_live.ex",
       "source_location": "L60",
       "_origin": "ast",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_render",
       "community": 73,
-      "norm_label": "render()"
+      "norm_label": "render()",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_render"
     },
     {
       "label": "invite_accept_live.ex",
@@ -306,9 +346,9 @@
       "source_file": "lib/matwork_web/live/invite_accept_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_invite_accept_live",
       "community": 73,
-      "norm_label": "invite_accept_live.ex"
+      "norm_label": "invite_accept_live.ex",
+      "id": "live_invite_accept_live"
     },
     {
       "label": "MatworkWeb.InviteAcceptLive",
@@ -316,9 +356,9 @@
       "source_file": "lib/matwork_web/live/invite_accept_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive",
       "community": 73,
-      "norm_label": "matworkweb.inviteacceptlive"
+      "norm_label": "matworkweb.inviteacceptlive",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive"
     },
     {
       "label": "mount()",
@@ -326,9 +366,9 @@
       "source_file": "lib/matwork_web/live/invite_accept_live.ex",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_mount",
       "community": 73,
-      "norm_label": "mount()"
+      "norm_label": "mount()",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_mount"
     },
     {
       "label": "resolve()",
@@ -336,9 +376,9 @@
       "source_file": "lib/matwork_web/live/invite_accept_live.ex",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve",
       "community": 73,
-      "norm_label": "resolve()"
+      "norm_label": "resolve()",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve"
     },
     {
       "label": "render()",
@@ -346,9 +386,9 @@
       "source_file": "lib/matwork_web/live/invite_accept_live.ex",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_render",
       "community": 73,
-      "norm_label": "render()"
+      "norm_label": "render()",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_render"
     },
     {
       "label": "gym_new_live_test.exs",
@@ -356,9 +396,9 @@
       "source_file": "test/matwork_web/live/gym_new_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_new_live_test",
       "community": 109,
-      "norm_label": "gym_new_live_test.exs"
+      "norm_label": "gym_new_live_test.exs",
+      "id": "live_gym_new_live_test"
     },
     {
       "label": "MatworkWeb.GymNewLiveTest",
@@ -366,9 +406,9 @@
       "source_file": "test/matwork_web/live/gym_new_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_new_live_test_matworkweb_gymnewlivetest",
       "community": 109,
-      "norm_label": "matworkweb.gymnewlivetest"
+      "norm_label": "matworkweb.gymnewlivetest",
+      "id": "live_gym_new_live_test_matworkweb_gymnewlivetest"
     },
     {
       "label": "gym_show_live_test.exs",
@@ -376,9 +416,9 @@
       "source_file": "test/matwork_web/live/gym_show_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live_test",
       "community": 73,
-      "norm_label": "gym_show_live_test.exs"
+      "norm_label": "gym_show_live_test.exs",
+      "id": "live_gym_show_live_test"
     },
     {
       "label": "MatworkWeb.GymShowLiveTest",
@@ -386,9 +426,9 @@
       "source_file": "test/matwork_web/live/gym_show_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_gym_show_live_test_matworkweb_gymshowlivetest",
       "community": 73,
-      "norm_label": "matworkweb.gymshowlivetest"
+      "norm_label": "matworkweb.gymshowlivetest",
+      "id": "live_gym_show_live_test_matworkweb_gymshowlivetest"
     },
     {
       "label": "invite_accept_live_test.exs",
@@ -396,9 +436,9 @@
       "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_invite_accept_live_test",
       "community": 73,
-      "norm_label": "invite_accept_live_test.exs"
+      "norm_label": "invite_accept_live_test.exs",
+      "id": "live_invite_accept_live_test"
     },
     {
       "label": "MatworkWeb.InviteAcceptLiveTest",
@@ -406,9 +446,9 @@
       "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "live_invite_accept_live_test_matworkweb_inviteacceptlivetest",
       "community": 73,
-      "norm_label": "matworkweb.inviteacceptlivetest"
+      "norm_label": "matworkweb.inviteacceptlivetest",
+      "id": "live_invite_accept_live_test_matworkweb_inviteacceptlivetest"
     },
     {
       "label": "2026-07-16-nav-role-auth-layout-design.md",
@@ -4976,7 +5016,7 @@
       "source_file": ".claude/skills/ash-framework/references/foreign_keys.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 77,
       "norm_label": "foreign_keys.md",
       "id": "references_foreign_keys"
     },
@@ -4986,7 +5026,7 @@
       "source_file": ".claude/skills/ash-framework/references/foreign_keys.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 77,
       "norm_label": "foreign key references",
       "id": "references_foreign_keys_foreign_key_references"
     },
@@ -4996,7 +5036,7 @@
       "source_file": ".claude/skills/ash-framework/references/foreign_keys.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 10,
+      "community": 77,
       "norm_label": "foreign key actions",
       "id": "references_foreign_keys_foreign_key_actions"
     },
@@ -5006,7 +5046,7 @@
       "source_file": ".claude/skills/ash-framework/references/form_integration.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "form_integration.md",
       "id": "references_form_integration"
     },
@@ -5016,7 +5056,7 @@
       "source_file": ".claude/skills/ash-framework/references/form_integration.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "form integration",
       "id": "references_form_integration_form_integration"
     },
@@ -5026,7 +5066,7 @@
       "source_file": ".claude/skills/ash-framework/references/form_integration.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "creating forms",
       "id": "references_form_integration_creating_forms"
     },
@@ -5036,7 +5076,7 @@
       "source_file": ".claude/skills/ash-framework/references/form_integration.md",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "code interfaces",
       "id": "references_form_integration_code_interfaces"
     },
@@ -5046,7 +5086,7 @@
       "source_file": ".claude/skills/ash-framework/references/form_integration.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "handling form submission",
       "id": "references_form_integration_handling_form_submission"
     },
@@ -5076,7 +5116,7 @@
       "source_file": ".claude/skills/ash-framework/references/migrations.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "migrations.md",
       "id": "references_migrations"
     },
@@ -5086,7 +5126,7 @@
       "source_file": ".claude/skills/ash-framework/references/migrations.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "migrations and codegen",
       "id": "references_migrations_migrations_and_codegen"
     },
@@ -5096,7 +5136,7 @@
       "source_file": ".claude/skills/ash-framework/references/migrations.md",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "development migration workflow (recommended)",
       "id": "references_migrations_development_migration_workflow_recommended"
     },
@@ -5106,7 +5146,7 @@
       "source_file": ".claude/skills/ash-framework/references/migrations.md",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "traditional migration generation",
       "id": "references_migrations_traditional_migration_generation"
     },
@@ -5136,7 +5176,7 @@
       "source_file": ".claude/skills/ash-framework/references/multitenancy.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "multitenancy.md",
       "id": "references_multitenancy"
     },
@@ -5146,7 +5186,7 @@
       "source_file": ".claude/skills/ash-framework/references/multitenancy.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "multitenancy",
       "id": "references_multitenancy_multitenancy"
     },
@@ -5156,7 +5196,7 @@
       "source_file": ".claude/skills/ash-framework/references/multitenancy.md",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 69,
+      "community": 66,
       "norm_label": "setting up multitenancy",
       "id": "references_multitenancy_setting_up_multitenancy"
     },
@@ -5166,7 +5206,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 69,
       "norm_label": "nested_forms.md",
       "id": "references_nested_forms"
     },
@@ -5176,7 +5216,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 69,
       "norm_label": "nested forms",
       "id": "references_nested_forms_nested_forms"
     },
@@ -5186,7 +5226,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 10,
+      "community": 69,
       "norm_label": "automatically inferred nested forms",
       "id": "references_nested_forms_automatically_inferred_nested_forms"
     },
@@ -5196,7 +5236,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 10,
+      "community": 69,
       "norm_label": "adding and removing nested forms",
       "id": "references_nested_forms_adding_and_removing_nested_forms"
     },
@@ -5256,7 +5296,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 69,
       "norm_label": "relationships.md",
       "id": "references_relationships"
     },
@@ -5366,7 +5406,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 115,
+      "community": 66,
       "norm_label": "scheduled_actions.md",
       "id": "references_scheduled_actions"
     },
@@ -5376,7 +5416,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 115,
+      "community": 66,
       "norm_label": "scheduled actions",
       "id": "references_scheduled_actions_scheduled_actions"
     },
@@ -5386,7 +5426,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 115,
+      "community": 66,
       "norm_label": "scheduled action configuration options",
       "id": "references_scheduled_actions_scheduled_action_configuration_options"
     },
@@ -5466,7 +5506,7 @@
       "source_file": ".claude/skills/ash-framework/references/triggering_jobs_programmatically.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 68,
+      "community": 66,
       "norm_label": "triggering_jobs_programmatically.md",
       "id": "references_triggering_jobs_programmatically"
     },
@@ -5476,7 +5516,7 @@
       "source_file": ".claude/skills/ash-framework/references/triggering_jobs_programmatically.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 68,
+      "community": 66,
       "norm_label": "triggering jobs programmatically",
       "id": "references_triggering_jobs_programmatically_triggering_jobs_programmatically"
     },
@@ -5506,7 +5546,7 @@
       "source_file": ".claude/skills/ash-framework/references/working_with_actors.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 77,
+      "community": 66,
       "norm_label": "working_with_actors.md",
       "id": "references_working_with_actors"
     },
@@ -5516,7 +5556,7 @@
       "source_file": ".claude/skills/ash-framework/references/working_with_actors.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 77,
+      "community": 66,
       "norm_label": "working with actors",
       "id": "references_working_with_actors_working_with_actors"
     },
@@ -5526,7 +5566,7 @@
       "source_file": ".claude/skills/ash-framework/references/working_with_actors.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 77,
+      "community": 66,
       "norm_label": "setting up actor persistence",
       "id": "references_working_with_actors_setting_up_actor_persistence"
     },
@@ -5536,7 +5576,7 @@
       "source_file": ".claude/skills/ash-framework/references/working_with_actors.md",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 77,
+      "community": 66,
       "norm_label": "using actor in triggers",
       "id": "references_working_with_actors_using_actor_in_triggers"
     },
@@ -7521,7 +7561,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 68,
       "norm_label": "ashphoenix.form.for_create/3",
       "id": "ashphoenix_form_for_create"
     },
@@ -7534,7 +7574,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 68,
       "norm_label": "ashphoenix.form.for_update/3",
       "id": "ashphoenix_form_for_update"
     },
@@ -7547,7 +7587,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 68,
       "norm_label": "ashphoenix.form.validate/2",
       "id": "ashphoenix_form_validate"
     },
@@ -7560,7 +7600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 68,
       "norm_label": "ashphoenix domain form_to_* code interface",
       "id": "ash_domain_form_to_functions"
     },
@@ -7638,7 +7678,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 77,
       "norm_label": "ashpostgres references (foreign key) dsl",
       "id": "ashpostgres_references"
     },
@@ -7664,7 +7704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 66,
       "norm_label": "mix ash.codegen",
       "id": "mix_ash_codegen"
     },
@@ -7677,7 +7717,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 66,
       "norm_label": "mix ash.migrate",
       "id": "mix_ash_migrate"
     },
@@ -7716,7 +7756,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 66,
       "norm_label": "mix ash_postgres.migrate --tenants",
       "id": "mix_ash_postgres_migrate_tenants"
     },
@@ -7742,7 +7782,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 69,
       "norm_label": "ashphoenix.form.remove_form/2",
       "id": "ashphoenix_form_remove_form"
     },
@@ -7755,7 +7795,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 69,
       "norm_label": "manage_relationship change/argument",
       "id": "ash_manage_relationship"
     },
@@ -7768,7 +7808,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 77,
       "norm_label": "ash relationships dsl (belongs_to/has_one/has_many/many_to_many)",
       "id": "ash_relationships_dsl"
     },
@@ -7781,7 +7821,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 69,
       "norm_label": "polymorphic relationships via ash.type.union",
       "id": "ash_polymorphic_relationships"
     },
@@ -7794,7 +7834,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 115,
+      "community": 66,
       "norm_label": "ashoban scheduled_actions dsl",
       "id": "ash_oban_scheduled_action"
     },
@@ -7833,7 +7873,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 68,
+      "community": 66,
       "norm_label": "ashoban.run_trigger/2-3",
       "id": "ash_oban_run_trigger"
     },
@@ -7846,7 +7886,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 68,
+      "community": 66,
       "norm_label": "ashoban.run_triggers/2",
       "id": "ash_oban_run_triggers"
     },
@@ -7859,7 +7899,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 68,
+      "community": 66,
       "norm_label": "ashoban.schedule/3",
       "id": "ash_oban_schedule"
     },
@@ -7872,7 +7912,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 68,
+      "community": 66,
       "norm_label": "change run_oban_trigger/1",
       "id": "ash_change_run_oban_trigger"
     },
@@ -7898,7 +7938,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 77,
+      "community": 66,
       "norm_label": "ashoban.persistactor behaviour",
       "id": "ash_oban_persist_actor"
     },
@@ -7911,7 +7951,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 77,
+      "community": 66,
       "norm_label": "config :ash_oban, :actor_persister",
       "id": "ash_oban_actor_persister_config"
     },
@@ -7937,7 +7977,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 77,
       "norm_label": "fk on_delete/on_update bypass resource logic (db-level only)",
       "id": "references_foreign_keys_db_level_warning"
     },
@@ -7950,7 +7990,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 68,
       "norm_label": "positional form args exclude fields the form should not edit",
       "id": "references_form_integration_positional_args_rationale"
     },
@@ -7963,7 +8003,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 69,
+      "community": 66,
       "norm_label": "--dev migration workflow avoids premature migration naming",
       "id": "references_migrations_dev_workflow_rationale"
     },
@@ -8677,6 +8717,36 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "plans_2026_07_16_nav_role_auth_layout",
+      "target": "plans_2026_07_16_nav_role_auth_layout_role_auth_aware_nav_bar_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "plans_2026_07_16_nav_role_auth_layout_role_auth_aware_nav_bar_implementation_plan",
+      "target": "plans_2026_07_16_nav_role_auth_layout_global_constraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-16-nav-role-auth-layout.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "plans_2026_07_16_nav_role_auth_layout_global_constraints",
+      "target": "plans_2026_07_16_nav_role_auth_layout_task_1_role_auth_aware_layouts_app_nav_bar",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -17015,5 +17085,5 @@
       "source_file": "docs/design.md"
     }
   ],
-  "built_at_commit": "f885e3bb52d513a02454dffbcbfc3583cc0bd59a"
+  "built_at_commit": "b302c7e275ae4e9c699799cd90f96dfefd47bf66"
 }
