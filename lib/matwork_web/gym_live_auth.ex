@@ -32,4 +32,12 @@ defmodule MatworkWeb.GymLiveAuth do
          |> redirect(to: ~p"/")}
     end
   end
+
+  @doc """
+  Whether `membership` has a role allowed to manage a gym's curriculum
+  (`:owner`/`:instructor`). Shared by gym-scoped LiveViews that gate
+  curriculum-management UI (`CourseIndexLive`, `CourseBuilderLive`).
+  """
+  def manager?(nil), do: false
+  def manager?(membership), do: membership.role in [:owner, :instructor]
 end

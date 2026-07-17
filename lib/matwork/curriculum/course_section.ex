@@ -16,6 +16,11 @@ defmodule Matwork.Curriculum.CourseSection do
     references do
       reference :course, on_delete: :delete
     end
+
+    custom_indexes do
+      index [:gym_id]
+      index [:course_id]
+    end
   end
 
   actions do

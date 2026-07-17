@@ -37,9 +37,10 @@ defmodule Matwork.Curriculum do
 
   @doc """
   Create a course at the end of the gym's course list (next `position`).
-  `opts` must include `:actor` and `:tenant`.
+  `opts` must include `:actor` and `:tenant` — the target gym is
+  `opts[:tenant]` (multitenancy requires every write to match it).
   """
-  def add_course(_gym_id, title, opts) do
+  def add_course(title, opts) do
     position = next_position(Matwork.Curriculum.Course, [], opts)
     create_course(title, %{position: position}, opts)
   end
@@ -83,6 +84,24 @@ defmodule Matwork.Curriculum do
       &set_lesson_position!/3,
       opts
     )
+  end
+
+  @doc """
+  Loads a course with its sections and each section's lessons, both levels
+  sorted by `position` — the shape the course builder LiveView renders.
+  `opts` must include `:actor` and `:tenant`. Returns `{:ok, course}` or
+  `{:error, reason}` (e.g. not found, or a cross-tenant/unauthorized id),
+  same as `get_course/2`.
+  """
+  def load_course_tree(course_id, opts) do
+    lessons_query = Ash.Query.sort(Matwork.Curriculum.Lesson, position: :asc)
+
+    sections_query =
+      Matwork.Curriculum.CourseSection
+      |> Ash.Query.sort(position: :asc)
+      |> Ash.Query.load(lessons: lessons_query)
+
+    get_course(course_id, Keyword.put(opts, :load, sections: sections_query))
   end
 
   # Returns max(position)+1 among the rows matching `filter` (a keyword filter
