@@ -23,6 +23,7 @@ defmodule Matwork.Curriculum.CourseSection do
 
     create :create do
       accept [:course_id, :title, :position]
+      validate {Matwork.Curriculum.Validations.CourseInTenant, []}
     end
 
     update :update do
