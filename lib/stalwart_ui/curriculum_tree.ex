@@ -27,7 +27,7 @@ defmodule StalwartUI.CurriculumTree do
       <section :for={section <- @sections} id={"section-#{section.id}"} class="rounded border p-3">
         <div class="flex items-center gap-2">
           <form phx-submit={@on_rename_section} class="flex items-center gap-1">
-            <input type="hidden" name="id" value={section.id} />
+            <input type="hidden" name="_id" value={section.id} />
             <input
               type="text"
               name="title"
@@ -66,7 +66,7 @@ defmodule StalwartUI.CurriculumTree do
             class="flex items-center gap-2"
           >
             <form phx-submit={@on_rename_lesson} class="flex items-center gap-1">
-              <input type="hidden" name="id" value={lesson.id} />
+              <input type="hidden" name="_id" value={lesson.id} />
               <input
                 type="text"
                 name="title"
@@ -107,7 +107,7 @@ defmodule StalwartUI.CurriculumTree do
         </ul>
 
         <form phx-submit={@on_add_lesson} class="mt-2 flex items-center gap-1">
-          <input type="hidden" name="id" value={section.id} />
+          <input type="hidden" name="_id" value={section.id} />
           <input
             type="text"
             name="title"
