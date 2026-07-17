@@ -15,6 +15,8 @@ defmodule MatworkWeb.InviteAcceptLiveTest do
       {:ok, view, _html} = live(conn, ~p"/g/#{gym.slug}/invite/#{invite.token}")
 
       assert has_element?(view, "#invite-needs-sign-in")
+      assert has_element?(view, "#nav-brand", gym.name)
+      assert has_element?(view, "#nav-sign-in")
     end
   end
 

@@ -34,7 +34,7 @@ defmodule MatworkWeb.InviteAcceptLive do
 
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash}>
+    <Layouts.app flash={@flash} current_user={@current_user} current_gym={@current_gym}>
       <.header>Join {@current_gym.name}</.header>
 
       <div :if={@status == :needs_sign_in} id="invite-needs-sign-in">
