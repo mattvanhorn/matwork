@@ -100,4 +100,20 @@ defmodule Matwork.Generator do
       overrides: opts
     )
   end
+
+  def lesson(opts \\ []) do
+    {owning_section, opts} = Keyword.pop(opts, :section)
+    owning_section = owning_section || generate(section())
+
+    seed_generator(
+      %Matwork.Curriculum.Lesson{
+        gym_id: owning_section.gym_id,
+        section_id: owning_section.id,
+        title: sequence(:lesson_title, &"Lesson #{&1}"),
+        free_preview: false,
+        position: 0
+      },
+      overrides: opts
+    )
+  end
 end
