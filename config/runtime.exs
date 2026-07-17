@@ -7,6 +7,16 @@ import Config
 # any compile-time configuration in here, as it won't be applied.
 # The block below contains prod specific runtime configuration.
 
+# Load developer-local environment variables from `.env` (gitignored; see
+# `.env.example`) so secrets like future Stripe/Mux test keys don't need to
+# be exported by hand before `mix phx.server`. Values already exported in
+# the shell still win (System.get_env() is sourced last).
+if config_env() == :dev do
+  [Path.expand("../.env", __DIR__), System.get_env()]
+  |> Dotenvy.source!()
+  |> System.put_env()
+end
+
 # ## Using releases
 #
 # If you use `mix release`, you need to explicitly enable the server
