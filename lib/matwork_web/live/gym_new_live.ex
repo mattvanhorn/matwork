@@ -26,7 +26,7 @@ defmodule MatworkWeb.GymNewLive do
 
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash}>
+    <Layouts.app flash={@flash} current_user={@current_user}>
       <.header>Create a gym</.header>
       <.form for={@form} id="gym-form" phx-change="validate" phx-submit="save">
         <.input field={@form[:name]} type="text" label="Gym name" />

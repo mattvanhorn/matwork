@@ -20,43 +20,62 @@ defmodule MatworkWeb.Layouts do
 
   ## Examples
 
-      <Layouts.app flash={@flash}>
+      <Layouts.app flash={@flash} current_user={@current_user} current_gym={@current_gym}>
         <h1>Content</h1>
       </Layouts.app>
 
   """
   attr :flash, :map, required: true, doc: "the map of flash messages"
 
-  attr :current_scope, :map,
+  attr :current_user, :map,
     default: nil,
-    doc: "the current [scope](https://phoenix.hexdocs.pm/scopes.html)"
+    doc: "the signed-in Matwork.Accounts.User, or nil if not signed in"
+
+  attr :current_gym, :map,
+    default: nil,
+    doc: "the Matwork.Gyms.Gym in scope for this page, or nil outside a gym context"
 
   slot :inner_block, required: true
 
   def app(assigns) do
+    assigns =
+      if assigns.current_gym do
+        assigns
+        |> assign(:brand_label, assigns.current_gym.name)
+        |> assign(:brand_href, ~p"/g/#{assigns.current_gym.slug}")
+      else
+        assigns
+        |> assign(:brand_label, "Matwork")
+        |> assign(:brand_href, ~p"/")
+      end
+
     ~H"""
     <header class="navbar px-4 sm:px-6 lg:px-8">
       <div class="flex-1">
-        <a href="/" class="flex-1 flex w-fit items-center gap-2">
-          <img src={~p"/images/logo.svg"} width="36" />
-          <span class="text-sm font-semibold">v{Application.spec(:phoenix, :vsn)}</span>
-        </a>
+        <.link
+          navigate={@brand_href}
+          id="nav-brand"
+          class="flex-1 flex w-fit items-center gap-2 text-sm font-semibold"
+        >
+          {@brand_label}
+        </.link>
       </div>
       <div class="flex-none">
         <ul class="flex flex-column px-1 space-x-4 items-center">
           <li>
-            <a href="https://phoenixframework.org/" class="btn btn-ghost">Website</a>
-          </li>
-          <li>
-            <a href="https://github.com/phoenixframework/phoenix" class="btn btn-ghost">GitHub</a>
-          </li>
-          <li>
             <.theme_toggle />
           </li>
-          <li>
-            <a href="https://phoenix.hexdocs.pm/overview.html" class="btn btn-primary">
-              Get Started <span aria-hidden="true">&rarr;</span>
-            </a>
+          <li :if={@current_user}>
+            <span id="nav-user-email" class="text-sm">{to_string(@current_user.email)}</span>
+          </li>
+          <li :if={@current_user}>
+            <.link navigate={~p"/gyms/new"} id="nav-create-gym" class="btn btn-ghost">Create a gym</.link>
+          </li>
+          <li :if={@current_user}>
+            <.link navigate={~p"/sign-out"} id="nav-sign-out" class="btn btn-ghost">Sign out</.link>
+          </li>
+          <li :if={!@current_user}>
+            <.link navigate={~p"/sign-in"} id="nav-sign-in" class="btn btn-primary">Sign in</.link>
           </li>
         </ul>
       </div>

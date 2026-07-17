@@ -59,7 +59,7 @@ defmodule MatworkWeb.GymShowLive do
 
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash}>
+    <Layouts.app flash={@flash} current_user={@current_user} current_gym={@current_gym}>
       <.header>{@current_gym.name}</.header>
 
       <div :if={is_nil(@current_membership)}>

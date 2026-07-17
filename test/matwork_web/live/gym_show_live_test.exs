@@ -104,6 +104,40 @@ defmodule MatworkWeb.GymShowLiveTest do
     end
   end
 
+  describe "nav bar" do
+    test "shows the gym name as the brand mark and signed-in actions for the owner", %{
+      conn: conn
+    } do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+
+      conn = sign_in(conn, owner)
+      {:ok, view, html} = live(conn, ~p"/g/#{gym.slug}")
+
+      assert has_element?(view, "#nav-brand", gym.name)
+      assert has_element?(view, "#nav-user-email", to_string(Ash.CiString.value(owner.email)))
+      assert has_element?(view, "#nav-create-gym")
+      assert has_element?(view, "#nav-sign-out")
+      refute has_element?(view, "#nav-sign-in")
+      refute html =~ "phoenixframework.org"
+      refute html =~ "Website"
+    end
+
+    test "shows the gym name as the brand mark and a sign-in prompt for an anonymous visitor",
+         %{conn: conn} do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+
+      {:ok, view, _html} = live(conn, ~p"/g/#{gym.slug}")
+
+      assert has_element?(view, "#nav-brand", gym.name)
+      assert has_element?(view, "#nav-sign-in")
+      refute has_element?(view, "#nav-user-email")
+      refute has_element?(view, "#nav-create-gym")
+      refute has_element?(view, "#nav-sign-out")
+    end
+  end
+
   test "404s for a nonexistent gym", %{conn: conn} do
     owner = generate(user())
     conn = sign_in(conn, owner)

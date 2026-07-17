@@ -10,6 +10,20 @@ defmodule MatworkWeb.GymNewLiveTest do
     end
   end
 
+  describe "nav bar" do
+    test "shows the Matwork brand mark and signed-in actions", %{conn: conn} do
+      owner = generate(user())
+      conn = sign_in(conn, owner)
+
+      {:ok, view, _html} = live(conn, ~p"/gyms/new")
+
+      assert has_element?(view, "#nav-brand", "Matwork")
+      assert has_element?(view, "#nav-user-email", to_string(Ash.CiString.value(owner.email)))
+      assert has_element?(view, "#nav-create-gym")
+      assert has_element?(view, "#nav-sign-out")
+    end
+  end
+
   describe "save" do
     test "creates a gym and navigates to its page", %{conn: conn} do
       owner = generate(user())
