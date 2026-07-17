@@ -31,4 +31,14 @@ names.
 `on_rename_section`, `on_delete_section`, `on_move_section`, `on_add_lesson`,
 `on_rename_lesson`, `on_delete_lesson`, `on_move_lesson`, `on_toggle_preview`
 (all default to their obvious event name). Move events carry `phx-value-id`
-and `phx-value-direction` (`"up"`/`"down"`).
+and `phx-value-direction` (`"up"`/`"down"`). Delete and toggle-preview events
+carry `phx-value-id`.
+
+**Form submit payload shapes:** the rename-section, rename-lesson, and
+add-lesson forms each include a hidden `<input name="_id">` — not `"id"` — to
+avoid a Phoenix HEEx compiler warning (`name="id"` collides with the form
+element's own `id`). As a result their `phx-submit` payloads are
+`%{"_id" => ..., "title" => ...}`, not `%{"id" => ...}`. The add-section form
+has no hidden id field and submits `%{"title" => ...}`. Event handlers must
+pattern-match on `"_id"` for `rename_section`, `rename_lesson`, and
+`add_lesson`.
