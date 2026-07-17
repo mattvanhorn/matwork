@@ -74,6 +74,11 @@ defmodule Matwork.Curriculum do
   # Swap `record`'s position with its neighbor one slot in `direction`
   # (`:up`/`:down`) among the siblings matching `filter`. No-op at a boundary.
   # `set_position_fun` is the resource's `set_*_position!` code interface.
+  #
+  # Re-reads `record` as `current` from the fresh `siblings` list rather than
+  # trusting the caller-supplied struct's `position` field, since a caller may
+  # be holding a stale copy. Both writes happen inside a DB transaction so a
+  # failure between them can't leave positions duplicated/inconsistent.
   @doc false
   def swap_position(resource, filter, record, direction, set_position_fun, opts) do
     siblings =
@@ -86,9 +91,13 @@ defmodule Matwork.Curriculum do
     target = index && index + delta(direction)
 
     if is_integer(target) and target >= 0 and target < length(siblings) do
+      current = Enum.at(siblings, index)
       neighbor = Enum.at(siblings, target)
-      set_position_fun.(record, %{position: neighbor.position}, opts)
-      set_position_fun.(neighbor, %{position: record.position}, opts)
+
+      Matwork.Repo.transaction(fn ->
+        set_position_fun.(current, %{position: neighbor.position}, opts)
+        set_position_fun.(neighbor, %{position: current.position}, opts)
+      end)
     end
 
     :ok
