@@ -4,6 +4,17 @@ config :matwork, token_signing_secret: "7skpQOejAbEDp+ld9LpJxKn7pTHtebSF"
 config :bcrypt_elixir, log_rounds: 1
 config :ash, policies: [show_policy_breakdowns?: true], disable_async?: true
 
+# Curriculum.swap_position/6 (lib/matwork/curriculum.ex) deliberately wraps
+# paired Ash action calls in Matwork.Repo.transaction/1 for atomicity. Ash
+# classifies notifications as "missed" whenever a write happens inside a
+# manually-managed transaction (Ash.DataLayer.in_transaction?/1 at write
+# time), regardless of whether anything is actually subscribed. No resource
+# in this app defines a notifier, so nothing is ever masked by this — it's
+# just log noise from an intentional pattern. Scoped to test env only, since
+# the warning doesn't affect prod/dev behavior and CI output should be
+# pristine.
+config :ash, :missed_notifications, :ignore
+
 # Configure your database
 #
 # The MIX_TEST_PARTITION environment variable can be used
