@@ -13,6 +13,10 @@ defmodule Matwork.Curriculum.Course do
   postgres do
     table "courses"
     repo Matwork.Repo
+
+    custom_indexes do
+      index [:gym_id]
+    end
   end
 
   actions do
@@ -51,7 +55,7 @@ defmodule Matwork.Curriculum.Course do
       authorize_if Matwork.Curriculum.Checks.CourseVisible
     end
 
-    policy action_type([:create, :update, :destroy]) do
+    policy action_type([:create, :update]) do
       authorize_if Matwork.Curriculum.Checks.ManagesCurriculum
     end
   end

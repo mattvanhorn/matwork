@@ -10,7 +10,7 @@ defmodule Matwork.Curriculum.CourseTest do
       owner = generate(user())
       gym = generate(gym(owner: owner))
 
-      {:ok, course} = Curriculum.add_course(gym.id, "Half Guard", actor: owner, tenant: gym.id)
+      {:ok, course} = Curriculum.add_course("Half Guard", actor: owner, tenant: gym.id)
 
       assert course.title == "Half Guard"
       assert course.status == :draft
@@ -24,7 +24,7 @@ defmodule Matwork.Curriculum.CourseTest do
       generate(membership(gym: gym, user: instructor, role: :instructor))
 
       {:ok, course} =
-        Curriculum.add_course(gym.id, "Guard Passing", actor: instructor, tenant: gym.id)
+        Curriculum.add_course("Guard Passing", actor: instructor, tenant: gym.id)
 
       assert course.title == "Guard Passing"
     end
@@ -36,7 +36,7 @@ defmodule Matwork.Curriculum.CourseTest do
       generate(membership(gym: gym, user: student, role: :student))
 
       assert {:error, %Ash.Error.Forbidden{}} =
-               Curriculum.add_course(gym.id, "Nope", actor: student, tenant: gym.id)
+               Curriculum.add_course("Nope", actor: student, tenant: gym.id)
     end
 
     test "a non-member cannot create a course" do
@@ -45,15 +45,15 @@ defmodule Matwork.Curriculum.CourseTest do
       stranger = generate(user())
 
       assert {:error, %Ash.Error.Forbidden{}} =
-               Curriculum.add_course(gym.id, "Nope", actor: stranger, tenant: gym.id)
+               Curriculum.add_course("Nope", actor: stranger, tenant: gym.id)
     end
 
     test "add_course appends at the next position" do
       owner = generate(user())
       gym = generate(gym(owner: owner))
 
-      {:ok, first} = Curriculum.add_course(gym.id, "One", actor: owner, tenant: gym.id)
-      {:ok, second} = Curriculum.add_course(gym.id, "Two", actor: owner, tenant: gym.id)
+      {:ok, first} = Curriculum.add_course("One", actor: owner, tenant: gym.id)
+      {:ok, second} = Curriculum.add_course("Two", actor: owner, tenant: gym.id)
 
       assert first.position == 0
       assert second.position == 1

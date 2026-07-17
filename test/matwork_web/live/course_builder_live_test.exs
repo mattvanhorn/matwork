@@ -54,4 +54,34 @@ defmodule MatworkWeb.CourseBuilderLiveTest do
 
     assert html =~ "have access"
   end
+
+  test "a stale section id flashes instead of crashing", %{
+    conn: conn,
+    owner: owner,
+    gym: gym,
+    course: course
+  } do
+    conn = sign_in(conn, owner)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    html =
+      render_submit(lv, "rename_section", %{"_id" => Ash.UUID.generate(), "title" => "Ghost"})
+
+    assert html =~ "no longer exists"
+    refute html =~ "Ghost"
+  end
+
+  test "a missing course id redirects to the course index instead of crashing", %{
+    conn: conn,
+    owner: owner,
+    gym: gym
+  } do
+    conn = sign_in(conn, owner)
+
+    assert {:error, {:live_redirect, %{to: to, flash: flash}}} =
+             live(conn, ~p"/g/#{gym.slug}/courses/#{Ash.UUID.generate()}/edit")
+
+    assert to == ~p"/g/#{gym.slug}/courses"
+    assert flash["error"] == "Course not found."
+  end
 end

@@ -13,10 +13,7 @@ defmodule MatworkWeb.CourseIndexLive do
   def handle_event("create_course", %{"form" => %{"title" => title}}, socket) do
     gym = socket.assigns.current_gym
 
-    case Curriculum.add_course(gym.id, title,
-           actor: socket.assigns.current_user,
-           tenant: gym.id
-         ) do
+    case Curriculum.add_course(title, actor: socket.assigns.current_user, tenant: gym.id) do
       {:ok, _course} ->
         {:noreply, socket |> put_flash(:info, "Course created") |> assign_courses()}
 
@@ -29,7 +26,7 @@ defmodule MatworkWeb.CourseIndexLive do
     gym = socket.assigns.current_gym
     membership = socket.assigns.current_membership
 
-    if manager?(membership) do
+    if MatworkWeb.GymLiveAuth.manager?(membership) do
       courses =
         Curriculum.list_courses!(actor: socket.assigns.current_user, tenant: gym.id)
         |> Enum.sort_by(& &1.position)
@@ -39,9 +36,6 @@ defmodule MatworkWeb.CourseIndexLive do
       assign(socket, courses: [], manager?: false)
     end
   end
-
-  defp manager?(nil), do: false
-  defp manager?(membership), do: membership.role in [:owner, :instructor]
 
   def render(assigns) do
     ~H"""
