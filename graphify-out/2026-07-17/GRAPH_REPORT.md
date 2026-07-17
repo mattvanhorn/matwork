@@ -1,16 +1,16 @@
 # Graph Report - matwork  (2026-07-17)
 
 ## Corpus Check
-- 202 files · ~89,558 words
+- 198 files · ~87,640 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1181 nodes · 1175 edges · 154 communities (79 shown, 75 thin omitted)
+- 1122 nodes · 1112 edges · 149 communities (76 shown, 73 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 43 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `055c15a1`
+- Built from commit: `d5697511`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -151,23 +151,18 @@
 - [[_COMMUNITY_Community 146|Community 146]]
 - [[_COMMUNITY_Community 147|Community 147]]
 - [[_COMMUNITY_Community 148|Community 148]]
-- [[_COMMUNITY_Community 149|Community 149]]
-- [[_COMMUNITY_Community 150|Community 150]]
-- [[_COMMUNITY_Community 151|Community 151]]
-- [[_COMMUNITY_Community 152|Community 152]]
-- [[_COMMUNITY_Community 153|Community 153]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `MatworkWeb.CourseBuilderLive` - 13 edges
-2. `MatworkWeb.CoreComponents` - 12 edges
-3. `AshAuthentication Usage Rules` - 12 edges
-4. `What You Must Do When Invoked` - 11 edges
-5. `BJJ Instructor Platform — POC Design Document` - 11 edges
-6. `Matwork.Curriculum` - 10 edges
-7. `MatworkWeb` - 10 edges
-8. `/graphify` - 10 edges
-9. `Matwork — BJJ instructor income platform (POC)` - 10 edges
-10. `Elixir Core Usage Rules` - 10 edges
+1. `MatworkWeb.CoreComponents` - 12 edges
+2. `AshAuthentication Usage Rules` - 12 edges
+3. `What You Must Do When Invoked` - 11 edges
+4. `BJJ Instructor Platform — POC Design Document` - 11 edges
+5. `MatworkWeb.CourseBuilderLive` - 10 edges
+6. `MatworkWeb` - 10 edges
+7. `/graphify` - 10 edges
+8. `Matwork — BJJ instructor income platform (POC)` - 10 edges
+9. `Elixir Core Usage Rules` - 10 edges
+10. `Milestone 1 · Session 1 — Curriculum Implementation Plan` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Matwork README (generic Phoenix boilerplate)` --semantically_similar_to--> `Phoenix Framework Skill`  [INFERRED] [semantically similar]
@@ -195,11 +190,11 @@
 - **Tenant-Independent Global Resources** — docs_design_user, docs_design_token, docs_design_gym, docs_design_webhookevent [EXTRACTED 1.00]
 - **Paywall / Content-Gating Authorization Flow** — docs_design_lesson, docs_design_membership, docs_design_subscription, docs_design_mux, docs_design_authorization_policies [INFERRED 0.85]
 
-## Communities (154 total, 75 thin omitted)
+## Communities (149 total, 73 thin omitted)
 
 ### Community 0 - "AshOban & Ash.Query Reference"
-Cohesion: 0.15
-Nodes (11): Additional References, Available Mix Tasks, Searching Documentation, Rules for working with AshPostgres, Understanding AshPostgres, Best Practices, mix ash.codegen Workflow, Check Constraints (+3 more)
+Cohesion: 0.14
+Nodes (10): Additional References, Available Mix Tasks, Searching Documentation, mix ash.gen.* tasks, Best Practices, mix ash.codegen Workflow, Check Constraints, Custom SQL Statements (+2 more)
 
 ### Community 1 - "Matwork Project Rules & Design Rationale"
 Cohesion: 0.09
@@ -290,12 +285,12 @@ Cohesion: 0.12
 Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
 
 ### Community 65 - "Community 65"
-Cohesion: 0.05
-Nodes (22): Ash.Query module, exists/2 query expression, Ash.Query.filter/2 macro, Matwork.Gyms.Checks.ActiveMember, Matwork.Curriculum.Checks.ManagesCurriculum, Matwork.Curriculum.CourseSectionTest, Matwork.Curriculum.CourseTest, Matwork.Curriculum.LessonTest (+14 more)
+Cohesion: 0.06
+Nodes (23): Ash.Query module, Matwork.Gyms.Checks.ActiveMember, Matwork.Curriculum.Checks.ManagesCurriculum, Matwork.Curriculum.CourseSectionTest, Matwork.Curriculum.CourseTest, Matwork.Curriculum.LessonTest, MatworkWeb.CourseBuilderLive, find_lesson() (+15 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.17
-Nodes (9): AshOban extension, AshOban list_tenants configuration, AshOban trigger DSL, AshPostgres schema-based multitenancy (manage_tenant), Basic Trigger, Defining Triggers, Trigger Configuration Options, Multi-tenancy Support (+1 more)
+Cohesion: 0.25
+Nodes (7): AshOban list_tenants configuration, AshPostgres schema-based multitenancy (manage_tenant), mix ash.migrate, mix ash_postgres.migrate --tenants, Multi-tenancy Support, Multitenancy, Setting Up Multitenancy
 
 ### Community 67 - "Community 67"
 Cohesion: 0.17
@@ -314,8 +309,8 @@ Cohesion: 0.18
 Nodes (10): After this session, Deviations from `docs/design.md` — flagged per `CLAUDE.md` ("if code and design doc disagree, say so"), File Structure, Global Constraints, Milestone 0, Session 2: Gym, Membership, and Invite Resources Implementation Plan, Task 1: `Matwork.Gyms` domain + `Gym` resource, Task 2: `Membership` resource, Task 3: Wire `Gym.create` to auto-create the owner `Membership` (+2 more)
 
 ### Community 71 - "Community 71"
-Cohesion: 0.25
-Nodes (7): Advanced Features, Manual Relationships, Multiple Repos / Read Replicas, Using Multiple Repos (Read Replicas), Basic Configuration, PostgreSQL Configuration, Table & Schema Configuration
+Cohesion: 0.14
+Nodes (11): Advanced Features, Manual Relationships, Multiple Repos / Read Replicas, Using Multiple Repos (Read Replicas), Rules for working with AshPostgres, Understanding AshPostgres, Basic Configuration, PostgreSQL Configuration (+3 more)
 
 ### Community 72 - "Community 72"
 Cohesion: 0.25
@@ -418,8 +413,8 @@ Cohesion: 0.12
 Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
 
 ### Community 123 - "Community 123"
-Cohesion: 0.20
-Nodes (9): mix ash.codegen, mix ash.migrate, mix ash_postgres.migrate --tenants, --dev migration workflow avoids premature migration naming, Development Migration Workflow (Recommended), Migrations and Codegen, Traditional Migration Generation, Multitenancy (+1 more)
+Cohesion: 0.33
+Nodes (5): mix ash.codegen, --dev migration workflow avoids premature migration naming, Development Migration Workflow (Recommended), Migrations and Codegen, Traditional Migration Generation
 
 ### Community 124 - "Community 124"
 Cohesion: 0.25
@@ -430,47 +425,39 @@ Cohesion: 0.29
 Nodes (6): Empirical verification: does `Ash.Changeset.get_attribute(context.subject, :role)` see the submitted role at policy-check time?, Files changed, Issues or concerns, Task 6 Report: Restrict `Invite.create` so only an owner can grant owner/instructor roles, Test / format / credo output, What I built
 
 ### Community 126 - "Community 126"
-Cohesion: 0.40
-Nodes (5): change run_oban_trigger/1, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3, Triggering Jobs Programmatically
+Cohesion: 0.15
+Nodes (11): change run_oban_trigger/1, AshOban extension, AshOban.run_trigger/2-3, AshOban.run_triggers/2, AshOban.schedule/3, AshOban scheduled_actions DSL, AshOban trigger DSL, Scheduled Action Configuration Options (+3 more)
 
 ### Community 140 - "Community 140"
 Cohesion: 0.33
 Nodes (5): config :ash_oban, :actor_persister, AshOban.PersistActor behaviour, Setting up Actor Persistence, Using Actor in Triggers, Working with Actors
 
 ### Community 141 - "Community 141"
-Cohesion: 0.33
+Cohesion: 0.39
 Nodes (9): Matwork.Curriculum, add_course(), add_lesson(), add_section(), delta(), next_position(), reorder_lesson(), reorder_section() (+1 more)
 
 ### Community 142 - "Community 142"
-Cohesion: 0.12
-Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
+Cohesion: 0.20
+Nodes (8): exists/2 query expression, Ash.Query.filter/2 macro, Exists Expressions, Related Exists, Unrelated Exists, Ash.Query.filter is a macro, Common Query Operations, require Ash.Query needed since filter/2 is a macro
 
 ### Community 145 - "Community 145"
-Cohesion: 0.12
-Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
-
-### Community 149 - "Community 149"
-Cohesion: 0.12
-Nodes (16): attributes, base_filter, check_constraints, create_table_options, custom_indexes, custom_statements, has_create_action, hash (+8 more)
-
-### Community 150 - "Community 150"
-Cohesion: 0.37
-Nodes (12): MatworkWeb.CourseBuilderLive, assign_course(), find_lesson(), find_section(), handle_event(), load_course(), mount(), opts() (+4 more)
-
-### Community 151 - "Community 151"
 Cohesion: 0.50
-Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
+Nodes (3): Basic Trigger, Defining Triggers, Trigger Configuration Options
 
 ## Knowledge Gaps
-- **570 isolated node(s):** `Matwork.Curriculum.Course`, `Matwork.Curriculum.CourseSection`, `Matwork.Curriculum.Lesson`, `attributes`, `base_filter` (+565 more)
+- **525 isolated node(s):** `Matwork.Curriculum.Course`, `Matwork.Curriculum.CourseSection`, `MatworkWeb.CourseBuilderLiveTest`, `MatworkWeb.Router`, `MatworkWeb.CourseIndexLiveTest` (+520 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **75 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **73 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `Matwork.Curriculum.Course`, `Matwork.Curriculum.CourseSection`, `Matwork.Curriculum.Lesson` to the rest of the system?**
-  _585 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Ash.Query module` connect `Community 65` to `AshOban & Ash.Query Reference`, `Community 142`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **What connects `Matwork.Curriculum.Course`, `Matwork.Curriculum.CourseSection`, `MatworkWeb.CourseBuilderLiveTest` to the rest of the system?**
+  _540 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `AshOban & Ash.Query Reference` be split into smaller, more focused modules?**
+  _Cohesion score 0.14166666666666666 - nodes in this community are weakly interconnected._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Ash Actions, Changes & Validations` be split into smaller, more focused modules?**
@@ -479,7 +466,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.05807200929152149 - nodes in this community are weakly interconnected._
 - **Should `AshPostgres Migration Snapshot (auth ext 1)` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
-- **Should `AshPostgres Migration Snapshot (auth ext 2)` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
-- **Should `Embedded Usage-Rules Guideline Blocks` be split into smaller, more focused modules?**
-  _Cohesion score 0.05555555555555555 - nodes in this community are weakly interconnected._

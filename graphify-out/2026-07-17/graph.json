@@ -141,116 +141,6 @@
   },
   "nodes": [
     {
-      "label": "curriculum.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "matwork_curriculum",
-      "community": 65,
-      "norm_label": "curriculum.ex"
-    },
-    {
-      "label": "Matwork.Curriculum",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum",
-      "community": 141,
-      "norm_label": "matwork.curriculum"
-    },
-    {
-      "label": "add_course()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L43",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_add_course",
-      "community": 141,
-      "norm_label": "add_course()"
-    },
-    {
-      "label": "add_section()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_add_section",
-      "community": 141,
-      "norm_label": "add_section()"
-    },
-    {
-      "label": "reorder_section()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L55",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_reorder_section",
-      "community": 141,
-      "norm_label": "reorder_section()"
-    },
-    {
-      "label": "add_lesson()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L67",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_add_lesson",
-      "community": 141,
-      "norm_label": "add_lesson()"
-    },
-    {
-      "label": "reorder_lesson()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L78",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_reorder_lesson",
-      "community": 141,
-      "norm_label": "reorder_lesson()"
-    },
-    {
-      "label": "load_course_tree()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L96",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_load_course_tree",
-      "community": 141,
-      "norm_label": "load_course_tree()"
-    },
-    {
-      "label": "next_position()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L111",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_next_position",
-      "community": 141,
-      "norm_label": "next_position()"
-    },
-    {
-      "label": "swap_position()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L133",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_swap_position",
-      "community": 141,
-      "norm_label": "swap_position()"
-    },
-    {
-      "label": "delta()",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L156",
-      "_origin": "ast",
-      "id": "matwork_curriculum_matwork_curriculum_delta",
-      "community": 141,
-      "norm_label": "delta()"
-    },
-    {
       "label": "course.ex",
       "file_type": "code",
       "source_file": "lib/matwork/curriculum/course.ex",
@@ -291,66 +181,6 @@
       "norm_label": "matwork.curriculum.coursesection"
     },
     {
-      "label": "lesson.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum/lesson.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "curriculum_lesson",
-      "community": 144,
-      "norm_label": "lesson.ex"
-    },
-    {
-      "label": "Matwork.Curriculum.Lesson",
-      "file_type": "code",
-      "source_file": "lib/matwork/curriculum/lesson.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "curriculum_lesson_matwork_curriculum_lesson",
-      "community": 144,
-      "norm_label": "matwork.curriculum.lesson"
-    },
-    {
-      "label": "gym_live_auth.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "matwork_web_gym_live_auth",
-      "community": 73,
-      "norm_label": "gym_live_auth.ex"
-    },
-    {
-      "label": "MatworkWeb.GymLiveAuth",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "matwork_web_gym_live_auth_matworkweb_gymliveauth",
-      "community": 73,
-      "norm_label": "matworkweb.gymliveauth"
-    },
-    {
-      "label": "on_mount()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "matwork_web_gym_live_auth_matworkweb_gymliveauth_on_mount",
-      "community": 73,
-      "norm_label": "on_mount()"
-    },
-    {
-      "label": "manager?()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "matwork_web_gym_live_auth_matworkweb_gymliveauth_manager",
-      "community": 73,
-      "norm_label": "manager?()"
-    },
-    {
       "label": "course_builder_live.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
@@ -367,758 +197,98 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "community": 150,
+      "community": 65,
       "norm_label": "matworkweb.coursebuilderlive"
     },
     {
       "label": "mount()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
-      "community": 150,
+      "community": 65,
       "norm_label": "mount()"
     },
     {
       "label": "handle_event()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L33",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "community": 150,
+      "community": 65,
       "norm_label": "handle_event()"
     },
     {
       "label": "opts()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L161",
+      "source_location": "L99",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_opts",
-      "community": 150,
+      "community": 65,
       "norm_label": "opts()"
+    },
+    {
+      "label": "manager?()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "live_course_builder_live_matworkweb_coursebuilderlive_manager",
+      "community": 65,
+      "norm_label": "manager?()"
     },
     {
       "label": "to_direction()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L166",
+      "source_location": "L107",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_to_direction",
-      "community": 150,
+      "community": 65,
       "norm_label": "to_direction()"
-    },
-    {
-      "label": "with_section()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L173",
-      "_origin": "ast",
-      "id": "live_course_builder_live_matworkweb_coursebuilderlive_with_section",
-      "community": 150,
-      "norm_label": "with_section()"
-    },
-    {
-      "label": "with_lesson()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L180",
-      "_origin": "ast",
-      "id": "live_course_builder_live_matworkweb_coursebuilderlive_with_lesson",
-      "community": 150,
-      "norm_label": "with_lesson()"
-    },
-    {
-      "label": "stale_item()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L187",
-      "_origin": "ast",
-      "id": "live_course_builder_live_matworkweb_coursebuilderlive_stale_item",
-      "community": 150,
-      "norm_label": "stale_item()"
     },
     {
       "label": "find_section()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L193",
+      "source_location": "L110",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_find_section",
-      "community": 150,
+      "community": 65,
       "norm_label": "find_section()"
     },
     {
       "label": "find_lesson()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L195",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson",
-      "community": 150,
+      "community": 65,
       "norm_label": "find_lesson()"
     },
     {
       "label": "load_course()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L204",
+      "source_location": "L121",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
-      "community": 150,
+      "community": 65,
       "norm_label": "load_course()"
     },
     {
-      "label": "assign_course()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L211",
-      "_origin": "ast",
-      "id": "live_course_builder_live_matworkweb_coursebuilderlive_assign_course",
-      "community": 150,
-      "norm_label": "assign_course()"
-    },
-    {
       "label": "render()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L234",
-      "_origin": "ast",
-      "id": "live_course_builder_live_matworkweb_coursebuilderlive_render",
-      "community": 150,
-      "norm_label": "render()"
-    },
-    {
-      "label": "course_index_live.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "live_course_index_live",
-      "community": 65,
-      "norm_label": "course_index_live.ex"
-    },
-    {
-      "label": "MatworkWeb.CourseIndexLive",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "live_course_index_live_matworkweb_courseindexlive",
-      "community": 65,
-      "norm_label": "matworkweb.courseindexlive"
-    },
-    {
-      "label": "mount()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "live_course_index_live_matworkweb_courseindexlive_mount",
-      "community": 65,
-      "norm_label": "mount()"
-    },
-    {
-      "label": "handle_event()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "live_course_index_live_matworkweb_courseindexlive_handle_event",
-      "community": 65,
-      "norm_label": "handle_event()"
-    },
-    {
-      "label": "assign_courses()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "live_course_index_live_matworkweb_courseindexlive_assign_courses",
-      "community": 65,
-      "norm_label": "assign_courses()"
-    },
-    {
-      "label": "render()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "live_course_index_live_matworkweb_courseindexlive_render",
-      "community": 65,
-      "norm_label": "render()"
-    },
-    {
-      "label": "20260717193343_add_curriculum_indexes.exs",
-      "file_type": "code",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "migrations_20260717193343_add_curriculum_indexes",
-      "community": 152,
-      "norm_label": "20260717193343_add_curriculum_indexes.exs"
-    },
-    {
-      "label": "Matwork.Repo.Migrations.AddCurriculumIndexes",
-      "file_type": "code",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes",
-      "community": 152,
-      "norm_label": "matwork.repo.migrations.addcurriculumindexes"
-    },
-    {
-      "label": "up()",
-      "file_type": "code",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes_up",
-      "community": 152,
-      "norm_label": "up()"
-    },
-    {
-      "label": "down()",
-      "file_type": "code",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes_down",
-      "community": 152,
-      "norm_label": "down()"
-    },
-    {
-      "label": "20260717193344.json",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344",
-      "community": 142,
-      "norm_label": "20260717193344.json"
-    },
-    {
-      "label": "attributes",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_attributes",
-      "community": 142,
-      "norm_label": "attributes"
-    },
-    {
-      "label": "base_filter",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L126",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_base_filter",
-      "community": 142,
-      "norm_label": "base_filter"
-    },
-    {
-      "label": "check_constraints",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L127",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_check_constraints",
-      "community": 142,
-      "norm_label": "check_constraints"
-    },
-    {
-      "label": "create_table_options",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L128",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_create_table_options",
-      "community": 142,
-      "norm_label": "create_table_options"
-    },
-    {
-      "label": "custom_indexes",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L129",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_custom_indexes",
-      "community": 142,
-      "norm_label": "custom_indexes"
-    },
-    {
-      "label": "custom_statements",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L175",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_custom_statements",
-      "community": 142,
-      "norm_label": "custom_statements"
-    },
-    {
-      "label": "has_create_action",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L176",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_has_create_action",
-      "community": 142,
-      "norm_label": "has_create_action"
-    },
-    {
-      "label": "hash",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L177",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_hash",
-      "community": 142,
-      "norm_label": "hash"
-    },
-    {
-      "label": "identities",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L178",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_identities",
-      "community": 142,
-      "norm_label": "identities"
-    },
-    {
-      "label": "multitenancy",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L179",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_multitenancy",
-      "community": 142,
-      "norm_label": "multitenancy"
-    },
-    {
-      "label": "attribute",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L180",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_multitenancy_attribute",
-      "community": 142,
-      "norm_label": "attribute"
-    },
-    {
-      "label": "global",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L181",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_multitenancy_global",
-      "community": 142,
-      "norm_label": "global"
-    },
-    {
-      "label": "strategy",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L182",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_multitenancy_strategy",
-      "community": 142,
-      "norm_label": "strategy"
-    },
-    {
-      "label": "repo",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L184",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_repo",
-      "community": 142,
-      "norm_label": "repo"
-    },
-    {
-      "label": "schema",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L185",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_schema",
-      "community": 142,
-      "norm_label": "schema"
-    },
-    {
-      "label": "table",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L186",
-      "_origin": "ast",
-      "id": "course_sections_20260717193344_table",
-      "community": 142,
-      "norm_label": "table"
-    },
-    {
-      "label": "20260717193345.json",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "courses_20260717193345",
-      "community": 145,
-      "norm_label": "20260717193345.json"
-    },
-    {
-      "label": "attributes",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "courses_20260717193345_attributes",
-      "community": 145,
-      "norm_label": "attributes"
-    },
-    {
-      "label": "base_filter",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L119",
-      "_origin": "ast",
-      "id": "courses_20260717193345_base_filter",
-      "community": 145,
-      "norm_label": "base_filter"
-    },
-    {
-      "label": "check_constraints",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L120",
-      "_origin": "ast",
-      "id": "courses_20260717193345_check_constraints",
-      "community": 145,
-      "norm_label": "check_constraints"
-    },
-    {
-      "label": "create_table_options",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L121",
-      "_origin": "ast",
-      "id": "courses_20260717193345_create_table_options",
-      "community": 145,
-      "norm_label": "create_table_options"
-    },
-    {
-      "label": "custom_indexes",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L122",
-      "_origin": "ast",
-      "id": "courses_20260717193345_custom_indexes",
-      "community": 145,
-      "norm_label": "custom_indexes"
-    },
-    {
-      "label": "custom_statements",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L146",
-      "_origin": "ast",
-      "id": "courses_20260717193345_custom_statements",
-      "community": 145,
-      "norm_label": "custom_statements"
-    },
-    {
-      "label": "has_create_action",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L147",
-      "_origin": "ast",
-      "id": "courses_20260717193345_has_create_action",
-      "community": 145,
-      "norm_label": "has_create_action"
-    },
-    {
-      "label": "hash",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L148",
-      "_origin": "ast",
-      "id": "courses_20260717193345_hash",
-      "community": 145,
-      "norm_label": "hash"
-    },
-    {
-      "label": "identities",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L149",
-      "_origin": "ast",
-      "id": "courses_20260717193345_identities",
-      "community": 145,
-      "norm_label": "identities"
-    },
-    {
-      "label": "multitenancy",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L150",
-      "_origin": "ast",
-      "id": "courses_20260717193345_multitenancy",
-      "community": 145,
-      "norm_label": "multitenancy"
-    },
-    {
-      "label": "attribute",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L151",
-      "_origin": "ast",
-      "id": "courses_20260717193345_multitenancy_attribute",
-      "community": 145,
-      "norm_label": "attribute"
-    },
-    {
-      "label": "global",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L152",
-      "_origin": "ast",
-      "id": "courses_20260717193345_multitenancy_global",
-      "community": 145,
-      "norm_label": "global"
-    },
-    {
-      "label": "strategy",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L153",
-      "_origin": "ast",
-      "id": "courses_20260717193345_multitenancy_strategy",
-      "community": 145,
-      "norm_label": "strategy"
-    },
-    {
-      "label": "repo",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L155",
-      "_origin": "ast",
-      "id": "courses_20260717193345_repo",
-      "community": 145,
-      "norm_label": "repo"
-    },
-    {
-      "label": "schema",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L156",
-      "_origin": "ast",
-      "id": "courses_20260717193345_schema",
-      "community": 145,
-      "norm_label": "schema"
-    },
-    {
-      "label": "table",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
       "source_location": "L157",
       "_origin": "ast",
-      "id": "courses_20260717193345_table",
-      "community": 145,
-      "norm_label": "table"
-    },
-    {
-      "label": "20260717193346.json",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "lessons_20260717193346",
-      "community": 149,
-      "norm_label": "20260717193346.json"
-    },
-    {
-      "label": "attributes",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_attributes",
-      "community": 149,
-      "norm_label": "attributes"
-    },
-    {
-      "label": "base_filter",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L150",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_base_filter",
-      "community": 149,
-      "norm_label": "base_filter"
-    },
-    {
-      "label": "check_constraints",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L151",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_check_constraints",
-      "community": 149,
-      "norm_label": "check_constraints"
-    },
-    {
-      "label": "create_table_options",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L152",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_create_table_options",
-      "community": 149,
-      "norm_label": "create_table_options"
-    },
-    {
-      "label": "custom_indexes",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L153",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_custom_indexes",
-      "community": 149,
-      "norm_label": "custom_indexes"
-    },
-    {
-      "label": "custom_statements",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L199",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_custom_statements",
-      "community": 149,
-      "norm_label": "custom_statements"
-    },
-    {
-      "label": "has_create_action",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L200",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_has_create_action",
-      "community": 149,
-      "norm_label": "has_create_action"
-    },
-    {
-      "label": "hash",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L201",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_hash",
-      "community": 149,
-      "norm_label": "hash"
-    },
-    {
-      "label": "identities",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L202",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_identities",
-      "community": 149,
-      "norm_label": "identities"
-    },
-    {
-      "label": "multitenancy",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L203",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_multitenancy",
-      "community": 149,
-      "norm_label": "multitenancy"
-    },
-    {
-      "label": "attribute",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L204",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_multitenancy_attribute",
-      "community": 149,
-      "norm_label": "attribute"
-    },
-    {
-      "label": "global",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L205",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_multitenancy_global",
-      "community": 149,
-      "norm_label": "global"
-    },
-    {
-      "label": "strategy",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L206",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_multitenancy_strategy",
-      "community": 149,
-      "norm_label": "strategy"
-    },
-    {
-      "label": "repo",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L208",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_repo",
-      "community": 149,
-      "norm_label": "repo"
-    },
-    {
-      "label": "schema",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L209",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_schema",
-      "community": 149,
-      "norm_label": "schema"
-    },
-    {
-      "label": "table",
-      "file_type": "code",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L210",
-      "_origin": "ast",
-      "id": "lessons_20260717193346_table",
-      "community": 149,
-      "norm_label": "table"
-    },
-    {
-      "label": "course_test.exs",
-      "file_type": "code",
-      "source_file": "test/matwork/curriculum/course_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "curriculum_course_test",
+      "id": "live_course_builder_live_matworkweb_coursebuilderlive_render",
       "community": 65,
-      "norm_label": "course_test.exs"
-    },
-    {
-      "label": "Matwork.Curriculum.CourseTest",
-      "file_type": "code",
-      "source_file": "test/matwork/curriculum/course_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "curriculum_course_test_matwork_curriculum_coursetest",
-      "community": 65,
-      "norm_label": "matwork.curriculum.coursetest"
+      "norm_label": "render()"
     },
     {
       "label": "course_builder_live_test.exs",
@@ -1139,6 +309,76 @@
       "id": "live_course_builder_live_test_matworkweb_coursebuilderlivetest",
       "community": 65,
       "norm_label": "matworkweb.coursebuilderlivetest"
+    },
+    {
+      "label": "course_index_live.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "course_index_live.ex",
+      "id": "live_course_index_live"
+    },
+    {
+      "label": "MatworkWeb.CourseIndexLive",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "matworkweb.courseindexlive",
+      "id": "live_course_index_live_matworkweb_courseindexlive"
+    },
+    {
+      "label": "mount()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "mount()",
+      "id": "live_course_index_live_matworkweb_courseindexlive_mount"
+    },
+    {
+      "label": "handle_event()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "handle_event()",
+      "id": "live_course_index_live_matworkweb_courseindexlive_handle_event"
+    },
+    {
+      "label": "assign_courses()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L28",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "assign_courses()",
+      "id": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
+    },
+    {
+      "label": "manager?()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L43",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "manager?()",
+      "id": "live_course_index_live_matworkweb_courseindexlive_manager"
+    },
+    {
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L46",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "render()",
+      "id": "live_course_index_live_matworkweb_courseindexlive_render"
     },
     {
       "label": "router.ex",
@@ -1291,6 +531,106 @@
       "id": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest_tree"
     },
     {
+      "label": "curriculum.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "curriculum.ex",
+      "id": "matwork_curriculum"
+    },
+    {
+      "label": "Matwork.Curriculum",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "matwork.curriculum",
+      "id": "matwork_curriculum_matwork_curriculum"
+    },
+    {
+      "label": "add_course()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L42",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "add_course()",
+      "id": "matwork_curriculum_matwork_curriculum_add_course"
+    },
+    {
+      "label": "add_section()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L48",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "add_section()",
+      "id": "matwork_curriculum_matwork_curriculum_add_section"
+    },
+    {
+      "label": "reorder_section()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "reorder_section()",
+      "id": "matwork_curriculum_matwork_curriculum_reorder_section"
+    },
+    {
+      "label": "add_lesson()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L66",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "add_lesson()",
+      "id": "matwork_curriculum_matwork_curriculum_add_lesson"
+    },
+    {
+      "label": "reorder_lesson()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L77",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "reorder_lesson()",
+      "id": "matwork_curriculum_matwork_curriculum_reorder_lesson"
+    },
+    {
+      "label": "next_position()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L92",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "next_position()",
+      "id": "matwork_curriculum_matwork_curriculum_next_position"
+    },
+    {
+      "label": "swap_position()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L114",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "swap_position()",
+      "id": "matwork_curriculum_matwork_curriculum_swap_position"
+    },
+    {
+      "label": "delta()",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum.ex",
+      "source_location": "L137",
+      "_origin": "ast",
+      "community": 141,
+      "norm_label": "delta()",
+      "id": "matwork_curriculum_matwork_curriculum_delta"
+    },
+    {
       "label": "lesson_visible.ex",
       "file_type": "code",
       "source_file": "lib/matwork/curriculum/checks/lesson_visible.ex",
@@ -1329,6 +669,26 @@
       "community": 143,
       "norm_label": "filter()",
       "id": "checks_lesson_visible_matwork_curriculum_checks_lessonvisible_filter"
+    },
+    {
+      "label": "lesson.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum/lesson.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 144,
+      "norm_label": "lesson.ex",
+      "id": "curriculum_lesson"
+    },
+    {
+      "label": "Matwork.Curriculum.Lesson",
+      "file_type": "code",
+      "source_file": "lib/matwork/curriculum/lesson.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 144,
+      "norm_label": "matwork.curriculum.lesson",
+      "id": "curriculum_lesson_matwork_curriculum_lesson"
     },
     {
       "label": "section_in_tenant.ex",
@@ -2279,6 +1639,26 @@
       "community": 136,
       "norm_label": "down()",
       "id": "migrations_20260717153400_create_courses_matwork_repo_migrations_createcourses_down"
+    },
+    {
+      "label": "course_test.exs",
+      "file_type": "code",
+      "source_file": "test/matwork/curriculum/course_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "course_test.exs",
+      "id": "curriculum_course_test"
+    },
+    {
+      "label": "Matwork.Curriculum.CourseTest",
+      "file_type": "code",
+      "source_file": "test/matwork/curriculum/course_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 65,
+      "norm_label": "matwork.curriculum.coursetest",
+      "id": "curriculum_course_test_matwork_curriculum_coursetest"
     },
     {
       "label": "settings.json",
@@ -3729,6 +3109,36 @@
       "community": 40,
       "norm_label": "matworkweb.gettext",
       "id": "matwork_web_gettext_matworkweb_gettext"
+    },
+    {
+      "label": "gym_live_auth.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/gym_live_auth.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 73,
+      "norm_label": "gym_live_auth.ex",
+      "id": "matwork_web_gym_live_auth"
+    },
+    {
+      "label": "MatworkWeb.GymLiveAuth",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/gym_live_auth.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 73,
+      "norm_label": "matworkweb.gymliveauth",
+      "id": "matwork_web_gym_live_auth_matworkweb_gymliveauth"
+    },
+    {
+      "label": "on_mount()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/gym_live_auth.ex",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 73,
+      "norm_label": "on_mount()",
+      "id": "matwork_web_gym_live_auth_matworkweb_gymliveauth_on_mount"
     },
     {
       "label": "gym_new_live.ex",
@@ -6236,7 +5646,7 @@
       "source_file": ".claude/skills/ash-framework/references/ash_postgres.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "ash_postgres.md",
       "id": "references_ash_postgres"
     },
@@ -6246,7 +5656,7 @@
       "source_file": ".claude/skills/ash-framework/references/ash_postgres.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "rules for working with ashpostgres",
       "id": "references_ash_postgres_rules_for_working_with_ashpostgres"
     },
@@ -6256,7 +5666,7 @@
       "source_file": ".claude/skills/ash-framework/references/ash_postgres.md",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "understanding ashpostgres",
       "id": "references_ash_postgres_understanding_ashpostgres"
     },
@@ -6576,7 +5986,7 @@
       "source_file": ".claude/skills/ash-framework/references/custom_indexes.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "custom_indexes.md",
       "id": "references_custom_indexes"
     },
@@ -6586,7 +5996,7 @@
       "source_file": ".claude/skills/ash-framework/references/custom_indexes.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "custom indexes",
       "id": "references_custom_indexes_custom_indexes"
     },
@@ -6616,7 +6026,7 @@
       "source_file": ".claude/skills/ash-framework/references/data_layers.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "data_layers.md",
       "id": "references_data_layers"
     },
@@ -6626,7 +6036,7 @@
       "source_file": ".claude/skills/ash-framework/references/data_layers.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 71,
       "norm_label": "data layers",
       "id": "references_data_layers_data_layers"
     },
@@ -6686,7 +6096,7 @@
       "source_file": ".claude/skills/ash-framework/references/defining_triggers.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 145,
       "norm_label": "defining_triggers.md",
       "id": "references_defining_triggers"
     },
@@ -6696,7 +6106,7 @@
       "source_file": ".claude/skills/ash-framework/references/defining_triggers.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 145,
       "norm_label": "defining triggers",
       "id": "references_defining_triggers_defining_triggers"
     },
@@ -6706,7 +6116,7 @@
       "source_file": ".claude/skills/ash-framework/references/defining_triggers.md",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 66,
+      "community": 145,
       "norm_label": "basic trigger",
       "id": "references_defining_triggers_basic_trigger"
     },
@@ -6716,7 +6126,7 @@
       "source_file": ".claude/skills/ash-framework/references/defining_triggers.md",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 66,
+      "community": 145,
       "norm_label": "trigger configuration options",
       "id": "references_defining_triggers_trigger_configuration_options"
     },
@@ -6746,7 +6156,7 @@
       "source_file": ".claude/skills/ash-framework/references/exist_expressions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "exist_expressions.md",
       "id": "references_exist_expressions"
     },
@@ -6756,7 +6166,7 @@
       "source_file": ".claude/skills/ash-framework/references/exist_expressions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "exists expressions",
       "id": "references_exist_expressions_exists_expressions"
     },
@@ -6766,7 +6176,7 @@
       "source_file": ".claude/skills/ash-framework/references/exist_expressions.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "related exists",
       "id": "references_exist_expressions_related_exists"
     },
@@ -6776,7 +6186,7 @@
       "source_file": ".claude/skills/ash-framework/references/exist_expressions.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "unrelated exists",
       "id": "references_exist_expressions_unrelated_exists"
     },
@@ -6866,7 +6276,7 @@
       "source_file": ".claude/skills/ash-framework/references/generating_code.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 153,
+      "community": 0,
       "norm_label": "generating_code.md",
       "id": "references_generating_code"
     },
@@ -6876,7 +6286,7 @@
       "source_file": ".claude/skills/ash-framework/references/generating_code.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 153,
+      "community": 0,
       "norm_label": "generating code",
       "id": "references_generating_code_generating_code"
     },
@@ -6946,7 +6356,7 @@
       "source_file": ".claude/skills/ash-framework/references/multitenancy.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 123,
+      "community": 66,
       "norm_label": "multitenancy.md",
       "id": "references_multitenancy"
     },
@@ -6956,7 +6366,7 @@
       "source_file": ".claude/skills/ash-framework/references/multitenancy.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 123,
+      "community": 66,
       "norm_label": "multitenancy",
       "id": "references_multitenancy_multitenancy"
     },
@@ -6966,7 +6376,7 @@
       "source_file": ".claude/skills/ash-framework/references/multitenancy.md",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 123,
+      "community": 66,
       "norm_label": "setting up multitenancy",
       "id": "references_multitenancy_setting_up_multitenancy"
     },
@@ -7016,7 +6426,7 @@
       "source_file": ".claude/skills/ash-framework/references/query_filter.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "query_filter.md",
       "id": "references_query_filter"
     },
@@ -7026,7 +6436,7 @@
       "source_file": ".claude/skills/ash-framework/references/query_filter.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "ash.query.filter is a macro",
       "id": "references_query_filter_ash_query_filter_is_a_macro"
     },
@@ -7036,7 +6446,7 @@
       "source_file": ".claude/skills/ash-framework/references/query_filter.md",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 65,
+      "community": 142,
       "norm_label": "common query operations",
       "id": "references_query_filter_common_query_operations"
     },
@@ -7046,7 +6456,7 @@
       "source_file": ".claude/skills/ash-framework/references/querying_data.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 0,
       "norm_label": "querying_data.md",
       "id": "references_querying_data"
     },
@@ -7056,7 +6466,7 @@
       "source_file": ".claude/skills/ash-framework/references/querying_data.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 65,
+      "community": 0,
       "norm_label": "querying data",
       "id": "references_querying_data_querying_data"
     },
@@ -7176,7 +6586,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 151,
+      "community": 126,
       "norm_label": "scheduled_actions.md",
       "id": "references_scheduled_actions"
     },
@@ -7186,7 +6596,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 151,
+      "community": 126,
       "norm_label": "scheduled actions",
       "id": "references_scheduled_actions_scheduled_actions"
     },
@@ -7196,7 +6606,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 151,
+      "community": 126,
       "norm_label": "scheduled action configuration options",
       "id": "references_scheduled_actions_scheduled_action_configuration_options"
     },
@@ -7206,7 +6616,7 @@
       "source_file": ".claude/skills/ash-framework/references/setting_up_ash_oban.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 126,
       "norm_label": "setting_up_ash_oban.md",
       "id": "references_setting_up_ash_oban"
     },
@@ -7216,7 +6626,7 @@
       "source_file": ".claude/skills/ash-framework/references/setting_up_ash_oban.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 126,
       "norm_label": "setting up ashoban",
       "id": "references_setting_up_ash_oban_setting_up_ashoban"
     },
@@ -11223,7 +10633,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 126,
       "norm_label": "ashoban trigger dsl",
       "id": "ash_oban_trigger"
     },
@@ -11236,7 +10646,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 126,
       "norm_label": "ashoban extension",
       "id": "ash_oban"
     },
@@ -11249,7 +10659,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 65,
+      "community": 142,
       "norm_label": "exists/2 query expression",
       "id": "ash_query_exists"
     },
@@ -11262,7 +10672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 65,
+      "community": 142,
       "norm_label": "ash.query.filter/2 macro",
       "id": "ash_query_filter"
     },
@@ -11301,7 +10711,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 153,
+      "community": 0,
       "norm_label": "mix ash.gen.* tasks",
       "id": "mix_ash_gen"
     },
@@ -11327,7 +10737,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 123,
+      "community": 66,
       "norm_label": "mix ash.migrate",
       "id": "mix_ash_migrate"
     },
@@ -11366,7 +10776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 123,
+      "community": 66,
       "norm_label": "mix ash_postgres.migrate --tenants",
       "id": "mix_ash_postgres_migrate_tenants"
     },
@@ -11444,7 +10854,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 151,
+      "community": 126,
       "norm_label": "ashoban scheduled_actions dsl",
       "id": "ash_oban_scheduled_action"
     },
@@ -11626,7 +11036,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 65,
+      "community": 142,
       "norm_label": "require ash.query needed since filter/2 is a macro",
       "id": "references_query_filter_require_rationale"
     },
@@ -12328,6 +11738,461 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/curriculum/course.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "curriculum_course",
+      "target": "curriculum_course_matwork_curriculum_course"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/curriculum/course_section.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "curriculum_course_section",
+      "target": "curriculum_course_section_matwork_curriculum_coursesection"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "live_course_builder_live",
+      "target": "ash_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "live_course_builder_live",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import",
+      "source": "live_course_builder_live",
+      "target": "matwork_curriculum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_manager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_to_direction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_manager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_to_direction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_builder_live.ex",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "call",
+      "source": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
+      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/course_builder_live_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "live_course_builder_live_test",
+      "target": "live_course_builder_live_test_matworkweb_coursebuilderlivetest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/course_builder_live_test.exs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "source": "live_course_builder_live_test",
+      "target": "matwork_curriculum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live",
+      "target": "live_course_index_live_matworkweb_courseindexlive"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L4",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "live_course_index_live",
+      "target": "matwork_curriculum"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive",
+      "target": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive",
+      "target": "live_course_index_live_matworkweb_courseindexlive_handle_event"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive",
+      "target": "live_course_index_live_matworkweb_courseindexlive_manager"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive",
+      "target": "live_course_index_live_matworkweb_courseindexlive_mount"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive",
+      "target": "live_course_index_live_matworkweb_courseindexlive_render"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive_mount",
+      "target": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive_handle_event",
+      "target": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/course_index_live.ex",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_matworkweb_courseindexlive_assign_courses",
+      "target": "live_course_index_live_matworkweb_courseindexlive_manager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/router.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "matwork_web_router",
+      "target": "matwork_web_router_matworkweb_router"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/course_index_live_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_course_index_live_test",
+      "target": "live_course_index_live_test_matworkweb_courseindexlivetest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "COMPONENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components",
+      "target": "components_stalwartui_components"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "COMPONENTS.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_stalwartui_components",
+      "target": "components_curriculumtree_stalwartui_curriculumtree_curriculum_tree_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "COMPONENTS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_stalwartui_components",
+      "target": "components_inviteform_stalwartui_inviteform_invite_form_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "COMPONENTS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_stalwartui_components",
+      "target": "components_rostertable_stalwartui_rostertable_roster_table_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/stalwart_ui/curriculum_tree.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stalwart_ui_curriculum_tree",
+      "target": "stalwart_ui_curriculum_tree_stalwartui_curriculumtree"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/stalwart_ui/curriculum_tree.ex",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stalwart_ui_curriculum_tree_stalwartui_curriculumtree",
+      "target": "stalwart_ui_curriculum_tree_stalwartui_curriculumtree_curriculum_tree"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/stalwart_ui/curriculum_tree_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stalwart_ui_curriculum_tree_test",
+      "target": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/stalwart_ui/curriculum_tree_test.exs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest",
+      "target": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest_tree"
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "test/matwork/curriculum/course_section_test.exs",
@@ -12358,39 +12223,6 @@
       "context": "import",
       "confidence_score": 1.0,
       "source": "curriculum_lesson_test",
-      "target": "matwork_curriculum"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L6",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live",
-      "target": "matwork_curriculum"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/course_builder_live_test.exs",
-      "source_location": "L7",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_test",
-      "target": "matwork_curriculum"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L4",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_course_index_live",
       "target": "matwork_curriculum"
     },
     {
@@ -12453,16 +12285,6 @@
       "confidence_score": 1.0,
       "source": "matwork_curriculum_matwork_curriculum",
       "target": "matwork_curriculum_matwork_curriculum_delta"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/curriculum.ex",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "matwork_curriculum_matwork_curriculum",
-      "target": "matwork_curriculum_matwork_curriculum_load_course_tree",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -12573,1107 +12395,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/curriculum/course.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "curriculum_course",
-      "target": "curriculum_course_matwork_curriculum_course"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/curriculum/course_section.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "curriculum_course_section",
-      "target": "curriculum_course_section_matwork_curriculum_coursesection"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/curriculum/lesson.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "curriculum_lesson",
-      "target": "curriculum_lesson_matwork_curriculum_lesson"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L16",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "matwork_web_gym_live_auth",
-      "target": "matwork_gyms"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "matwork_web_gym_live_auth",
-      "target": "matwork_web_gym_live_auth_matworkweb_gymliveauth"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "matwork_web_gym_live_auth_matworkweb_gymliveauth",
-      "target": "matwork_web_gym_live_auth_matworkweb_gymliveauth_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/gym_live_auth.ex",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "matwork_web_gym_live_auth_matworkweb_gymliveauth",
-      "target": "matwork_web_gym_live_auth_matworkweb_gymliveauth_on_mount"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L8",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live",
-      "target": "ash_query"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L211",
-      "weight": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_assign_course",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L112",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L110",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_section"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L92",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L121",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_mount"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L99",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L157",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_render"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L187",
-      "weight": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_stale_item",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L108",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_to_direction"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L180",
-      "weight": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_with_lesson",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L173",
-      "weight": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_with_section",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L18",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_assign_course",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L16",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_mount",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L57",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L31",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_section"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L27",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L26",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L44",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_to_direction"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L87",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_with_lesson",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L44",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_handle_event",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_with_section",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L132",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_opts"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L174",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_with_section",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_section",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L175",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_with_section",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_stale_item",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L181",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_with_lesson",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L182",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_with_lesson",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_stale_item",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L190",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_stale_item",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L206",
-      "weight": 1.0,
-      "context": "call",
-      "source": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
-      "target": "live_course_builder_live_matworkweb_coursebuilderlive_assign_course",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_index_live",
-      "target": "live_course_index_live_matworkweb_courseindexlive"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_matworkweb_courseindexlive",
-      "target": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_matworkweb_courseindexlive",
-      "target": "live_course_index_live_matworkweb_courseindexlive_handle_event"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_matworkweb_courseindexlive",
-      "target": "live_course_index_live_matworkweb_courseindexlive_mount"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_matworkweb_courseindexlive",
-      "target": "live_course_index_live_matworkweb_courseindexlive_render"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L10",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_matworkweb_courseindexlive_mount",
-      "target": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/course_index_live.ex",
-      "source_location": "L21",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_matworkweb_courseindexlive_handle_event",
-      "target": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "migrations_20260717193343_add_curriculum_indexes",
-      "target": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes",
-      "target": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes_down",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes",
-      "target": "migrations_20260717193343_add_curriculum_indexes_matwork_repo_migrations_addcurriculumindexes_up",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_attributes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L126",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_base_filter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L127",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_check_constraints",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_create_table_options",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L129",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_custom_indexes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L175",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_custom_statements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L176",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_has_create_action",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L177",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_hash",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L178",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_identities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L179",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_multitenancy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L184",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_repo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L185",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L186",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344",
-      "target": "course_sections_20260717193344_table",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L180",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344_multitenancy",
-      "target": "course_sections_20260717193344_multitenancy_attribute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L181",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344_multitenancy",
-      "target": "course_sections_20260717193344_multitenancy_global",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/course_sections/20260717193344.json",
-      "source_location": "L182",
-      "weight": 1.0,
-      "source": "course_sections_20260717193344_multitenancy",
-      "target": "course_sections_20260717193344_multitenancy_strategy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_attributes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L119",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_base_filter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L120",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_check_constraints",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_create_table_options",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_custom_indexes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L146",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_custom_statements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L147",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_has_create_action",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L148",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_hash",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L149",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_identities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L150",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_multitenancy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L155",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_repo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L156",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L157",
-      "weight": 1.0,
-      "source": "courses_20260717193345",
-      "target": "courses_20260717193345_table",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L151",
-      "weight": 1.0,
-      "source": "courses_20260717193345_multitenancy",
-      "target": "courses_20260717193345_multitenancy_attribute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L152",
-      "weight": 1.0,
-      "source": "courses_20260717193345_multitenancy",
-      "target": "courses_20260717193345_multitenancy_global",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/courses/20260717193345.json",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "courses_20260717193345_multitenancy",
-      "target": "courses_20260717193345_multitenancy_strategy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_attributes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L150",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_base_filter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L151",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_check_constraints",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L152",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_create_table_options",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_custom_indexes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L199",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_custom_statements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L200",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_has_create_action",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L201",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_hash",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L202",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_identities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L203",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_multitenancy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L208",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_repo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L209",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L210",
-      "weight": 1.0,
-      "source": "lessons_20260717193346",
-      "target": "lessons_20260717193346_table",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L204",
-      "weight": 1.0,
-      "source": "lessons_20260717193346_multitenancy",
-      "target": "lessons_20260717193346_multitenancy_attribute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L205",
-      "weight": 1.0,
-      "source": "lessons_20260717193346_multitenancy",
-      "target": "lessons_20260717193346_multitenancy_global",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "priv/resource_snapshots/repo/lessons/20260717193346.json",
-      "source_location": "L206",
-      "weight": 1.0,
-      "source": "lessons_20260717193346_multitenancy",
-      "target": "lessons_20260717193346_multitenancy_strategy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/curriculum/course_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "curriculum_course_test",
-      "target": "curriculum_course_test_matwork_curriculum_coursetest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/course_builder_live_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_builder_live_test",
-      "target": "live_course_builder_live_test_matworkweb_coursebuilderlivetest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/router.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "matwork_web_router",
-      "target": "matwork_web_router_matworkweb_router"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/course_index_live_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_course_index_live_test",
-      "target": "live_course_index_live_test_matworkweb_courseindexlivetest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "COMPONENTS.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components",
-      "target": "components_stalwartui_components"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "COMPONENTS.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_stalwartui_components",
-      "target": "components_curriculumtree_stalwartui_curriculumtree_curriculum_tree_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "COMPONENTS.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_stalwartui_components",
-      "target": "components_inviteform_stalwartui_inviteform_invite_form_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "COMPONENTS.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_stalwartui_components",
-      "target": "components_rostertable_stalwartui_rostertable_roster_table_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/stalwart_ui/curriculum_tree.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "stalwart_ui_curriculum_tree",
-      "target": "stalwart_ui_curriculum_tree_stalwartui_curriculumtree"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/stalwart_ui/curriculum_tree.ex",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "stalwart_ui_curriculum_tree_stalwartui_curriculumtree",
-      "target": "stalwart_ui_curriculum_tree_stalwartui_curriculumtree_curriculum_tree"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/stalwart_ui/curriculum_tree_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "stalwart_ui_curriculum_tree_test",
-      "target": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "test/stalwart_ui/curriculum_tree_test.exs",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest",
-      "target": "stalwart_ui_curriculum_tree_test_stalwartui_curriculumtreetest_tree"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "lib/matwork/curriculum/checks/lesson_visible.ex",
       "source_location": "L1",
       "weight": 1.0,
@@ -13700,6 +12421,16 @@
       "confidence_score": 1.0,
       "source": "checks_lesson_visible_matwork_curriculum_checks_lessonvisible",
       "target": "checks_lesson_visible_matwork_curriculum_checks_lessonvisible_filter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/curriculum/lesson.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "curriculum_lesson",
+      "target": "curriculum_lesson_matwork_curriculum_lesson"
     },
     {
       "relation": "imports",
@@ -14647,6 +13378,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "test/matwork/curriculum/course_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "curriculum_course_test",
+      "target": "curriculum_course_test_matwork_curriculum_coursetest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -14954,6 +13695,17 @@
       "confidence_score": 1.0,
       "source": "matwork_gyms",
       "target": "matwork_gyms_matwork_gyms"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/gym_live_auth.ex",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "matwork_web_gym_live_auth",
+      "target": "matwork_gyms"
     },
     {
       "relation": "imports",
@@ -15962,6 +14714,26 @@
       "confidence_score": 1.0,
       "source": "matwork_web_gettext",
       "target": "matwork_web_gettext_matworkweb_gettext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/gym_live_auth.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "matwork_web_gym_live_auth",
+      "target": "matwork_web_gym_live_auth_matworkweb_gymliveauth"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/gym_live_auth.ex",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "matwork_web_gym_live_auth_matworkweb_gymliveauth",
+      "target": "matwork_web_gym_live_auth_matworkweb_gymliveauth_on_mount"
     },
     {
       "relation": "contains",
@@ -24298,5 +23070,5 @@
       "source_file": "docs/design.md"
     }
   ],
-  "built_at_commit": "055c15a1ed11b3c7fbf0aa165c7670d4939f39b1"
+  "built_at_commit": "d5697511f27c62ed34a72ba69889e495b7cc542e"
 }
