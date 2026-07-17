@@ -1,16 +1,16 @@
 # Graph Report - milestone-0-session-3  (2026-07-16)
 
 ## Corpus Check
-- 173 files · ~71,870 words
+- 175 files · ~73,846 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 806 nodes · 807 edges · 116 communities (59 shown, 57 thin omitted)
+- 816 nodes · 816 edges · 117 communities (60 shown, 57 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 41 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fa0cee28`
+- Built from commit: `f885e3bb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -119,6 +119,7 @@
 - [[_COMMUNITY_Community 113|Community 113]]
 - [[_COMMUNITY_Community 114|Community 114]]
 - [[_COMMUNITY_Community 115|Community 115]]
+- [[_COMMUNITY_Community 116|Community 116]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `MatworkWeb.CoreComponents` - 12 edges
@@ -158,7 +159,7 @@
 - **Tenant-Independent Global Resources** — docs_design_user, docs_design_token, docs_design_gym, docs_design_webhookevent [EXTRACTED 1.00]
 - **Paywall / Content-Gating Authorization Flow** — docs_design_lesson, docs_design_membership, docs_design_subscription, docs_design_mux, docs_design_authorization_policies [INFERRED 0.85]
 
-## Communities (116 total, 57 thin omitted)
+## Communities (117 total, 57 thin omitted)
 
 ### Community 0 - "AshOban & Ash.Query Reference"
 Cohesion: 0.15
@@ -348,16 +349,20 @@ Nodes (12): After this session, Design notes worth recording, File Structure, Gl
 Cohesion: 0.50
 Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
 
+### Community 116 - "Community 116"
+Cohesion: 0.20
+Nodes (9): Brand mark (left side of header), Call site changes, Design, `Layouts.app/1` attrs, Nav bar: role/auth-aware layout, removing Phoenix scaffold leftovers, Problem, Right side of header, by auth state, Scope (+1 more)
+
 ## Knowledge Gaps
-- **355 isolated node(s):** `MatworkWeb.Endpoint`, `Global Constraints`, `Scope note (confirmed with the human before writing this plan)`, `Design notes worth recording`, `Task 1: Tenant resolution — plug, `on_mount` hook, router wiring, test sign-in helper` (+350 more)
+- **362 isolated node(s):** `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest`, `Problem`, `Scope` (+357 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **57 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `MatworkWeb.Endpoint`, `Global Constraints`, `Scope note (confirmed with the human before writing this plan)` to the rest of the system?**
-  _370 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `MatworkWeb.GymNewLiveTest`, `MatworkWeb.GymShowLiveTest`, `MatworkWeb.InviteAcceptLiveTest` to the rest of the system?**
+  _377 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Ash Actions, Changes & Validations` be split into smaller, more focused modules?**

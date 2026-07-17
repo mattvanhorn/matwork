@@ -141,14 +141,384 @@
   },
   "nodes": [
     {
+      "label": "layouts.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_layouts",
+      "community": 16,
+      "norm_label": "layouts.ex"
+    },
+    {
+      "label": "MatworkWeb.Layouts",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_layouts_matworkweb_layouts",
+      "community": 16,
+      "norm_label": "matworkweb.layouts"
+    },
+    {
+      "label": "app()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "components_layouts_matworkweb_layouts_app",
+      "community": 16,
+      "norm_label": "app()"
+    },
+    {
+      "label": "flash_group()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "components_layouts_matworkweb_layouts_flash_group",
+      "community": 16,
+      "norm_label": "flash_group()"
+    },
+    {
+      "label": "theme_toggle()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "components_layouts_matworkweb_layouts_theme_toggle",
+      "community": 16,
+      "norm_label": "theme_toggle()"
+    },
+    {
+      "label": "gym_new_live.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_new_live",
+      "community": 73,
+      "norm_label": "gym_new_live.ex"
+    },
+    {
+      "label": "MatworkWeb.GymNewLive",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_new_live_matworkweb_gymnewlive",
+      "community": 73,
+      "norm_label": "matworkweb.gymnewlive"
+    },
+    {
+      "label": "mount()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "live_gym_new_live_matworkweb_gymnewlive_mount",
+      "community": 73,
+      "norm_label": "mount()"
+    },
+    {
+      "label": "handle_event()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "live_gym_new_live_matworkweb_gymnewlive_handle_event",
+      "community": 73,
+      "norm_label": "handle_event()"
+    },
+    {
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "live_gym_new_live_matworkweb_gymnewlive_render",
+      "community": 73,
+      "norm_label": "render()"
+    },
+    {
+      "label": "gym_show_live.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_show_live",
+      "community": 73,
+      "norm_label": "gym_show_live.ex"
+    },
+    {
+      "label": "MatworkWeb.GymShowLive",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_show_live_matworkweb_gymshowlive",
+      "community": 73,
+      "norm_label": "matworkweb.gymshowlive"
+    },
+    {
+      "label": "mount()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_mount",
+      "community": 73,
+      "norm_label": "mount()"
+    },
+    {
+      "label": "handle_event()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_handle_event",
+      "community": 73,
+      "norm_label": "handle_event()"
+    },
+    {
+      "label": "assign_roster_and_form()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form",
+      "community": 73,
+      "norm_label": "assign_roster_and_form()"
+    },
+    {
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "live_gym_show_live_matworkweb_gymshowlive_render",
+      "community": 73,
+      "norm_label": "render()"
+    },
+    {
+      "label": "invite_accept_live.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_invite_accept_live",
+      "community": 73,
+      "norm_label": "invite_accept_live.ex"
+    },
+    {
+      "label": "MatworkWeb.InviteAcceptLive",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive",
+      "community": 73,
+      "norm_label": "matworkweb.inviteacceptlive"
+    },
+    {
+      "label": "mount()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_mount",
+      "community": 73,
+      "norm_label": "mount()"
+    },
+    {
+      "label": "resolve()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve",
+      "community": 73,
+      "norm_label": "resolve()"
+    },
+    {
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_render",
+      "community": 73,
+      "norm_label": "render()"
+    },
+    {
+      "label": "gym_new_live_test.exs",
+      "file_type": "code",
+      "source_file": "test/matwork_web/live/gym_new_live_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_new_live_test",
+      "community": 109,
+      "norm_label": "gym_new_live_test.exs"
+    },
+    {
+      "label": "MatworkWeb.GymNewLiveTest",
+      "file_type": "code",
+      "source_file": "test/matwork_web/live/gym_new_live_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_new_live_test_matworkweb_gymnewlivetest",
+      "community": 109,
+      "norm_label": "matworkweb.gymnewlivetest"
+    },
+    {
+      "label": "gym_show_live_test.exs",
+      "file_type": "code",
+      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_show_live_test",
+      "community": 73,
+      "norm_label": "gym_show_live_test.exs"
+    },
+    {
+      "label": "MatworkWeb.GymShowLiveTest",
+      "file_type": "code",
+      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_gym_show_live_test_matworkweb_gymshowlivetest",
+      "community": 73,
+      "norm_label": "matworkweb.gymshowlivetest"
+    },
+    {
+      "label": "invite_accept_live_test.exs",
+      "file_type": "code",
+      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_invite_accept_live_test",
+      "community": 73,
+      "norm_label": "invite_accept_live_test.exs"
+    },
+    {
+      "label": "MatworkWeb.InviteAcceptLiveTest",
+      "file_type": "code",
+      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "live_invite_accept_live_test_matworkweb_inviteacceptlivetest",
+      "community": 73,
+      "norm_label": "matworkweb.inviteacceptlivetest"
+    },
+    {
+      "label": "2026-07-16-nav-role-auth-layout-design.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "2026-07-16-nav-role-auth-layout-design.md",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design"
+    },
+    {
+      "label": "Nav bar: role/auth-aware layout, removing Phoenix scaffold leftovers",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "nav bar: role/auth-aware layout, removing phoenix scaffold leftovers",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_nav_bar_role_auth_aware_layout_removing_phoenix_scaffold_leftovers"
+    },
+    {
+      "label": "Problem",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "problem",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_problem"
+    },
+    {
+      "label": "Scope",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "scope",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_scope"
+    },
+    {
+      "label": "Design",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "design",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_design"
+    },
+    {
+      "label": "`Layouts.app/1` attrs",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "`layouts.app/1` attrs",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_layouts_app_1_attrs"
+    },
+    {
+      "label": "Brand mark (left side of header)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "brand mark (left side of header)",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_brand_mark_left_side_of_header"
+    },
+    {
+      "label": "Right side of header, by auth state",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "right side of header, by auth state",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_right_side_of_header_by_auth_state"
+    },
+    {
+      "label": "Call site changes",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "call site changes",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_call_site_changes"
+    },
+    {
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "community": 116,
+      "norm_label": "testing",
+      "id": "specs_2026_07_16_nav_role_auth_layout_design_testing"
+    },
+    {
       "label": "endpoint.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/endpoint.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "matwork_web_endpoint",
       "community": 39,
-      "norm_label": "endpoint.ex"
+      "norm_label": "endpoint.ex",
+      "id": "matwork_web_endpoint"
     },
     {
       "label": "MatworkWeb.Endpoint",
@@ -156,9 +526,9 @@
       "source_file": "lib/matwork_web/endpoint.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "matwork_web_endpoint_matworkweb_endpoint",
       "community": 39,
-      "norm_label": "matworkweb.endpoint"
+      "norm_label": "matworkweb.endpoint",
+      "id": "matwork_web_endpoint_matworkweb_endpoint"
     },
     {
       "label": "mix.exs",
@@ -166,9 +536,9 @@
       "source_file": "mix.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "mix",
       "community": 12,
-      "norm_label": "mix.exs"
+      "norm_label": "mix.exs",
+      "id": "mix"
     },
     {
       "label": "Matwork.MixProject",
@@ -176,9 +546,9 @@
       "source_file": "mix.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject",
       "community": 12,
-      "norm_label": "matwork.mixproject"
+      "norm_label": "matwork.mixproject",
+      "id": "mix_matwork_mixproject"
     },
     {
       "label": "project()",
@@ -186,9 +556,9 @@
       "source_file": "mix.exs",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_project",
       "community": 12,
-      "norm_label": "project()"
+      "norm_label": "project()",
+      "id": "mix_matwork_mixproject_project"
     },
     {
       "label": "application()",
@@ -196,9 +566,9 @@
       "source_file": "mix.exs",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_application",
       "community": 12,
-      "norm_label": "application()"
+      "norm_label": "application()",
+      "id": "mix_matwork_mixproject_application"
     },
     {
       "label": "cli()",
@@ -206,9 +576,9 @@
       "source_file": "mix.exs",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_cli",
       "community": 12,
-      "norm_label": "cli()"
+      "norm_label": "cli()",
+      "id": "mix_matwork_mixproject_cli"
     },
     {
       "label": "elixirc_paths()",
@@ -216,9 +586,9 @@
       "source_file": "mix.exs",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_elixirc_paths",
       "community": 12,
-      "norm_label": "elixirc_paths()"
+      "norm_label": "elixirc_paths()",
+      "id": "mix_matwork_mixproject_elixirc_paths"
     },
     {
       "label": "deps()",
@@ -226,9 +596,9 @@
       "source_file": "mix.exs",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_deps",
       "community": 12,
-      "norm_label": "deps()"
+      "norm_label": "deps()",
+      "id": "mix_matwork_mixproject_deps"
     },
     {
       "label": "aliases()",
@@ -236,9 +606,9 @@
       "source_file": "mix.exs",
       "source_location": "L100",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_aliases",
       "community": 12,
-      "norm_label": "aliases()"
+      "norm_label": "aliases()",
+      "id": "mix_matwork_mixproject_aliases"
     },
     {
       "label": "usage_rules()",
@@ -246,9 +616,9 @@
       "source_file": "mix.exs",
       "source_location": "L123",
       "_origin": "ast",
-      "id": "mix_matwork_mixproject_usage_rules",
       "community": 12,
-      "norm_label": "usage_rules()"
+      "norm_label": "usage_rules()",
+      "id": "mix_matwork_mixproject_usage_rules"
     },
     {
       "label": "2026-07-15-milestone-0-session-3-tenant-plug-liveviews-deploy-scaffold.md",
@@ -381,86 +751,6 @@
       "id": "plans_2026_07_15_milestone_0_session_3_tenant_plug_liveviews_deploy_scaffold_after_this_session"
     },
     {
-      "label": "gym_show_live.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "gym_show_live.ex",
-      "id": "live_gym_show_live"
-    },
-    {
-      "label": "MatworkWeb.GymShowLive",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "matworkweb.gymshowlive",
-      "id": "live_gym_show_live_matworkweb_gymshowlive"
-    },
-    {
-      "label": "mount()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "mount()",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_mount"
-    },
-    {
-      "label": "handle_event()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "handle_event()",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_handle_event"
-    },
-    {
-      "label": "assign_roster_and_form()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "assign_roster_and_form()",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
-    },
-    {
-      "label": "render()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L60",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "render()",
-      "id": "live_gym_show_live_matworkweb_gymshowlive_render"
-    },
-    {
-      "label": "gym_show_live_test.exs",
-      "file_type": "code",
-      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "gym_show_live_test.exs",
-      "id": "live_gym_show_live_test"
-    },
-    {
-      "label": "MatworkWeb.GymShowLiveTest",
-      "file_type": "code",
-      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "matworkweb.gymshowlivetest",
-      "id": "live_gym_show_live_test_matworkweb_gymshowlivetest"
-    },
-    {
       "label": "deploy.md",
       "file_type": "document",
       "source_file": "docs/deploy.md",
@@ -571,56 +861,6 @@
       "id": "matwork_release_matwork_release_load_app"
     },
     {
-      "label": "invite_accept_live.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "invite_accept_live.ex",
-      "id": "live_invite_accept_live"
-    },
-    {
-      "label": "MatworkWeb.InviteAcceptLive",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "matworkweb.inviteacceptlive",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive"
-    },
-    {
-      "label": "mount()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "mount()",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_mount"
-    },
-    {
-      "label": "resolve()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "resolve()",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve"
-    },
-    {
-      "label": "render()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "render()",
-      "id": "live_invite_accept_live_matworkweb_inviteacceptlive_render"
-    },
-    {
       "label": "router.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/router.ex",
@@ -639,26 +879,6 @@
       "community": 41,
       "norm_label": "matworkweb.router",
       "id": "matwork_web_router_matworkweb_router"
-    },
-    {
-      "label": "invite_accept_live_test.exs",
-      "file_type": "code",
-      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "invite_accept_live_test.exs",
-      "id": "live_invite_accept_live_test"
-    },
-    {
-      "label": "MatworkWeb.InviteAcceptLiveTest",
-      "file_type": "code",
-      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "matworkweb.inviteacceptlivetest",
-      "id": "live_invite_accept_live_test_matworkweb_inviteacceptlivetest"
     },
     {
       "label": "user.ex",
@@ -829,76 +1049,6 @@
       "community": 13,
       "norm_label": "body()",
       "id": "senders_send_invite_email_matwork_gyms_invite_senders_sendinviteemail_body"
-    },
-    {
-      "label": "gym_new_live.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "gym_new_live.ex",
-      "id": "live_gym_new_live"
-    },
-    {
-      "label": "MatworkWeb.GymNewLive",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "matworkweb.gymnewlive",
-      "id": "live_gym_new_live_matworkweb_gymnewlive"
-    },
-    {
-      "label": "mount()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "mount()",
-      "id": "live_gym_new_live_matworkweb_gymnewlive_mount"
-    },
-    {
-      "label": "handle_event()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "handle_event()",
-      "id": "live_gym_new_live_matworkweb_gymnewlive_handle_event"
-    },
-    {
-      "label": "render()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "render()",
-      "id": "live_gym_new_live_matworkweb_gymnewlive_render"
-    },
-    {
-      "label": "gym_new_live_test.exs",
-      "file_type": "code",
-      "source_file": "test/matwork_web/live/gym_new_live_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 109,
-      "norm_label": "gym_new_live_test.exs",
-      "id": "live_gym_new_live_test"
-    },
-    {
-      "label": "MatworkWeb.GymNewLiveTest",
-      "file_type": "code",
-      "source_file": "test/matwork_web/live/gym_new_live_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 109,
-      "norm_label": "matworkweb.gymnewlivetest",
-      "id": "live_gym_new_live_test_matworkweb_gymnewlivetest"
     },
     {
       "label": "COMPONENTS.md",
@@ -2039,56 +2189,6 @@
       "community": 8,
       "norm_label": "translate_error()",
       "id": "components_core_components_matworkweb_corecomponents_translate_error"
-    },
-    {
-      "label": "layouts.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 16,
-      "norm_label": "layouts.ex",
-      "id": "components_layouts"
-    },
-    {
-      "label": "MatworkWeb.Layouts",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 16,
-      "norm_label": "matworkweb.layouts",
-      "id": "components_layouts_matworkweb_layouts"
-    },
-    {
-      "label": "app()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L36",
-      "_origin": "ast",
-      "community": 16,
-      "norm_label": "app()",
-      "id": "components_layouts_matworkweb_layouts_app"
-    },
-    {
-      "label": "flash_group()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L85",
-      "_origin": "ast",
-      "community": 16,
-      "norm_label": "flash_group()",
-      "id": "components_layouts_matworkweb_layouts_flash_group"
-    },
-    {
-      "label": "theme_toggle()",
-      "file_type": "code",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L129",
-      "_origin": "ast",
-      "community": 16,
-      "norm_label": "theme_toggle()",
-      "id": "components_layouts_matworkweb_layouts_theme_toggle"
     },
     {
       "label": "auth_controller.ex",
@@ -8580,6 +8680,384 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layouts",
+      "target": "components_layouts_matworkweb_layouts"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layouts_matworkweb_layouts",
+      "target": "components_layouts_matworkweb_layouts_app"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layouts_matworkweb_layouts",
+      "target": "components_layouts_matworkweb_layouts_flash_group"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/components/layouts.ex",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layouts_matworkweb_layouts",
+      "target": "components_layouts_matworkweb_layouts_theme_toggle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_new_live",
+      "target": "live_gym_new_live_matworkweb_gymnewlive"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L4",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "live_gym_new_live",
+      "target": "matwork_gyms"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_new_live_matworkweb_gymnewlive",
+      "target": "live_gym_new_live_matworkweb_gymnewlive_handle_event"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_new_live_matworkweb_gymnewlive",
+      "target": "live_gym_new_live_matworkweb_gymnewlive_mount"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_new_live.ex",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_new_live_matworkweb_gymnewlive",
+      "target": "live_gym_new_live_matworkweb_gymnewlive_render"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live",
+      "target": "live_gym_show_live_matworkweb_gymshowlive"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live",
+      "target": "matwork_gyms"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_matworkweb_gymshowlive",
+      "target": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_matworkweb_gymshowlive",
+      "target": "live_gym_show_live_matworkweb_gymshowlive_handle_event"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_matworkweb_gymshowlive",
+      "target": "live_gym_show_live_matworkweb_gymshowlive_mount"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_matworkweb_gymshowlive",
+      "target": "live_gym_show_live_matworkweb_gymshowlive_render"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_matworkweb_gymshowlive_mount",
+      "target": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/gym_show_live.ex",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_matworkweb_gymshowlive_handle_event",
+      "target": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live",
+      "target": "live_invite_accept_live_matworkweb_inviteacceptlive"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L4",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live",
+      "target": "matwork_gyms"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live_matworkweb_inviteacceptlive",
+      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_mount"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live_matworkweb_inviteacceptlive",
+      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_render"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live_matworkweb_inviteacceptlive",
+      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live_matworkweb_inviteacceptlive_mount",
+      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/gym_new_live_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_new_live_test",
+      "target": "live_gym_new_live_test_matworkweb_gymnewlivetest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_test",
+      "target": "live_gym_show_live_test_matworkweb_gymshowlivetest"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "live_gym_show_live_test",
+      "target": "matwork_gyms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live_test",
+      "target": "live_invite_accept_live_test_matworkweb_inviteacceptlivetest"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "live_invite_accept_live_test",
+      "target": "matwork_gyms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_nav_bar_role_auth_aware_layout_removing_phoenix_scaffold_leftovers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_nav_bar_role_auth_aware_layout_removing_phoenix_scaffold_leftovers",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_nav_bar_role_auth_aware_layout_removing_phoenix_scaffold_leftovers",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_problem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_nav_bar_role_auth_aware_layout_removing_phoenix_scaffold_leftovers",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_scope"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_nav_bar_role_auth_aware_layout_removing_phoenix_scaffold_leftovers",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_testing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_design",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_brand_mark_left_side_of_header"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_design",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_call_site_changes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_design",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_layouts_app_1_attrs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "specs_2026_07_16_nav_role_auth_layout_design_design",
+      "target": "specs_2026_07_16_nav_role_auth_layout_design_right_side_of_header_by_auth_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "lib/matwork_web/endpoint.ex",
       "source_location": "L1",
       "weight": 1.0,
@@ -8834,110 +9312,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live",
-      "target": "live_gym_show_live_matworkweb_gymshowlive"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L7",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live",
-      "target": "matwork_gyms"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_matworkweb_gymshowlive",
-      "target": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_matworkweb_gymshowlive",
-      "target": "live_gym_show_live_matworkweb_gymshowlive_handle_event"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_matworkweb_gymshowlive",
-      "target": "live_gym_show_live_matworkweb_gymshowlive_mount"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_matworkweb_gymshowlive",
-      "target": "live_gym_show_live_matworkweb_gymshowlive_render"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L13",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_matworkweb_gymshowlive_mount",
-      "target": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_show_live.ex",
-      "source_location": "L27",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_matworkweb_gymshowlive_handle_event",
-      "target": "live_gym_show_live_matworkweb_gymshowlive_assign_roster_and_form"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_test",
-      "target": "live_gym_show_live_test_matworkweb_gymshowlivetest"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/gym_show_live_test.exs",
-      "source_location": "L7",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_gym_show_live_test",
-      "target": "matwork_gyms"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "docs/deploy.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -9061,95 +9435,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live",
-      "target": "live_invite_accept_live_matworkweb_inviteacceptlive"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L4",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live",
-      "target": "matwork_gyms"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live_matworkweb_inviteacceptlive",
-      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_mount"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live_matworkweb_inviteacceptlive",
-      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_render"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live_matworkweb_inviteacceptlive",
-      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/invite_accept_live.ex",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live_matworkweb_inviteacceptlive_mount",
-      "target": "live_invite_accept_live_matworkweb_inviteacceptlive_resolve"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "lib/matwork_web/router.ex",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "matwork_web_router",
       "target": "matwork_web_router_matworkweb_router"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live_test",
-      "target": "live_invite_accept_live_test_matworkweb_inviteacceptlivetest"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/invite_accept_live_test.exs",
-      "source_location": "L7",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_invite_accept_live_test",
-      "target": "matwork_gyms"
     },
     {
       "relation": "contains",
@@ -9282,67 +9573,6 @@
       "confidence_score": 1.0,
       "source": "senders_send_invite_email_matwork_gyms_invite_senders_sendinviteemail_send",
       "target": "senders_send_invite_email_matwork_gyms_invite_senders_sendinviteemail_body"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_new_live",
-      "target": "live_gym_new_live_matworkweb_gymnewlive"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L4",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "live_gym_new_live",
-      "target": "matwork_gyms"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_new_live_matworkweb_gymnewlive",
-      "target": "live_gym_new_live_matworkweb_gymnewlive_handle_event"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_new_live_matworkweb_gymnewlive",
-      "target": "live_gym_new_live_matworkweb_gymnewlive_mount"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/live/gym_new_live.ex",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_new_live_matworkweb_gymnewlive",
-      "target": "live_gym_new_live_matworkweb_gymnewlive_render"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork_web/live/gym_new_live_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "live_gym_new_live_test",
-      "target": "live_gym_new_live_test_matworkweb_gymnewlivetest"
     },
     {
       "relation": "contains",
@@ -10311,46 +10541,6 @@
       "confidence_score": 1.0,
       "source": "components_core_components_matworkweb_corecomponents_input",
       "target": "components_core_components_matworkweb_corecomponents_translate_error"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layouts",
-      "target": "components_layouts_matworkweb_layouts"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layouts_matworkweb_layouts",
-      "target": "components_layouts_matworkweb_layouts_app"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L85",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layouts_matworkweb_layouts",
-      "target": "components_layouts_matworkweb_layouts_flash_group"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork_web/components/layouts.ex",
-      "source_location": "L129",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layouts_matworkweb_layouts",
-      "target": "components_layouts_matworkweb_layouts_theme_toggle"
     },
     {
       "relation": "contains",
@@ -16825,5 +17015,5 @@
       "source_file": "docs/design.md"
     }
   ],
-  "built_at_commit": "fa0cee28ca5ee16c332b8d28eeffd509fe9af7e3"
+  "built_at_commit": "f885e3bb52d513a02454dffbcbfc3583cc0bd59a"
 }

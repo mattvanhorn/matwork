@@ -135,9 +135,9 @@
     "semantic_hash": "ad8cd8160f8facbec05d2fc065fbc8d5"
   },
   "lib/matwork_web/endpoint.ex": {
-    "mtime": 1784139509.5879402,
-    "ast_hash": "0044dad55b096f6b0a526c4bdc16e901",
-    "semantic_hash": "0044dad55b096f6b0a526c4bdc16e901"
+    "mtime": 1784239500.571668,
+    "ast_hash": "95024dd3abfc1a1c84d6c47d89dd0046",
+    "semantic_hash": ""
   },
   "lib/matwork_web/gettext.ex": {
     "mtime": 1784139509.5880954,
@@ -160,8 +160,8 @@
     "semantic_hash": "36160bc30f3859c357a4e066dfe883ab"
   },
   "mix.exs": {
-    "mtime": 1784139509.589062,
-    "ast_hash": "c06907b802e58324959490f926b554b0",
+    "mtime": 1784227851.107531,
+    "ast_hash": "6624a44f4e9f69f1c2bd5ae5b7605f7f",
     "semantic_hash": ""
   },
   "priv/repo/migrations/.formatter.exs": {
@@ -872,6 +872,11 @@
   ".superpowers/sdd/final-review-fix-report.md": {
     "mtime": 1784221649.1293855,
     "ast_hash": "45603dda68ae235bd6f5251cae1d1094",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md": {
+    "mtime": 1784248819.9999206,
+    "ast_hash": "5bb0861aa8547a144eedcd7b3b266ae0",
     "semantic_hash": ""
   }
 }
