@@ -11,8 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
+      # ash_postgres generates `MERGE ... RETURNING` for upsert actions (e.g.
+      # Token.store_token, Membership.accept_invite); Postgres only supports
+      # RETURNING on MERGE from v17 onward. Do not downgrade to 16 (CLAUDE.md
+      # says 16, but that's stale — 17+ is actually required).
       postgres:
-        image: postgres:16
+        image: postgres:17
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
