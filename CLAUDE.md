@@ -7,7 +7,9 @@ disagree, say so; don't silently pick one.
 
 ## Stack
 
-Elixir 1.18+ / OTP 27 · Phoenix 1.8 + LiveView · Ash 3.x + ash_postgres (Postgres 16)
+Elixir 1.18+ / OTP 27 · Phoenix 1.8 + LiveView · Ash 3.x + ash_postgres (Postgres 17+ —
+ash_postgres generates `MERGE ... RETURNING` for upsert actions, which Postgres only
+supports from v17 onward; this was stated as 16 previously but that's wrong)
 · ash_authentication (magic link ONLY — no passwords) · ash_oban/Oban · Tailwind
 · Stripe Connect (Express, destination charges) · Mux (direct upload, signed playback)
 · Fly.io
