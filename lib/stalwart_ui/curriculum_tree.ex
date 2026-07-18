@@ -9,6 +9,13 @@ defmodule StalwartUI.CurriculumTree do
 
   alias Phoenix.LiveView.JS
 
+  # `data-confirm` on the delete buttons below is not a phoenix_live_view feature —
+  # phoenix_html.js's global click listener intercepts the click first (it's imported
+  # before phoenix_live_view in app.js), reads `data-confirm`, and on cancel calls
+  # stopImmediatePropagation() before LiveView's own click handler ever sees the event.
+  # This correctly gates the phx-click push even though nothing in phoenix_live_view.js
+  # itself knows about `data-confirm` — don't "fix" this by removing it.
+
   attr :sections, :list,
     required: true,
     doc: "sorted list of %{id, title, lessons: [%{id, title, free_preview}]} — lessons pre-sorted"
