@@ -7,6 +7,8 @@ defmodule StalwartUI.CurriculumTree do
   """
   use Phoenix.Component
 
+  alias Phoenix.LiveView.JS
+
   attr :sections, :list,
     required: true,
     doc: "sorted list of %{id, title, lessons: [%{id, title, free_preview}]} — lessons pre-sorted"
@@ -52,8 +54,7 @@ defmodule StalwartUI.CurriculumTree do
           >↓</button>
           <button
             type="button"
-            phx-click={@on_delete_section}
-            phx-value-id={section.id}
+            phx-click={JS.push(@on_delete_section, value: %{id: section.id})}
             data-confirm="Delete this section and its lessons?"
             class="btn btn-xs btn-error"
           >Delete</button>
@@ -98,8 +99,7 @@ defmodule StalwartUI.CurriculumTree do
             >↓</button>
             <button
               type="button"
-              phx-click={@on_delete_lesson}
-              phx-value-id={lesson.id}
+              phx-click={JS.push(@on_delete_lesson, value: %{id: lesson.id})}
               data-confirm="Delete this lesson?"
               class="btn btn-xs btn-error"
             >Delete</button>

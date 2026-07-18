@@ -10,14 +10,14 @@ defmodule Matwork.Curriculum.Validations.SectionInTenant do
   require Ash.Query
 
   @impl true
-  def validate(changeset, _opts, _context) do
+  def validate(changeset, _opts, context) do
     section_id = Ash.Changeset.get_attribute(changeset, :section_id)
     tenant = changeset.tenant
 
     exists? =
       Matwork.Curriculum.CourseSection
       |> Ash.Query.filter(id == ^section_id)
-      |> Ash.exists?(tenant: tenant, authorize?: false)
+      |> Ash.exists?(tenant: tenant, actor: context.actor)
 
     if exists? do
       :ok

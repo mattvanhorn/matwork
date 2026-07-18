@@ -49,8 +49,10 @@ free-preview lessons watchable and everything else locked.
 
 All three of `Course`, `CourseSection`, `Lesson`, and `Video` are **tenant-scoped**
 (attribute multitenancy on `gym_id`, per `CLAUDE.md`'s iron rule). `WebhookEvent` is
-**global**. IDs are `bigserial` (per `design.md` §4). All resources get timestamps.
-Money is not involved in M1, so the integer-cents rule does not apply here.
+**global**. IDs are `uuid_primary_key :id`, matching every other resource in the
+codebase — not the `bigserial` this section originally specified (see the Session-1
+implementation plan's Global Constraints for the reconciliation). All resources get
+timestamps. Money is not involved in M1, so the integer-cents rule does not apply here.
 
 ### 2.1 Curriculum domain (`Matwork.Curriculum`, all tenant-scoped)
 

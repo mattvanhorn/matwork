@@ -29,8 +29,14 @@ defmodule Matwork.Curriculum.LessonTest do
       generate(membership(gym: gym, user: student, role: :student))
       section = generate(section(course: generate(course(gym: gym))))
 
-      assert {:error, %Ash.Error.Forbidden{}} =
-               Curriculum.add_lesson(section, "Nope", actor: student, tenant: gym.id)
+      # Denied either way: the resource's own create policy (ManagesCurriculum)
+      # would reject a student outright, but since the parent course defaults
+      # to :draft, SectionInTenant's actor-scoped exists check (see
+      # Matwork.Curriculum.Checks.SectionVisible/CourseVisible — students only
+      # see published courses) now denies visibility first, surfacing as
+      # Invalid rather than Forbidden. Either error class correctly blocks
+      # the write.
+      assert {:error, _} = Curriculum.add_lesson(section, "Nope", actor: student, tenant: gym.id)
     end
 
     test "an instructor cannot attach a lesson to another gym's section" do

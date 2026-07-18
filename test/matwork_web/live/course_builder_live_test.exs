@@ -55,6 +55,25 @@ defmodule MatworkWeb.CourseBuilderLiveTest do
     assert html =~ "have access"
   end
 
+  test "owner deletes a section via the Delete button's JS.push command", %{
+    conn: conn,
+    owner: owner,
+    gym: gym,
+    course: course
+  } do
+    section = generate(section(course: course, title: "Sweeps"))
+
+    conn = sign_in(conn, owner)
+    {:ok, lv, html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+    assert html =~ "Sweeps"
+
+    lv
+    |> element("#section-#{section.id} button", "Delete")
+    |> render_click()
+
+    refute render(lv) =~ "Sweeps"
+  end
+
   test "a stale section id flashes instead of crashing", %{
     conn: conn,
     owner: owner,
@@ -69,6 +88,23 @@ defmodule MatworkWeb.CourseBuilderLiveTest do
 
     assert html =~ "no longer exists"
     refute html =~ "Ghost"
+  end
+
+  test "an unexpected direction value flashes/no-ops instead of crashing", %{
+    conn: conn,
+    owner: owner,
+    gym: gym,
+    course: course
+  } do
+    section = generate(section(course: course))
+
+    conn = sign_in(conn, owner)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    html =
+      render_click(lv, "move_section", %{"id" => section.id, "direction" => "sideways"})
+
+    assert html =~ section.title
   end
 
   test "a missing course id redirects to the course index instead of crashing", %{
