@@ -1,16 +1,16 @@
-# Graph Report - matwork  (2026-07-17)
+# Graph Report - matwork  (2026-07-18)
 
 ## Corpus Check
-- 202 files · ~89,558 words
+- 203 files · ~92,472 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1181 nodes · 1175 edges · 154 communities (79 shown, 75 thin omitted)
-- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 43 edges (avg confidence: 0.88)
+- 1206 nodes · 1200 edges · 154 communities (77 shown, 77 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 44 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `055c15a1`
+- Built from commit: `b800fad2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -136,6 +136,7 @@
 - [[_COMMUNITY_Community 130|Community 130]]
 - [[_COMMUNITY_Community 131|Community 131]]
 - [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
 - [[_COMMUNITY_Community 134|Community 134]]
 - [[_COMMUNITY_Community 135|Community 135]]
 - [[_COMMUNITY_Community 136|Community 136]]
@@ -162,12 +163,12 @@
 2. `MatworkWeb.CoreComponents` - 12 edges
 3. `AshAuthentication Usage Rules` - 12 edges
 4. `What You Must Do When Invoked` - 11 edges
-5. `BJJ Instructor Platform — POC Design Document` - 11 edges
-6. `Matwork.Curriculum` - 10 edges
-7. `MatworkWeb` - 10 edges
-8. `/graphify` - 10 edges
-9. `Matwork — BJJ instructor income platform (POC)` - 10 edges
-10. `Elixir Core Usage Rules` - 10 edges
+5. `Task 2 Report: CourseSection Resource + Ordering + Reorder` - 11 edges
+6. `Task 4 Report: StalwartUI.CurriculumTree Component` - 11 edges
+7. `BJJ Instructor Platform — POC Design Document` - 11 edges
+8. `Milestone 1 — Curriculum + video (design spec)` - 10 edges
+9. `Matwork.Curriculum` - 10 edges
+10. `MatworkWeb` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Matwork README (generic Phoenix boilerplate)` --semantically_similar_to--> `Phoenix Framework Skill`  [INFERRED] [semantically similar]
@@ -195,7 +196,7 @@
 - **Tenant-Independent Global Resources** — docs_design_user, docs_design_token, docs_design_gym, docs_design_webhookevent [EXTRACTED 1.00]
 - **Paywall / Content-Gating Authorization Flow** — docs_design_lesson, docs_design_membership, docs_design_subscription, docs_design_mux, docs_design_authorization_policies [INFERRED 0.85]
 
-## Communities (154 total, 75 thin omitted)
+## Communities (154 total, 77 thin omitted)
 
 ### Community 0 - "AshOban & Ash.Query Reference"
 Cohesion: 0.15
@@ -250,8 +251,8 @@ Cohesion: 0.24
 Nodes (7): Matwork.Mailer, Matwork.Gyms.Invite.Senders.SendInviteEmail, body(), send(), Matwork.Accounts.User.Senders.SendMagicLinkEmail, body(), send()
 
 ### Community 14 - "Telemetry Setup"
-Cohesion: 0.40
-Nodes (3): MatworkWeb.Telemetry, init(), periodic_measurements()
+Cohesion: 0.06
+Nodes (31): MatworkWeb.Telemetry, init(), metrics(), periodic_measurements(), 1. Missing tenant-isolation test for CourseSection reads, 2. Missing cross-course isolation test for `swap_position`'s filter, 3. Missing "last section down" boundary test, 4. Report false claims (+23 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.12
@@ -306,8 +307,8 @@ Cohesion: 0.07
 Nodes (28): 1. Scope and non-goals, 2.1 Curriculum domain (`Matwork.Curriculum`, all tenant-scoped), 2.2 Media domain (`Matwork.Media`, tenant-scoped) — Session 2, 2.3 Platform domain (`Matwork.Platform`, global) — Session 2, 2. Resource model, 3.1 Curriculum write gating — `ManagesCurriculum` check, 3.2 Curriculum read gating, 3.3 Playback authorization — Session 3 (+20 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.12
-Nodes (16): Commit, Commit, Files Changed, Fix Applied, Follow-up Fix: Restore Isolated Allow-Path Test (commit c44daa0), Format and Lint, Full Test Suite, Gym Tests (+8 more)
+Cohesion: 0.18
+Nodes (10): Commit, Files Implemented, Implementation Summary, Issues & Concerns, Linting & Formatting, SectionInTenant Validation Details, Self-Review Checklist, Status (+2 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.18
@@ -338,8 +339,8 @@ Cohesion: 0.40
 Nodes (4): AshPhoenix.Form, AshPhoenix.LiveView, Rules for working with AshPhoenix, Understanding AshPhoenix
 
 ### Community 77 - "Community 77"
-Cohesion: 0.12
-Nodes (15): Code Quality, Commit Details, Concerns, Configuration Note, Failing Test (1/5):, Files Changed, Fix Applied, Follow-up: Test Expectation Fix (+7 more)
+Cohesion: 0.18
+Nodes (10): Code Quality, Commit Information, Files Created, Files Modified, Focused Test Suite, Full Test Suite, Implementation Summary, Status: DONE (+2 more)
 
 ### Community 78 - "Community 78"
 Cohesion: 0.50
@@ -393,10 +394,6 @@ Nodes (3): Global Constraints, Role/Auth-Aware Nav Bar Implementation Plan, Task
 Cohesion: 0.20
 Nodes (9): Brand mark (left side of header), Call site changes, Design, `Layouts.app/1` attrs, Nav bar: role/auth-aware layout, removing Phoenix scaffold leftovers, Problem, Right side of header, by auth state, Scope (+1 more)
 
-### Community 117 - "Community 117"
-Cohesion: 0.14
-Nodes (13): Commit, Commit, Deviation from the brief: `require Ash.Query`, Files changed (committed in 904d4d0), Implementation, Original test failure (now resolved): brief-sequencing gap, not my error, Post-review follow-up: restrict `Membership.remove` (commit 8cef58c), Status: DONE (commit 904d4d0) (+5 more)
-
 ### Community 118 - "Community 118"
 Cohesion: 0.14
 Nodes (13): Addendum: `mark_accepted` still didn't check *who* the actor was (commit 819423e), Concerns, Concerns, Files changed, Files changed (this addendum), Fix, Fix 1: email-match guard on `accept_invite`, Fix 2: `Invite.mark_accepted` policy tightened (+5 more)
@@ -410,8 +407,8 @@ Cohesion: 0.17
 Nodes (11): Deploy scaffold (not launched), Dev environment, Deviations from the original plans — security fixes found during implementation, Explicitly deferred (from design.md's Milestone 0 scope or discovered along the way), Full session-by-session detail (only if you need it), How this project is planned and built, `Matwork.Gyms` (`lib/matwork/gyms.ex` + `lib/matwork/gyms/`), Milestone 0 recap (Foundation) — done, 2026-07-16 (+3 more)
 
 ### Community 121 - "Community 121"
-Cohesion: 0.17
-Nodes (11): A real bug surfaced while writing the `mark_accepted` test — and the fix, Addendum: reviewer-flagged coverage gaps (commit cbbeeec), Concern for the coordinator / plan author, Files changed, Issues or concerns (original submission), New tests added, Self-review findings, Task 4 Report: `Invite` resource (+3 more)
+Cohesion: 0.11
+Nodes (18): Addendum: reviewer-flagged fix (commit 47c6a40), Code Quality, Commit, Component Interface, Documentation updated, Downstream note (not this task's job, carried forward per coordinator), Files Changed, Files changed in this addendum (+10 more)
 
 ### Community 122 - "Community 122"
 Cohesion: 0.12
@@ -422,12 +419,12 @@ Cohesion: 0.20
 Nodes (9): mix ash.codegen, mix ash.migrate, mix ash_postgres.migrate --tenants, --dev migration workflow avoids premature migration naming, Development Migration Workflow (Recommended), Migrations and Codegen, Traditional Migration Generation, Multitenancy (+1 more)
 
 ### Community 124 - "Community 124"
-Cohesion: 0.25
-Nodes (7): Concerns, Deviation from the brief: credo nesting violation, Files changed, Self-review findings, Task 5 Report: `Membership.accept_invite`, What I implemented, What I tested and results
+Cohesion: 0.22
+Nodes (8): Files changed, Issues / concerns, Router: handling the `CourseBuilderLive` forward-reference, Self-review, Task 5 Report: Course index LiveView (`/g/:slug/courses`), TDD evidence, Verification run, What I implemented
 
 ### Community 125 - "Community 125"
-Cohesion: 0.29
-Nodes (6): Empirical verification: does `Ash.Changeset.get_attribute(context.subject, :role)` see the submitted role at policy-check time?, Files changed, Issues or concerns, Task 6 Report: Restrict `Invite.create` so only an owner can grant owner/instructor roles, Test / format / credo output, What I built
+Cohesion: 0.11
+Nodes (17): 1. (Important) Extracted `Curriculum.load_course_tree/2`, 2. Minor fixes — all 8 implemented, Addendum: Final whole-branch review fix pass, Concerns, Concerns / decisions to flag for the coordinator, Deviations applied, Files changed, Files changed (this addendum) (+9 more)
 
 ### Community 126 - "Community 126"
 Cohesion: 0.40
@@ -462,15 +459,15 @@ Cohesion: 0.50
 Nodes (3): AshOban scheduled_actions DSL, Scheduled Action Configuration Options, Scheduled Actions
 
 ## Knowledge Gaps
-- **570 isolated node(s):** `Matwork.Curriculum.Course`, `Matwork.Curriculum.CourseSection`, `Matwork.Curriculum.Lesson`, `attributes`, `base_filter` (+565 more)
+- **593 isolated node(s):** `1. Scope and non-goals`, `2.1 Curriculum domain (`Matwork.Curriculum`, all tenant-scoped)`, `2.2 Media domain (`Matwork.Media`, tenant-scoped) — Session 2`, `2.3 Platform domain (`Matwork.Platform`, global) — Session 2`, `3.1 Curriculum write gating — `ManagesCurriculum` check` (+588 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **75 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **77 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `Matwork.Curriculum.Course`, `Matwork.Curriculum.CourseSection`, `Matwork.Curriculum.Lesson` to the rest of the system?**
-  _585 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `1. Scope and non-goals`, `2.1 Curriculum domain (`Matwork.Curriculum`, all tenant-scoped)`, `2.2 Media domain (`Matwork.Media`, tenant-scoped) — Session 2` to the rest of the system?**
+  _608 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Matwork Project Rules & Design Rationale` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Ash Actions, Changes & Validations` be split into smaller, more focused modules?**

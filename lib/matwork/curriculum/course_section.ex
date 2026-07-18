@@ -18,7 +18,11 @@ defmodule Matwork.Curriculum.CourseSection do
     end
 
     custom_indexes do
-      index [:gym_id]
+      # AshPostgres prepends the multitenancy attribute (gym_id) to declared
+      # indexes on attribute-multitenant resources, so this alone already
+      # produces a [:gym_id, :course_id] index — a separate [:gym_id]-only
+      # index would be redundant (Postgres can use this one's leftmost
+      # prefix for gym_id-only queries).
       index [:course_id]
     end
   end

@@ -30,9 +30,12 @@ names.
 [%{id, title, free_preview}]}`; plus event-name overrides `on_add_section`,
 `on_rename_section`, `on_delete_section`, `on_move_section`, `on_add_lesson`,
 `on_rename_lesson`, `on_delete_lesson`, `on_move_lesson`, `on_toggle_preview`
-(all default to their obvious event name). Move events carry `phx-value-id`
-and `phx-value-direction` (`"up"`/`"down"`). Delete and toggle-preview events
-carry `phx-value-id`.
+(all default to their obvious event name). Move and toggle-preview events
+carry `phx-value-id` (and `phx-value-direction`, `"up"`/`"down"`, for move).
+Delete events use `Phoenix.LiveView.JS.push(event, value: %{id: ...})`
+instead of `phx-value-id` (needed so `data-confirm` can still gate the push —
+see the module's inline comment) but arrive with the same `%{"id" => ...}`
+shape.
 
 **Form submit payload shapes:** the rename-section, rename-lesson, and
 add-lesson forms each include a hidden `<input name="_id">` — not `"id"` — to

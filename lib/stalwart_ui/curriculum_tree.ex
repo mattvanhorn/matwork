@@ -50,6 +50,7 @@ defmodule StalwartUI.CurriculumTree do
             phx-click={@on_move_section}
             phx-value-id={section.id}
             phx-value-direction="up"
+            aria-label="Move section up"
             class="btn btn-xs"
           >↑</button>
           <button
@@ -57,6 +58,7 @@ defmodule StalwartUI.CurriculumTree do
             phx-click={@on_move_section}
             phx-value-id={section.id}
             phx-value-direction="down"
+            aria-label="Move section down"
             class="btn btn-xs"
           >↓</button>
           <button
@@ -95,6 +97,7 @@ defmodule StalwartUI.CurriculumTree do
               phx-click={@on_move_lesson}
               phx-value-id={lesson.id}
               phx-value-direction="up"
+              aria-label="Move lesson up"
               class="btn btn-xs"
             >↑</button>
             <button
@@ -102,6 +105,7 @@ defmodule StalwartUI.CurriculumTree do
               phx-click={@on_move_lesson}
               phx-value-id={lesson.id}
               phx-value-direction="down"
+              aria-label="Move lesson down"
               class="btn btn-xs"
             >↓</button>
             <button

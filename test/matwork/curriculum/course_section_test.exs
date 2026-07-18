@@ -106,6 +106,23 @@ defmodule Matwork.Curriculum.CourseSectionTest do
       assert ordered == [first.id, second.id]
     end
 
+    test "an unrecognized direction is a no-op, not a crash" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      course = generate(course(gym: gym))
+      first = generate(section(course: course, position: 0))
+      second = generate(section(course: course, position: 1))
+
+      assert :ok = Curriculum.reorder_section(first, :sideways, actor: owner, tenant: gym.id)
+
+      ordered =
+        Curriculum.list_sections!(actor: owner, tenant: gym.id)
+        |> Enum.sort_by(& &1.position)
+        |> Enum.map(& &1.id)
+
+      assert ordered == [first.id, second.id]
+    end
+
     test "reordering a section in one course does not touch another course's sections" do
       owner = generate(user())
       gym = generate(gym(owner: owner))

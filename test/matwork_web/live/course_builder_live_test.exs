@@ -55,6 +55,22 @@ defmodule MatworkWeb.CourseBuilderLiveTest do
     assert html =~ "have access"
   end
 
+  test "a student's crafted event on the denied builder is a no-op, not a crash", %{
+    conn: conn,
+    gym: gym,
+    course: course
+  } do
+    student = generate(user())
+    generate(membership(gym: gym, user: student, role: :student))
+
+    conn = sign_in(conn, student)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    html = render_click(lv, "publish", %{})
+
+    assert html =~ "have access"
+  end
+
   test "owner deletes a section via the Delete button's JS.push command", %{
     conn: conn,
     owner: owner,

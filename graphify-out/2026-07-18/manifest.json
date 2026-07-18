@@ -30,7 +30,7 @@
     "semantic_hash": "3288720f1f1e6a509836cca7c5554a64"
   },
   "config/config.exs": {
-    "mtime": 1784301932.135705,
+    "mtime": 1784322073.7077181,
     "ast_hash": "e36ecdda8260f243fdb2b67041f0be91",
     "semantic_hash": ""
   },
@@ -50,7 +50,7 @@
     "semantic_hash": ""
   },
   "config/test.exs": {
-    "mtime": 1784304776.5984406,
+    "mtime": 1784322073.708148,
     "ast_hash": "96be2559311f440fdf834b77757af062",
     "semantic_hash": ""
   },
@@ -150,7 +150,7 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/router.ex": {
-    "mtime": 1784306861.7817118,
+    "mtime": 1784322073.7290692,
     "ast_hash": "b71344d13bdc83281594bca026b07be2",
     "semantic_hash": ""
   },
@@ -610,7 +610,7 @@
     "semantic_hash": ""
   },
   "test/support/generator.ex": {
-    "mtime": 1784307274.0,
+    "mtime": 1784322073.736542,
     "ast_hash": "ed2bcc94a8b67e2b8fe176d4eea2f688",
     "semantic_hash": ""
   },
@@ -665,7 +665,7 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/gym_live_auth.ex": {
-    "mtime": 1784316691.0608606,
+    "mtime": 1784322073.7272358,
     "ast_hash": "da2a2505ca3cf1ddebf40580c984105d",
     "semantic_hash": ""
   },
@@ -700,8 +700,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/progress.md": {
-    "mtime": 1784307539.9569395,
-    "ast_hash": "611d44eff627e6a90cd75c61bdda9b9f",
+    "mtime": 1784317127.7142642,
+    "ast_hash": "17afbc020fccaaf4719b09260f785683",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-1-brief.md": {
@@ -720,7 +720,7 @@
     "semantic_hash": ""
   },
   "COMPONENTS.md": {
-    "mtime": 1784306683.6277049,
+    "mtime": 1784322073.706855,
     "ast_hash": "8c5f9901206ce02730a75c680d023b9a",
     "semantic_hash": ""
   },
@@ -835,8 +835,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-6-report.md": {
-    "mtime": 1784307381.125479,
-    "ast_hash": "a1d2e21c0cd100f24892f96d0a9740cb",
+    "mtime": 1784316985.8071682,
+    "ast_hash": "2e8ffa7ae841f1722e56967b9e875361",
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md": {
@@ -855,13 +855,13 @@
     "semantic_hash": ""
   },
   "docs/superpowers/journal/2026-07-16-milestone-0-recap.md": {
-    "mtime": 1784258510.4940321,
+    "mtime": 1784322073.7086809,
     "ast_hash": "568dc1cf10cfe46cc215e6fef476b16b",
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-07-16-milestone-1-curriculum-video-design.md": {
-    "mtime": 1784299333.1067002,
-    "ast_hash": "a74edded5fde7b5a2132bf9085e2fda6",
+    "mtime": 1784322390.415697,
+    "ast_hash": "6e4e0c5c14ec3138d0e75c1d287723f1",
     "semantic_hash": ""
   },
   "docs/superpowers/plans/2026-07-17-milestone-1-session-1-curriculum.md": {
@@ -870,128 +870,128 @@
     "semantic_hash": ""
   },
   "lib/matwork/curriculum.ex": {
-    "mtime": 1784316656.4230583,
+    "mtime": 1784322073.723083,
     "ast_hash": "908d45d3aeea7b400586723f849976f9",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/checks/course_visible.ex": {
-    "mtime": 1784301943.6879468,
+    "mtime": 1784322073.7236238,
     "ast_hash": "27fa16ed7bfc0324ceb8ee33c3611f70",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/checks/manages_curriculum.ex": {
-    "mtime": 1784301937.8703327,
+    "mtime": 1784322073.7243721,
     "ast_hash": "f74eb50f068a85a5aeb369387196406a",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/course.ex": {
-    "mtime": 1784316671.969063,
+    "mtime": 1784322073.7252853,
     "ast_hash": "47f65cb6b2b8179298e6b0c8c86a4361",
     "semantic_hash": ""
   },
   "priv/repo/migrations/20260717153400_create_courses.exs": {
-    "mtime": 1784302565.8036582,
+    "mtime": 1784322073.7300751,
     "ast_hash": "8656249a5fbc97b80045c6fb913c2bce",
     "semantic_hash": ""
   },
   "priv/resource_snapshots/repo/courses/20260717153401.json": {
-    "mtime": 1784302440.0758836,
+    "mtime": 1784322073.7324104,
     "ast_hash": "9586b013b5e33dbe931d93081562495f",
     "semantic_hash": ""
   },
   "test/matwork/curriculum/course_test.exs": {
-    "mtime": 1784316714.6941109,
+    "mtime": 1784322073.7342968,
     "ast_hash": "c071c9e2d27c36124cfa97e5a3698b14",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/checks/section_visible.ex": {
-    "mtime": 1784302971.0691695,
+    "mtime": 1784322073.7248006,
     "ast_hash": "2adbe57a7ae50214b91e76c3cf153f74",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/course_section.ex": {
-    "mtime": 1784316680.8503156,
+    "mtime": 1784322073.725635,
     "ast_hash": "4bf031b220131e5e5e075f93ab6d2357",
     "semantic_hash": ""
   },
   "priv/repo/migrations/20260717154327_create_course_sections.exs": {
-    "mtime": 1784303032.1491475,
+    "mtime": 1784322073.7303877,
     "ast_hash": "6e191f14fa85fe078906ed6499f191eb",
     "semantic_hash": ""
   },
   "priv/resource_snapshots/repo/course_sections/20260717154328.json": {
-    "mtime": 1784303007.6730473,
+    "mtime": 1784322073.7316165,
     "ast_hash": "46e6fa26c78c12326302352d69fba17f",
     "semantic_hash": ""
   },
   "test/matwork/curriculum/course_section_test.exs": {
-    "mtime": 1784304310.28011,
-    "ast_hash": "021a9e7a9e338c1bc6f81462c2732ee8",
+    "mtime": 1784397063.4764633,
+    "ast_hash": "2f55d1831426d3821a95920a3d19521e",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/validations/course_in_tenant.ex": {
-    "mtime": 1784304166.1825373,
-    "ast_hash": "20f5a479a400471c211139547352c263",
+    "mtime": 1784322352.7957249,
+    "ast_hash": "b11abad91c1fccdfff95314997daf846",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/checks/lesson_visible.ex": {
-    "mtime": 1784304949.1102827,
+    "mtime": 1784322073.723977,
     "ast_hash": "220772150532516cfa7c877af022190e",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/lesson.ex": {
-    "mtime": 1784316683.3582544,
+    "mtime": 1784322073.7260184,
     "ast_hash": "448822bd8c7049fadf8c6f98561d0e11",
     "semantic_hash": ""
   },
   "lib/matwork/curriculum/validations/section_in_tenant.ex": {
-    "mtime": 1784304943.3488474,
-    "ast_hash": "871972d883d82c7e9dd8e10bd8f17235",
+    "mtime": 1784322356.0192266,
+    "ast_hash": "909aa78e2e43fa38952e779fbe885e28",
     "semantic_hash": ""
   },
   "priv/repo/migrations/20260717161621_create_lessons.exs": {
-    "mtime": 1784305011.6152103,
+    "mtime": 1784322073.7306972,
     "ast_hash": "5d79cf1515d5d6c06e28bbf51b3052ed",
     "semantic_hash": ""
   },
   "priv/resource_snapshots/repo/lessons/20260717161622.json": {
-    "mtime": 1784304981.3576958,
+    "mtime": 1784322073.7330558,
     "ast_hash": "ecc94218ec61c33fd0a55bb10517f700",
     "semantic_hash": ""
   },
   "test/matwork/curriculum/lesson_test.exs": {
-    "mtime": 1784305011.6237903,
-    "ast_hash": "0a286e492cd48d283d8dd19cb22f0261",
+    "mtime": 1784397187.0092623,
+    "ast_hash": "4f92d2c9d7890b628d7250adcf00dbce",
     "semantic_hash": ""
   },
   "lib/stalwart_ui/curriculum_tree.ex": {
-    "mtime": 1784306665.3407516,
-    "ast_hash": "2105efb438aadf3fa208dd694dd38791",
+    "mtime": 1784396919.2964075,
+    "ast_hash": "271ff3a51496d1e5d5ae7c6a165756c8",
     "semantic_hash": ""
   },
   "test/stalwart_ui/curriculum_tree_test.exs": {
-    "mtime": 1784305270.8226244,
+    "mtime": 1784322073.735975,
     "ast_hash": "93ad6230686fc2b3810bfbd10deb5b5c",
     "semantic_hash": ""
   },
   "lib/matwork_web/live/course_index_live.ex": {
-    "mtime": 1784316702.437698,
+    "mtime": 1784322073.7282612,
     "ast_hash": "df17b7ececeacc04befdb5a9fa34ed65",
     "semantic_hash": ""
   },
   "test/matwork_web/live/course_index_live_test.exs": {
-    "mtime": 1784306935.441152,
+    "mtime": 1784322073.7356274,
     "ast_hash": "3d65e479b0592248a5380fb271ae06aa",
     "semantic_hash": ""
   },
   "lib/matwork_web/live/course_builder_live.ex": {
-    "mtime": 1784316779.7348034,
-    "ast_hash": "6efe0cd3872cc48414203de9c98d6f2b",
+    "mtime": 1784322341.1800842,
+    "ast_hash": "a4154dd664c4ed4986746d9ac26db546",
     "semantic_hash": ""
   },
   "test/matwork_web/live/course_builder_live_test.exs": {
-    "mtime": 1784316897.4500613,
-    "ast_hash": "187bba15eab9402f5c8e58df7f3cefad",
+    "mtime": 1784397337.108445,
+    "ast_hash": "5d57ff7bdbec9bc9721cc60bf59c850e",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-6-brief.md": {
@@ -1000,23 +1000,28 @@
     "semantic_hash": ""
   },
   "priv/repo/migrations/20260717193343_add_curriculum_indexes.exs": {
-    "mtime": 1784316823.2527463,
+    "mtime": 1784322073.7311182,
     "ast_hash": "fef9401ed9d4dd2e9dd007cd39fcef44",
     "semantic_hash": ""
   },
   "priv/resource_snapshots/repo/course_sections/20260717193344.json": {
-    "mtime": 1784316823.2533674,
+    "mtime": 1784322073.7320368,
     "ast_hash": "562de7509ffc32de5dc150b98c5955d4",
     "semantic_hash": ""
   },
   "priv/resource_snapshots/repo/courses/20260717193345.json": {
-    "mtime": 1784316823.2538385,
+    "mtime": 1784322073.7326975,
     "ast_hash": "cb3cd8363c183a21ea5a4c571f925fa4",
     "semantic_hash": ""
   },
   "priv/resource_snapshots/repo/lessons/20260717193346.json": {
-    "mtime": 1784316823.2543628,
+    "mtime": 1784322073.733485,
     "ast_hash": "221f8c13b65c5c7bd9b699df2a81f76a",
+    "semantic_hash": ""
+  },
+  ".superpowers/sdd/pr-review-fix-report.md": {
+    "mtime": 1784398158.925693,
+    "ast_hash": "a2c8f06b9d769a8e36d0d978d676b9e5",
     "semantic_hash": ""
   }
 }
