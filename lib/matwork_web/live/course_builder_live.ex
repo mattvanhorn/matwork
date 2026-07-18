@@ -64,8 +64,14 @@ defmodule MatworkWeb.CourseBuilderLive do
 
   def handle_event("move_section", %{"id" => id, "direction" => direction}, socket) do
     with_section(socket, id, fn section ->
-      Curriculum.reorder_section(section, to_direction(direction), opts(socket))
-      load_course(socket)
+      case to_direction(direction) do
+        nil ->
+          load_course(socket)
+
+        direction ->
+          Curriculum.reorder_section(section, direction, opts(socket))
+          load_course(socket)
+      end
     end)
   end
 
@@ -107,8 +113,14 @@ defmodule MatworkWeb.CourseBuilderLive do
 
   def handle_event("move_lesson", %{"id" => id, "direction" => direction}, socket) do
     with_lesson(socket, id, fn lesson ->
-      Curriculum.reorder_lesson(lesson, to_direction(direction), opts(socket))
-      load_course(socket)
+      case to_direction(direction) do
+        nil ->
+          load_course(socket)
+
+        direction ->
+          Curriculum.reorder_lesson(lesson, direction, opts(socket))
+          load_course(socket)
+      end
     end)
   end
 
@@ -165,6 +177,7 @@ defmodule MatworkWeb.CourseBuilderLive do
 
   defp to_direction("up"), do: :up
   defp to_direction("down"), do: :down
+  defp to_direction(_), do: nil
 
   # Looks up a section/lesson by id from the last-loaded tree and runs `fun`
   # with it. A `nil` lookup means the id came from a stale DOM (deleted by
