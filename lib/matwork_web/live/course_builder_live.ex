@@ -55,7 +55,7 @@ defmodule MatworkWeb.CourseBuilderLive do
           load_course(socket)
 
         {:error, _} ->
-          socket |> put_flash(:error, "Could not save — title can't be blank.") |> load_course()
+          socket |> put_flash(:error, "Could not save section.") |> load_course()
       end
     end)
   end
@@ -104,7 +104,7 @@ defmodule MatworkWeb.CourseBuilderLive do
           load_course(socket)
 
         {:error, _} ->
-          socket |> put_flash(:error, "Could not save — title can't be blank.") |> load_course()
+          socket |> put_flash(:error, "Could not save lesson.") |> load_course()
       end
     end)
   end
