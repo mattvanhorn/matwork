@@ -87,6 +87,23 @@ defmodule Matwork.Curriculum.LessonTest do
 
       assert ordered == [second.id, first.id]
     end
+
+    test "an unrecognized direction is a no-op, not a crash" do
+      owner = generate(user())
+      gym = generate(gym(owner: owner))
+      section = generate(section(course: generate(course(gym: gym))))
+      first = generate(lesson(section: section, position: 0))
+      second = generate(lesson(section: section, position: 1))
+
+      assert :ok = Curriculum.reorder_lesson(first, :sideways, actor: owner, tenant: gym.id)
+
+      ordered =
+        Curriculum.list_lessons!(actor: owner, tenant: gym.id)
+        |> Enum.sort_by(& &1.position)
+        |> Enum.map(& &1.id)
+
+      assert ordered == [first.id, second.id]
+    end
   end
 
   describe "read visibility" do

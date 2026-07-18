@@ -28,6 +28,14 @@ defmodule MatworkWeb.CourseBuilderLive do
     end
   end
 
+  # Guards every mutating event below: a non-manager (or a manager who hit
+  # the not-found branch) has course/course_id assigned as nil, so any event
+  # sent manually over the socket (bypassing the unrendered controls) would
+  # otherwise crash the handler it matched instead of being a no-op.
+  def handle_event(_event, _params, %{assigns: %{manager?: false}} = socket) do
+    {:noreply, socket}
+  end
+
   # --- section events ---
 
   def handle_event("add_section", %{"title" => title}, socket) do

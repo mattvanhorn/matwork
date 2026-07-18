@@ -122,7 +122,12 @@ defmodule Matwork.Curriculum do
   end
 
   # Swap `record`'s position with its neighbor one slot in `direction`
-  # (`:up`/`:down`) among the siblings matching `filter`. No-op at a boundary.
+  # (`:up`/`:down`) among the siblings matching `filter`. No-op at a boundary,
+  # or when `direction` isn't `:up`/`:down` — this is a public domain function
+  # (via reorder_section/3, reorder_lesson/3), so it must not crash on an
+  # unexpected direction from a caller other than the LiveView's own
+  # string-to-atom guard (which already filters bad input, but shouldn't be
+  # the only thing standing between a bad atom and a FunctionClauseError).
   # `set_position_fun` is the resource's `set_*_position!` code interface.
   #
   # Re-reads `record` as `current` from the fresh `siblings` list rather than
@@ -131,6 +136,13 @@ defmodule Matwork.Curriculum do
   # failure between them can't leave positions duplicated/inconsistent.
   @doc false
   def swap_position(resource, filter, record, direction, set_position_fun, opts) do
+    case delta(direction) do
+      nil -> :ok
+      delta -> do_swap_position(resource, filter, record, delta, set_position_fun, opts)
+    end
+  end
+
+  defp do_swap_position(resource, filter, record, delta, set_position_fun, opts) do
     siblings =
       resource
       |> Ash.Query.filter(^filter)
@@ -138,7 +150,7 @@ defmodule Matwork.Curriculum do
       |> Ash.read!(opts)
 
     index = Enum.find_index(siblings, &(&1.id == record.id))
-    target = index && index + delta(direction)
+    target = index && index + delta
 
     if is_integer(target) and target >= 0 and target < length(siblings) do
       current = Enum.at(siblings, index)
@@ -155,4 +167,5 @@ defmodule Matwork.Curriculum do
 
   defp delta(:up), do: -1
   defp delta(:down), do: 1
+  defp delta(_), do: nil
 end
