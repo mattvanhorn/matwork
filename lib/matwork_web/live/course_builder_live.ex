@@ -20,6 +20,7 @@ defmodule MatworkWeb.CourseBuilderLive do
         {:error, _not_found} ->
           {:ok,
            socket
+           |> assign(manager?: false, course: nil, sections: [], raw_sections: [])
            |> put_flash(:error, "Course not found.")
            |> push_navigate(to: ~p"/g/#{socket.assigns.current_gym.slug}/courses")}
       end
@@ -29,9 +30,11 @@ defmodule MatworkWeb.CourseBuilderLive do
   end
 
   # Guards every mutating event below: a non-manager (or a manager who hit
-  # the not-found branch) has course/course_id assigned as nil, so any event
-  # sent manually over the socket (bypassing the unrendered controls) would
-  # otherwise crash the handler it matched instead of being a no-op.
+  # the not-found branch, which also assigns manager?: false above) has
+  # course/course_id assigned as nil, so any event sent manually over the
+  # socket (bypassing the unrendered controls, or arriving in the narrow
+  # window before push_navigate's redirect is followed) would otherwise
+  # crash the handler it matched instead of being a no-op.
   def handle_event(_event, _params, %{assigns: %{manager?: false}} = socket) do
     {:noreply, socket}
   end
