@@ -32,6 +32,8 @@ defmodule Matwork.Curriculum do
       define :update_lesson, action: :update
       define :set_lesson_position, action: :set_position
       define :destroy_lesson, action: :destroy
+      define :attach_lesson_video_by_id, action: :attach_video
+      define :detach_lesson_video, action: :detach_video
     end
   end
 
@@ -74,6 +76,11 @@ defmodule Matwork.Curriculum do
     update_lesson(lesson, %{free_preview: value}, opts)
   end
 
+  @doc "Attach `video` to `lesson` (both must be in `opts[:tenant]`)."
+  def attach_lesson_video(lesson, video, opts) do
+    attach_lesson_video_by_id(lesson, %{video_id: video.id}, opts)
+  end
+
   @doc "Move a lesson one slot `:up`/`:down` among its section siblings."
   def reorder_lesson(lesson, direction, opts) do
     swap_position(
@@ -94,7 +101,10 @@ defmodule Matwork.Curriculum do
   same as `get_course/2`.
   """
   def load_course_tree(course_id, opts) do
-    lessons_query = Ash.Query.sort(Matwork.Curriculum.Lesson, position: :asc)
+    lessons_query =
+      Matwork.Curriculum.Lesson
+      |> Ash.Query.sort(position: :asc)
+      |> Ash.Query.load(:video)
 
     sections_query =
       Matwork.Curriculum.CourseSection

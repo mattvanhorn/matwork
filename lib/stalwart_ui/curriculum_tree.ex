@@ -7,6 +7,8 @@ defmodule StalwartUI.CurriculumTree do
   """
   use Phoenix.Component
 
+  import StalwartUI.VideoUploadField
+
   alias Phoenix.LiveView.JS
 
   # `data-confirm` on the delete buttons below is not a phoenix_live_view feature —
@@ -18,7 +20,8 @@ defmodule StalwartUI.CurriculumTree do
 
   attr :sections, :list,
     required: true,
-    doc: "sorted list of %{id, title, lessons: [%{id, title, free_preview}]} — lessons pre-sorted"
+    doc:
+      "sorted list of %{id, title, lessons: [%{id, title, free_preview, video_status}]} — lessons pre-sorted"
 
   attr :on_add_section, :string, default: "add_section"
   attr :on_rename_section, :string, default: "rename_section"
@@ -29,6 +32,7 @@ defmodule StalwartUI.CurriculumTree do
   attr :on_delete_lesson, :string, default: "delete_lesson"
   attr :on_move_lesson, :string, default: "move_lesson"
   attr :on_toggle_preview, :string, default: "toggle_preview"
+  attr :on_request_upload, :string, default: "request_upload"
 
   def curriculum_tree(assigns) do
     ~H"""
@@ -86,6 +90,11 @@ defmodule StalwartUI.CurriculumTree do
               <button type="submit" class="btn btn-xs">Save</button>
             </form>
             <span :if={lesson.free_preview} class="badge badge-success badge-sm">Preview</span>
+            <.video_upload_field
+              lesson_id={lesson.id}
+              status={lesson.video_status}
+              on_request_upload={@on_request_upload}
+            />
             <button
               type="button"
               phx-click={@on_toggle_preview}

@@ -2,7 +2,7 @@ defmodule Matwork.Curriculum.Lesson do
   @moduledoc """
   A lesson within a section. Tenant-scoped on `gym_id`. `free_preview` marks a
   lesson as watchable without payment (playback gating lands in Session 3).
-  A `video_id` relationship is added in Session 2 with the Media domain.
+  A `video_id` relationship was added in Session 2 with the Media domain.
   """
   use Ash.Resource,
     otp_app: :matwork,
@@ -42,6 +42,19 @@ defmodule Matwork.Curriculum.Lesson do
 
     update :set_position do
       accept [:position]
+    end
+
+    update :attach_video do
+      accept [:video_id]
+      # VideoInTenant issues a separate Ash.exists?/2 query, which can't be
+      # folded into a single atomic UPDATE ... RETURNING.
+      require_atomic? false
+      validate {Matwork.Curriculum.Validations.VideoInTenant, []}
+    end
+
+    update :detach_video do
+      accept []
+      change set_attribute(:video_id, nil)
     end
   end
 
@@ -95,6 +108,11 @@ defmodule Matwork.Curriculum.Lesson do
 
     belongs_to :section, Matwork.Curriculum.CourseSection do
       allow_nil? false
+      public? true
+    end
+
+    belongs_to :video, Matwork.Media.Video do
+      allow_nil? true
       public? true
     end
   end

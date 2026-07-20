@@ -25,6 +25,16 @@ defmodule MatworkWeb.Router do
     plug :set_actor, :user
   end
 
+  pipeline :webhooks do
+    plug :accepts, ["json"]
+  end
+
+  scope "/webhooks", MatworkWeb do
+    pipe_through :webhooks
+
+    post "/mux", WebhookController, :mux
+  end
+
   scope "/", MatworkWeb do
     pipe_through :browser
 

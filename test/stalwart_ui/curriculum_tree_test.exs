@@ -15,7 +15,9 @@ defmodule StalwartUI.CurriculumTreeTest do
           %{
             id: "s1",
             title: "Sweeps",
-            lessons: [%{id: "l1", title: "Old-school sweep", free_preview: true}]
+            lessons: [
+              %{id: "l1", title: "Old-school sweep", free_preview: true, video_status: nil}
+            ]
           }
         ]
       })
@@ -28,7 +30,11 @@ defmodule StalwartUI.CurriculumTreeTest do
     html =
       tree(%{
         sections: [
-          %{id: "s1", title: "Sweeps", lessons: [%{id: "l1", title: "L", free_preview: true}]}
+          %{
+            id: "s1",
+            title: "Sweeps",
+            lessons: [%{id: "l1", title: "L", free_preview: true, video_status: nil}]
+          }
         ]
       })
 

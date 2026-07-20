@@ -13,6 +13,10 @@ defmodule MatworkWeb.CourseBuilderLive do
     membership = socket.assigns.current_membership
 
     if GymLiveAuth.manager?(membership) do
+      if connected?(socket) do
+        Phoenix.PubSub.subscribe(Matwork.PubSub, "gym:#{socket.assigns.current_gym.id}:videos")
+      end
+
       case Curriculum.load_course_tree(course_id, opts(socket)) do
         {:ok, course} ->
           {:ok, socket |> assign(:course_id, course_id) |> assign_course(course)}
@@ -147,6 +151,40 @@ defmodule MatworkWeb.CourseBuilderLive do
     end)
   end
 
+  def handle_event("request_upload", %{"lesson_id" => lesson_id}, socket) do
+    with lesson when not is_nil(lesson) <- find_lesson(socket, lesson_id),
+         {:ok, {video, upload_url}} <-
+           Matwork.Media.create_direct_upload(lesson.title, opts(socket)),
+         {:ok, _lesson} <- Curriculum.attach_lesson_video(lesson, video, opts(socket)) do
+      {:reply, %{upload_url: upload_url}, load_course(socket)}
+    else
+      nil ->
+        {:reply, %{error: "stale"}, stale_item(socket)}
+
+      {:error, _} ->
+        {:reply, %{error: "could not start upload"},
+         socket |> put_flash(:error, "Could not start upload.") |> load_course()}
+    end
+  end
+
+  def handle_event("upload_failed", %{"lesson_id" => lesson_id}, socket) do
+    with_lesson(socket, lesson_id, fn lesson ->
+      # Detach so the lesson returns to having no video: only a webhook can
+      # otherwise move a Video off :pending_upload, and no webhook will ever
+      # arrive for a client-side (browser -> Mux) upload failure — without
+      # this the lesson would be stuck forever with the upload control
+      # hidden. The orphaned Video row itself is left as-is (never marked
+      # errored/deleted); see Task 6's accepted orphaned-Video precedent.
+      _ = Curriculum.detach_lesson_video(lesson, opts(socket))
+      socket |> put_flash(:error, "Upload failed — try again.") |> load_course()
+    end)
+  end
+
+  def handle_event("upload_finished", _params, socket) do
+    # Bytes are in Mux; the webhook drives the video to :ready. Just refresh.
+    {:noreply, load_course(socket)}
+  end
+
   # --- course status events ---
 
   def handle_event("publish", _params, socket) do
@@ -177,6 +215,10 @@ defmodule MatworkWeb.CourseBuilderLive do
       {:error, _} ->
         {:noreply, socket |> put_flash(:error, "Could not unarchive course.") |> load_course()}
     end
+  end
+
+  def handle_info({:video_updated, _video_id}, socket) do
+    {:noreply, load_course(socket)}
   end
 
   # --- helpers ---
@@ -242,7 +284,12 @@ defmodule MatworkWeb.CourseBuilderLive do
           title: section.title,
           lessons:
             Enum.map(section.lessons, fn lesson ->
-              %{id: lesson.id, title: lesson.title, free_preview: lesson.free_preview}
+              %{
+                id: lesson.id,
+                title: lesson.title,
+                free_preview: lesson.free_preview,
+                video_status: video_status(lesson.video)
+              }
             end)
         }
       end)
@@ -254,6 +301,9 @@ defmodule MatworkWeb.CourseBuilderLive do
       manager?: true
     )
   end
+
+  defp video_status(%Matwork.Media.Video{status: status}), do: status
+  defp video_status(_), do: nil
 
   def render(assigns) do
     ~H"""
