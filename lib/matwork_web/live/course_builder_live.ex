@@ -152,20 +152,18 @@ defmodule MatworkWeb.CourseBuilderLive do
   end
 
   def handle_event("request_upload", %{"lesson_id" => lesson_id}, socket) do
-    case find_lesson(socket, lesson_id) do
+    with lesson when not is_nil(lesson) <- find_lesson(socket, lesson_id),
+         {:ok, {video, upload_url}} <-
+           Matwork.Media.create_direct_upload(lesson.title, opts(socket)),
+         {:ok, _lesson} <- Curriculum.attach_lesson_video(lesson, video, opts(socket)) do
+      {:reply, %{upload_url: upload_url}, load_course(socket)}
+    else
       nil ->
         {:reply, %{error: "stale"}, stale_item(socket)}
 
-      lesson ->
-        case Matwork.Media.create_direct_upload(lesson.title, opts(socket)) do
-          {:ok, {video, upload_url}} ->
-            {:ok, _} = Curriculum.attach_lesson_video(lesson, video, opts(socket))
-            {:reply, %{upload_url: upload_url}, load_course(socket)}
-
-          {:error, _} ->
-            {:reply, %{error: "could not start upload"},
-             socket |> put_flash(:error, "Could not start upload.") |> load_course()}
-        end
+      {:error, _} ->
+        {:reply, %{error: "could not start upload"},
+         socket |> put_flash(:error, "Could not start upload.") |> load_course()}
     end
   end
 

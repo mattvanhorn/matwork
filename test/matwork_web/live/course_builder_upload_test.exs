@@ -45,6 +45,26 @@ defmodule MatworkWeb.CourseBuilderUploadTest do
     assert reloaded.id == course.id
   end
 
+  test "an attach_lesson_video failure surfaces an error instead of crashing",
+       %{conn: conn, owner: owner, gym: gym, course: course, lesson: lesson} do
+    stub(Matwork.Platform.MuxMock, :create_direct_upload, fn %{passthrough: passthrough} ->
+      assert passthrough == gym.id
+      # Simulate a concurrent delete of the lesson between find_lesson and attach.
+      Curriculum.destroy_lesson(lesson, actor: owner, tenant: gym.id)
+      {:ok, %{id: "upload_race", url: "https://storage.example/put"}}
+    end)
+
+    conn = sign_in(conn, owner)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    render_hook(element(lv, "#upload-#{lesson.id}"), "request_upload", %{
+      "lesson_id" => lesson.id
+    })
+
+    assert_reply(lv, %{error: "could not start upload"})
+    assert render(lv) =~ "Could not start upload"
+  end
+
   test "a webhook-driven video_updated broadcast refreshes the builder to Ready",
        %{conn: conn, owner: owner, gym: gym, course: course, lesson: lesson} do
     video = generate(video(gym: gym, status: :processing))
