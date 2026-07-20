@@ -167,8 +167,17 @@ defmodule MatworkWeb.CourseBuilderLive do
     end
   end
 
-  def handle_event("upload_failed", _params, socket) do
-    {:noreply, socket |> put_flash(:error, "Upload failed — try again.") |> load_course()}
+  def handle_event("upload_failed", %{"lesson_id" => lesson_id}, socket) do
+    with_lesson(socket, lesson_id, fn lesson ->
+      # Detach so the lesson returns to having no video: only a webhook can
+      # otherwise move a Video off :pending_upload, and no webhook will ever
+      # arrive for a client-side (browser -> Mux) upload failure — without
+      # this the lesson would be stuck forever with the upload control
+      # hidden. The orphaned Video row itself is left as-is (never marked
+      # errored/deleted); see Task 6's accepted orphaned-Video precedent.
+      _ = Curriculum.detach_lesson_video(lesson, opts(socket))
+      socket |> put_flash(:error, "Upload failed — try again.") |> load_course()
+    end)
   end
 
   def handle_event("upload_finished", _params, socket) do

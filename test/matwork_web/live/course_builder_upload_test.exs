@@ -65,6 +65,31 @@ defmodule MatworkWeb.CourseBuilderUploadTest do
     assert render(lv) =~ "Could not start upload"
   end
 
+  test "upload_failed detaches the video so the lesson can retry",
+       %{conn: conn, owner: owner, gym: gym, course: course, lesson: lesson} do
+    video = generate(video(gym: gym, status: :pending_upload))
+    {:ok, _} = Curriculum.attach_lesson_video(lesson, video, actor: owner, tenant: gym.id)
+
+    conn = sign_in(conn, owner)
+    {:ok, lv, _html} = live(conn, ~p"/g/#{gym.slug}/courses/#{course.id}/edit")
+
+    assert render(lv) =~ "Uploading…"
+
+    render_hook(element(lv, "#upload-#{lesson.id}"), "upload_failed", %{
+      "lesson_id" => lesson.id
+    })
+
+    lesson_row =
+      Curriculum.list_lessons!(actor: owner, tenant: gym.id)
+      |> Enum.find(&(&1.id == lesson.id))
+
+    refute lesson_row.video_id
+
+    html = render(lv)
+    assert html =~ "Upload failed — try again."
+    assert html =~ "Upload video"
+  end
+
   test "a webhook-driven video_updated broadcast refreshes the builder to Ready",
        %{conn: conn, owner: owner, gym: gym, course: course, lesson: lesson} do
     video = generate(video(gym: gym, status: :processing))

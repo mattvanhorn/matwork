@@ -48,7 +48,10 @@ defmodule Matwork.Media.Jobs.ProcessMuxWebhook do
   defp handle(%{"type" => "video.upload.asset_created", "data" => data}) do
     tenant = data["passthrough"]
 
-    with_video(tenant, data["upload_id"], fn video ->
+    # NOTE: for this event, `data` is the Upload resource, not the Asset —
+    # its own id (`data["id"]`) IS the upload id; unlike the asset.ready /
+    # asset.errored events below, there is no separate `upload_id` field here.
+    with_video(tenant, data["id"], fn video ->
       Media.mark_video_processing(video, %{mux_asset_id: data["asset_id"]},
         actor: @system,
         tenant: tenant
