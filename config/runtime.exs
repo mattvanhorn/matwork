@@ -17,6 +17,16 @@ if config_env() == :dev do
   |> System.put_env()
 end
 
+config :matwork, Matwork.Platform.Mux.HTTP,
+  token_id: System.get_env("MUX_TOKEN_ID"),
+  token_secret: System.get_env("MUX_TOKEN_SECRET")
+
+# The webhook secret has a test default in config/test.exs; only override it
+# here when a real value is present, so signature tests keep their fixture.
+if secret = System.get_env("MUX_WEBHOOK_SECRET") do
+  config :matwork, :mux_webhook_secret, secret
+end
+
 # ## Using releases
 #
 # If you use `mix release`, you need to explicitly enable the server

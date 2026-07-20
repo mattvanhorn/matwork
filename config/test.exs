@@ -3,6 +3,8 @@ config :matwork, Oban, testing: :manual
 config :matwork, token_signing_secret: "7skpQOejAbEDp+ld9LpJxKn7pTHtebSF"
 config :bcrypt_elixir, log_rounds: 1
 config :ash, policies: [show_policy_breakdowns?: true], disable_async?: true
+config :matwork, :mux, Matwork.Platform.MuxMock
+config :matwork, :mux_webhook_secret, "test_mux_secret"
 
 # Curriculum.swap_position/6 (lib/matwork/curriculum.ex) deliberately wraps
 # paired Ash action calls in Matwork.Repo.transaction/1 for atomicity. Ash
