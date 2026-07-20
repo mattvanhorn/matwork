@@ -1,6 +1,8 @@
 defmodule MatworkWeb.WebhookController do
   use MatworkWeb, :controller
 
+  require Logger
+
   alias Matwork.Media.Jobs.ProcessMuxWebhook
   alias Matwork.Platform
   alias Matwork.Platform.Mux.Signature
@@ -21,16 +23,33 @@ defmodule MatworkWeb.WebhookController do
   end
 
   defp record_and_enqueue(conn, %{"id" => external_id} = params) do
-    with {:ok, event} <-
-           Platform.record_webhook_event(:mux, external_id, params, actor: @system),
-         {:ok, _job} <-
-           %{"webhook_event_id" => event.id} |> ProcessMuxWebhook.new() |> Oban.insert() do
-      send_resp(conn, 200, "")
-    else
-      _ -> send_resp(conn, 200, "")
+    case Platform.record_webhook_event(:mux, external_id, params, actor: @system) do
+      {:ok, event} ->
+        enqueue_processing(conn, event, external_id)
+
+      {:error, reason} ->
+        Logger.error(
+          "Mux webhook record failed external_id=#{external_id} reason=#{inspect(reason)}"
+        )
+
+        send_resp(conn, 200, "")
     end
   end
 
   # A Mux webhook always carries a top-level "id"; anything else is noise.
   defp record_and_enqueue(conn, _params), do: send_resp(conn, 400, "missing id")
+
+  defp enqueue_processing(conn, event, external_id) do
+    case %{"webhook_event_id" => event.id} |> ProcessMuxWebhook.new() |> Oban.insert() do
+      {:ok, _job} ->
+        send_resp(conn, 200, "")
+
+      {:error, reason} ->
+        Logger.error(
+          "Mux webhook enqueue failed webhook_event_id=#{event.id} external_id=#{external_id} reason=#{inspect(reason)}"
+        )
+
+        send_resp(conn, 200, "")
+    end
+  end
 end
