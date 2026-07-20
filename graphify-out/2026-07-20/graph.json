@@ -141,93 +141,13 @@
   },
   "nodes": [
     {
-      "label": "process_mux_webhook.ex",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook",
-      "community": 169,
-      "norm_label": "process_mux_webhook.ex"
-    },
-    {
-      "label": "Matwork.Media.Jobs.ProcessMuxWebhook",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "community": 169,
-      "norm_label": "matwork.media.jobs.processmuxwebhook"
-    },
-    {
-      "label": "perform()",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_perform",
-      "community": 169,
-      "norm_label": "perform()"
-    },
-    {
-      "label": "handle()",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L30",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
-      "community": 169,
-      "norm_label": "handle()"
-    },
-    {
-      "label": "with_video()",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video",
-      "community": 169,
-      "norm_label": "with_video()"
-    },
-    {
-      "label": "broadcast()",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L90",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_broadcast",
-      "community": 169,
-      "norm_label": "broadcast()"
-    },
-    {
-      "label": "playback_id()",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L94",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_playback_id",
-      "community": 169,
-      "norm_label": "playback_id()"
-    },
-    {
-      "label": "duration()",
-      "file_type": "code",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_duration",
-      "community": 169,
-      "norm_label": "duration()"
-    },
-    {
       "label": "course_builder_live.ex",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
       "source_location": "L1",
       "_origin": "ast",
       "id": "live_course_builder_live",
-      "community": 159,
+      "community": 65,
       "norm_label": "course_builder_live.ex"
     },
     {
@@ -264,7 +184,7 @@
       "label": "handle_info()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L220",
+      "source_location": "L211",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_handle_info",
       "community": 65,
@@ -274,7 +194,7 @@
       "label": "opts()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L226",
+      "source_location": "L217",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_opts",
       "community": 65,
@@ -284,7 +204,7 @@
       "label": "to_direction()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L231",
+      "source_location": "L222",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_to_direction",
       "community": 65,
@@ -294,7 +214,7 @@
       "label": "with_section()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L239",
+      "source_location": "L230",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_with_section",
       "community": 65,
@@ -304,7 +224,7 @@
       "label": "with_lesson()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L246",
+      "source_location": "L237",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_with_lesson",
       "community": 65,
@@ -314,7 +234,7 @@
       "label": "stale_item()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L253",
+      "source_location": "L244",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_stale_item",
       "community": 65,
@@ -324,7 +244,7 @@
       "label": "find_section()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L259",
+      "source_location": "L250",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_find_section",
       "community": 65,
@@ -334,7 +254,7 @@
       "label": "find_lesson()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L261",
+      "source_location": "L252",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_find_lesson",
       "community": 65,
@@ -344,7 +264,7 @@
       "label": "load_course()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L270",
+      "source_location": "L261",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_load_course",
       "community": 65,
@@ -354,7 +274,7 @@
       "label": "assign_course()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L277",
+      "source_location": "L268",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_assign_course",
       "community": 65,
@@ -364,7 +284,7 @@
       "label": "video_status()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L305",
+      "source_location": "L296",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_video_status",
       "community": 65,
@@ -374,61 +294,11 @@
       "label": "render()",
       "file_type": "code",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
-      "source_location": "L308",
+      "source_location": "L299",
       "_origin": "ast",
       "id": "live_course_builder_live_matworkweb_coursebuilderlive_render",
       "community": 65,
       "norm_label": "render()"
-    },
-    {
-      "label": "process_mux_webhook_test.exs",
-      "file_type": "code",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_test",
-      "community": 169,
-      "norm_label": "process_mux_webhook_test.exs"
-    },
-    {
-      "label": "Matwork.Media.Jobs.ProcessMuxWebhookTest",
-      "file_type": "code",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest",
-      "community": 169,
-      "norm_label": "matwork.media.jobs.processmuxwebhooktest"
-    },
-    {
-      "label": "ready_payload()",
-      "file_type": "code",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_ready_payload",
-      "community": 169,
-      "norm_label": "ready_payload()"
-    },
-    {
-      "label": "processing_payload()",
-      "file_type": "code",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_processing_payload",
-      "community": 169,
-      "norm_label": "processing_payload()"
-    },
-    {
-      "label": "errored_payload()",
-      "file_type": "code",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_errored_payload",
-      "community": 169,
-      "norm_label": "errored_payload()"
     },
     {
       "label": "course_builder_upload_test.exs",
@@ -437,7 +307,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "live_course_builder_upload_test",
-      "community": 184,
+      "community": 65,
       "norm_label": "course_builder_upload_test.exs"
     },
     {
@@ -447,7 +317,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "live_course_builder_upload_test_matworkweb_coursebuilderuploadtest",
-      "community": 184,
+      "community": 65,
       "norm_label": "matworkweb.coursebuilderuploadtest"
     },
     {
@@ -616,7 +486,7 @@
       "source_file": "lib/matwork/curriculum.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "curriculum.ex",
       "id": "matwork_curriculum"
     },
@@ -896,7 +766,7 @@
       "source_file": "lib/matwork/curriculum/validations/video_in_tenant.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 181,
+      "community": 65,
       "norm_label": "video_in_tenant.ex",
       "id": "validations_video_in_tenant"
     },
@@ -906,7 +776,7 @@
       "source_file": "lib/matwork/curriculum/validations/video_in_tenant.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 181,
+      "community": 65,
       "norm_label": "matwork.curriculum.validations.videointenant",
       "id": "validations_video_in_tenant_matwork_curriculum_validations_videointenant"
     },
@@ -916,7 +786,7 @@
       "source_file": "lib/matwork/curriculum/validations/video_in_tenant.ex",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 181,
+      "community": 65,
       "norm_label": "validate()",
       "id": "validations_video_in_tenant_matwork_curriculum_validations_videointenant_validate"
     },
@@ -1136,7 +1006,7 @@
       "source_file": "test/matwork/curriculum/lesson_video_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 182,
+      "community": 65,
       "norm_label": "lesson_video_test.exs",
       "id": "curriculum_lesson_video_test"
     },
@@ -1146,7 +1016,7 @@
       "source_file": "test/matwork/curriculum/lesson_video_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 182,
+      "community": 65,
       "norm_label": "matwork.curriculum.lessonvideotest",
       "id": "curriculum_lesson_video_test_matwork_curriculum_lessonvideotest"
     },
@@ -1199,6 +1069,86 @@
       "community": 169,
       "norm_label": "enqueue_processing()",
       "id": "controllers_webhook_controller_matworkweb_webhookcontroller_enqueue_processing"
+    },
+    {
+      "label": "process_mux_webhook.ex",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "process_mux_webhook.ex",
+      "id": "jobs_process_mux_webhook"
+    },
+    {
+      "label": "Matwork.Media.Jobs.ProcessMuxWebhook",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "matwork.media.jobs.processmuxwebhook",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook"
+    },
+    {
+      "label": "perform()",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "perform()",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_perform"
+    },
+    {
+      "label": "handle()",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "handle()",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle"
+    },
+    {
+      "label": "with_video()",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L70",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "with_video()",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video"
+    },
+    {
+      "label": "broadcast()",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L87",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "broadcast()",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_broadcast"
+    },
+    {
+      "label": "playback_id()",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L91",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "playback_id()",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_playback_id"
+    },
+    {
+      "label": "duration()",
+      "file_type": "code",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L95",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "duration()",
+      "id": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_duration"
     },
     {
       "label": "endpoint.ex",
@@ -1289,6 +1239,36 @@
       "community": 41,
       "norm_label": "matworkweb.router",
       "id": "matwork_web_router_matworkweb_router"
+    },
+    {
+      "label": "process_mux_webhook_test.exs",
+      "file_type": "code",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "process_mux_webhook_test.exs",
+      "id": "jobs_process_mux_webhook_test"
+    },
+    {
+      "label": "Matwork.Media.Jobs.ProcessMuxWebhookTest",
+      "file_type": "code",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "matwork.media.jobs.processmuxwebhooktest",
+      "id": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest"
+    },
+    {
+      "label": "ready_payload()",
+      "file_type": "code",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 169,
+      "norm_label": "ready_payload()",
+      "id": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_ready_payload"
     },
     {
       "label": "webhook_controller_test.exs",
@@ -2756,7 +2736,7 @@
       "source_file": "lib/matwork/curriculum/checks/manages_curriculum.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 178,
+      "community": 65,
       "norm_label": "manages_curriculum.ex",
       "id": "checks_manages_curriculum"
     },
@@ -2766,7 +2746,7 @@
       "source_file": "lib/matwork/curriculum/checks/manages_curriculum.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 178,
+      "community": 65,
       "norm_label": "matwork.curriculum.checks.managescurriculum",
       "id": "checks_manages_curriculum_matwork_curriculum_checks_managescurriculum"
     },
@@ -2776,7 +2756,7 @@
       "source_file": "lib/matwork/curriculum/checks/manages_curriculum.ex",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 178,
+      "community": 65,
       "norm_label": "describe()",
       "id": "checks_manages_curriculum_matwork_curriculum_checks_managescurriculum_describe"
     },
@@ -2786,7 +2766,7 @@
       "source_file": "lib/matwork/curriculum/checks/manages_curriculum.ex",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 178,
+      "community": 65,
       "norm_label": "match?()",
       "id": "checks_manages_curriculum_matwork_curriculum_checks_managescurriculum_match"
     },
@@ -2876,7 +2856,7 @@
       "source_file": "lib/matwork/curriculum/validations/course_in_tenant.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "course_in_tenant.ex",
       "id": "validations_course_in_tenant"
     },
@@ -2886,7 +2866,7 @@
       "source_file": "lib/matwork/curriculum/validations/course_in_tenant.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "matwork.curriculum.validations.courseintenant",
       "id": "validations_course_in_tenant_matwork_curriculum_validations_courseintenant"
     },
@@ -2896,7 +2876,7 @@
       "source_file": "lib/matwork/curriculum/validations/course_in_tenant.ex",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "validate()",
       "id": "validations_course_in_tenant_matwork_curriculum_validations_courseintenant_validate"
     },
@@ -2906,7 +2886,7 @@
       "source_file": "lib/matwork/curriculum/validations/section_in_tenant.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 180,
+      "community": 65,
       "norm_label": "section_in_tenant.ex",
       "id": "validations_section_in_tenant"
     },
@@ -2916,7 +2896,7 @@
       "source_file": "lib/matwork/curriculum/validations/section_in_tenant.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 180,
+      "community": 65,
       "norm_label": "matwork.curriculum.validations.sectionintenant",
       "id": "validations_section_in_tenant_matwork_curriculum_validations_sectionintenant"
     },
@@ -2926,7 +2906,7 @@
       "source_file": "lib/matwork/curriculum/validations/section_in_tenant.ex",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 180,
+      "community": 65,
       "norm_label": "validate()",
       "id": "validations_section_in_tenant_matwork_curriculum_validations_sectionintenant_validate"
     },
@@ -2966,7 +2946,7 @@
       "source_file": "lib/matwork/gyms/checks/active_member.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 177,
+      "community": 65,
       "norm_label": "active_member.ex",
       "id": "checks_active_member"
     },
@@ -2976,7 +2956,7 @@
       "source_file": "lib/matwork/gyms/checks/active_member.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 177,
+      "community": 65,
       "norm_label": "matwork.gyms.checks.activemember",
       "id": "checks_active_member_matwork_gyms_checks_activemember"
     },
@@ -2986,7 +2966,7 @@
       "source_file": "lib/matwork/gyms/checks/active_member.ex",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 177,
+      "community": 65,
       "norm_label": "describe()",
       "id": "checks_active_member_matwork_gyms_checks_activemember_describe"
     },
@@ -2996,7 +2976,7 @@
       "source_file": "lib/matwork/gyms/checks/active_member.ex",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 177,
+      "community": 65,
       "norm_label": "match?()",
       "id": "checks_active_member_matwork_gyms_checks_activemember_match"
     },
@@ -4046,7 +4026,7 @@
       "source_file": "lib/matwork_web/live/course_index_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 172,
+      "community": 65,
       "norm_label": "course_index_live.ex",
       "id": "live_course_index_live"
     },
@@ -4056,7 +4036,7 @@
       "source_file": "lib/matwork_web/live/course_index_live.ex",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 172,
+      "community": 65,
       "norm_label": "matworkweb.courseindexlive",
       "id": "live_course_index_live_matworkweb_courseindexlive"
     },
@@ -4066,7 +4046,7 @@
       "source_file": "lib/matwork_web/live/course_index_live.ex",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 172,
+      "community": 65,
       "norm_label": "mount()",
       "id": "live_course_index_live_matworkweb_courseindexlive_mount"
     },
@@ -4076,7 +4056,7 @@
       "source_file": "lib/matwork_web/live/course_index_live.ex",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 172,
+      "community": 65,
       "norm_label": "handle_event()",
       "id": "live_course_index_live_matworkweb_courseindexlive_handle_event"
     },
@@ -4086,7 +4066,7 @@
       "source_file": "lib/matwork_web/live/course_index_live.ex",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 172,
+      "community": 65,
       "norm_label": "assign_courses()",
       "id": "live_course_index_live_matworkweb_courseindexlive_assign_courses"
     },
@@ -4096,7 +4076,7 @@
       "source_file": "lib/matwork_web/live/course_index_live.ex",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 172,
+      "community": 65,
       "norm_label": "render()",
       "id": "live_course_index_live_matworkweb_courseindexlive_render"
     },
@@ -7186,7 +7166,7 @@
       "source_file": "test/matwork/curriculum/course_section_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "course_section_test.exs",
       "id": "curriculum_course_section_test"
     },
@@ -7196,7 +7176,7 @@
       "source_file": "test/matwork/curriculum/course_section_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "matwork.curriculum.coursesectiontest",
       "id": "curriculum_course_section_test_matwork_curriculum_coursesectiontest"
     },
@@ -7206,7 +7186,7 @@
       "source_file": "test/matwork/curriculum/course_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "course_test.exs",
       "id": "curriculum_course_test"
     },
@@ -7216,7 +7196,7 @@
       "source_file": "test/matwork/curriculum/course_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "matwork.curriculum.coursetest",
       "id": "curriculum_course_test_matwork_curriculum_coursetest"
     },
@@ -7226,7 +7206,7 @@
       "source_file": "test/matwork/curriculum/lesson_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "lesson_test.exs",
       "id": "curriculum_lesson_test"
     },
@@ -7236,7 +7216,7 @@
       "source_file": "test/matwork/curriculum/lesson_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 65,
       "norm_label": "matwork.curriculum.lessontest",
       "id": "curriculum_lesson_test_matwork_curriculum_lessontest"
     },
@@ -7366,7 +7346,7 @@
       "source_file": "test/matwork_web/live/course_builder_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 183,
+      "community": 65,
       "norm_label": "course_builder_live_test.exs",
       "id": "live_course_builder_live_test"
     },
@@ -7376,7 +7356,7 @@
       "source_file": "test/matwork_web/live/course_builder_live_test.exs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 183,
+      "community": 65,
       "norm_label": "matworkweb.coursebuilderlivetest",
       "id": "live_course_builder_live_test_matworkweb_coursebuilderlivetest"
     },
@@ -8596,7 +8576,7 @@
       "source_file": ".claude/skills/ash-framework/references/debugging_form_submissions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 174,
       "norm_label": "debugging_form_submissions.md",
       "id": "references_debugging_form_submissions"
     },
@@ -8606,7 +8586,7 @@
       "source_file": ".claude/skills/ash-framework/references/debugging_form_submissions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 174,
       "norm_label": "debugging form submission",
       "id": "references_debugging_form_submissions_debugging_form_submission"
     },
@@ -8716,7 +8696,7 @@
       "source_file": ".claude/skills/ash-framework/references/foreign_keys.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "foreign_keys.md",
       "id": "references_foreign_keys"
     },
@@ -8726,7 +8706,7 @@
       "source_file": ".claude/skills/ash-framework/references/foreign_keys.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "foreign key references",
       "id": "references_foreign_keys_foreign_key_references"
     },
@@ -8736,7 +8716,7 @@
       "source_file": ".claude/skills/ash-framework/references/foreign_keys.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "foreign key actions",
       "id": "references_foreign_keys_foreign_key_actions"
     },
@@ -8796,7 +8776,7 @@
       "source_file": ".claude/skills/ash-framework/references/generating_code.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 179,
+      "community": 0,
       "norm_label": "generating_code.md",
       "id": "references_generating_code"
     },
@@ -8806,7 +8786,7 @@
       "source_file": ".claude/skills/ash-framework/references/generating_code.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 179,
+      "community": 0,
       "norm_label": "generating code",
       "id": "references_generating_code_generating_code"
     },
@@ -8856,7 +8836,7 @@
       "source_file": ".claude/skills/ash-framework/references/multi_tenancy_support.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 123,
       "norm_label": "multi_tenancy_support.md",
       "id": "references_multi_tenancy_support"
     },
@@ -8866,7 +8846,7 @@
       "source_file": ".claude/skills/ash-framework/references/multi_tenancy_support.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 66,
+      "community": 123,
       "norm_label": "multi-tenancy support",
       "id": "references_multi_tenancy_support_multi_tenancy_support"
     },
@@ -8906,7 +8886,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "nested_forms.md",
       "id": "references_nested_forms"
     },
@@ -8916,7 +8896,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "nested forms",
       "id": "references_nested_forms_nested_forms"
     },
@@ -8926,7 +8906,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "automatically inferred nested forms",
       "id": "references_nested_forms_automatically_inferred_nested_forms"
     },
@@ -8936,7 +8916,7 @@
       "source_file": ".claude/skills/ash-framework/references/nested_forms.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "adding and removing nested forms",
       "id": "references_nested_forms_adding_and_removing_nested_forms"
     },
@@ -8976,7 +8956,7 @@
       "source_file": ".claude/skills/ash-framework/references/querying_data.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 0,
       "norm_label": "querying_data.md",
       "id": "references_querying_data"
     },
@@ -8986,7 +8966,7 @@
       "source_file": ".claude/skills/ash-framework/references/querying_data.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 159,
+      "community": 0,
       "norm_label": "querying data",
       "id": "references_querying_data_querying_data"
     },
@@ -8996,7 +8976,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 159,
       "norm_label": "relationships.md",
       "id": "references_relationships"
     },
@@ -9006,7 +8986,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "relationships",
       "id": "references_relationships_relationships"
     },
@@ -9016,7 +8996,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "best practices for relationships",
       "id": "references_relationships_best_practices_for_relationships"
     },
@@ -9026,7 +9006,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "relationship types",
       "id": "references_relationships_relationship_types"
     },
@@ -9036,7 +9016,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "loading relationships",
       "id": "references_relationships_loading_relationships"
     },
@@ -9046,7 +9026,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L94",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "managing relationships",
       "id": "references_relationships_managing_relationships"
     },
@@ -9056,7 +9036,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L98",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "1. using `change manage_relationship/2-3` in actions",
       "id": "references_relationships_1_using_change_manage_relationship_2_3_in_actions"
     },
@@ -9066,7 +9046,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L120",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "2. using `ash.changeset.manage_relationship/3-4` in custom changes",
       "id": "references_relationships_2_using_ash_changeset_manage_relationship_3_4_in_custom_changes"
     },
@@ -9076,7 +9056,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L140",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "quick reference - management types",
       "id": "references_relationships_quick_reference_management_types"
     },
@@ -9086,7 +9066,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L147",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "quick reference - common options",
       "id": "references_relationships_quick_reference_common_options"
     },
@@ -9096,7 +9076,7 @@
       "source_file": ".claude/skills/ash-framework/references/relationships.md",
       "source_location": "L156",
       "_origin": "ast",
-      "community": 10,
+      "community": 172,
       "norm_label": "examples",
       "id": "references_relationships_examples"
     },
@@ -9106,7 +9086,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 174,
+      "community": 66,
       "norm_label": "scheduled_actions.md",
       "id": "references_scheduled_actions"
     },
@@ -9116,7 +9096,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 174,
+      "community": 66,
       "norm_label": "scheduled actions",
       "id": "references_scheduled_actions_scheduled_actions"
     },
@@ -9126,7 +9106,7 @@
       "source_file": ".claude/skills/ash-framework/references/scheduled_actions.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 174,
+      "community": 66,
       "norm_label": "scheduled action configuration options",
       "id": "references_scheduled_actions_scheduled_action_configuration_options"
     },
@@ -13525,7 +13505,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 174,
       "norm_label": "ashphoenix.formdata.error protocol",
       "id": "ashphoenix_formdata_error"
     },
@@ -13655,7 +13635,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 159,
+      "community": 65,
       "norm_label": "ash.query module",
       "id": "ash_query"
     },
@@ -13668,7 +13648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 159,
       "norm_label": "ashpostgres references (foreign key) dsl",
       "id": "ashpostgres_references"
     },
@@ -13681,7 +13661,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 179,
+      "community": 0,
       "norm_label": "mix ash.gen.* tasks",
       "id": "mix_ash_gen"
     },
@@ -13720,7 +13700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 123,
       "norm_label": "ashoban list_tenants configuration",
       "id": "ash_oban_list_tenants"
     },
@@ -13733,7 +13713,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 66,
+      "community": 123,
       "norm_label": "ashpostgres schema-based multitenancy (manage_tenant)",
       "id": "ashpostgres_multitenancy"
     },
@@ -13772,7 +13752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 159,
       "norm_label": "ashphoenix.form.remove_form/2",
       "id": "ashphoenix_form_remove_form"
     },
@@ -13785,7 +13765,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 159,
       "norm_label": "manage_relationship change/argument",
       "id": "ash_manage_relationship"
     },
@@ -13798,7 +13778,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 159,
       "norm_label": "ash relationships dsl (belongs_to/has_one/has_many/many_to_many)",
       "id": "ash_relationships_dsl"
     },
@@ -13811,7 +13791,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 159,
       "norm_label": "polymorphic relationships via ash.type.union",
       "id": "ash_polymorphic_relationships"
     },
@@ -13824,7 +13804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 66,
       "norm_label": "ashoban scheduled_actions dsl",
       "id": "ash_oban_scheduled_action"
     },
@@ -13954,7 +13934,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 174,
       "norm_label": "form errors only display when protocol + field implemented",
       "id": "references_debugging_form_submissions_error_visibility_rule"
     },
@@ -13967,7 +13947,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 159,
       "norm_label": "fk on_delete/on_update bypass resource logic (db-level only)",
       "id": "references_foreign_keys_db_level_warning"
     },
@@ -14708,153 +14688,6 @@
   ],
   "links": [
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L11",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook",
-      "target": "matwork_media"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook",
-      "target": "matwork_platform"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_broadcast"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L95",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_duration"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L68",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_perform"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L92",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_playback_id"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L24",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_perform",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L40",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_duration"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L32",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_playback_id"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L34",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
-      "source_location": "L77",
-      "weight": 1.0,
-      "context": "call",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video",
-      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_broadcast"
-    },
-    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "lib/matwork_web/live/course_builder_live.ex",
@@ -15245,68 +15078,6 @@
       "confidence_score": 1.0,
       "source": "live_course_builder_live_matworkweb_coursebuilderlive_assign_course",
       "target": "live_course_builder_live_matworkweb_coursebuilderlive_video_status"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_test",
-      "target": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L7",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_test",
-      "target": "matwork_media"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L9",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_test",
-      "target": "matwork_platform"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest",
-      "target": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_errored_payload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest",
-      "target": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_processing_payload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest",
-      "target": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_ready_payload"
     },
     {
       "relation": "contains",
@@ -16185,6 +15956,153 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook",
+      "target": "matwork_media"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook",
+      "target": "matwork_platform"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_broadcast"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_duration"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_perform"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_playback_id"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_perform",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_duration"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_playback_id"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_handle",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/matwork/media/jobs/process_mux_webhook.ex",
+      "source_location": "L77",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_with_video",
+      "target": "jobs_process_mux_webhook_matwork_media_jobs_processmuxwebhook_broadcast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "lib/matwork_web/endpoint.ex",
       "source_location": "L1",
       "weight": 1.0,
@@ -16252,6 +16170,48 @@
       "confidence_score": 1.0,
       "source": "matwork_web_router",
       "target": "matwork_web_router_matworkweb_router"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_test",
+      "target": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_test",
+      "target": "matwork_media"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_test",
+      "target": "matwork_platform"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test/matwork/media/jobs/process_mux_webhook_test.exs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest",
+      "target": "jobs_process_mux_webhook_test_matwork_media_jobs_processmuxwebhooktest_ready_payload"
     },
     {
       "relation": "contains",
@@ -29062,5 +29022,5 @@
       "source_file": "docs/design.md"
     }
   ],
-  "built_at_commit": "a3c0de3e54225901c6ee914cb955bbdd93b42625"
+  "built_at_commit": "ff5cec770185f6567559ec0e26d466227fa40237"
 }

@@ -700,8 +700,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/progress.md": {
-    "mtime": 1784567012.4525664,
-    "ast_hash": "a345071698193d8d62e6380e366cdfad",
+    "mtime": 1784565949.5752058,
+    "ast_hash": "9738e3a50c9bfd2b6c58ebb6ab92b67f",
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-1-brief.md": {
@@ -835,8 +835,8 @@
     "semantic_hash": ""
   },
   ".superpowers/sdd/task-6-report.md": {
-    "mtime": 1784566779.8265145,
-    "ast_hash": "ee01f82e6fdc28cf24dec3172547169b",
+    "mtime": 1784566336.7796783,
+    "ast_hash": "305179b3927d706f4ceb0c9a015820ca",
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-07-16-nav-role-auth-layout-design.md": {
@@ -985,8 +985,8 @@
     "semantic_hash": ""
   },
   "lib/matwork_web/live/course_builder_live.ex": {
-    "mtime": 1784567415.7110734,
-    "ast_hash": "a8b0b3add05d6f1e9b023b261ab1e9d7",
+    "mtime": 1784566602.4267883,
+    "ast_hash": "3c7d9e2c41255c979bcac8c8c9715954",
     "semantic_hash": ""
   },
   "test/matwork_web/live/course_builder_live_test.exs": {
@@ -1135,8 +1135,8 @@
     "semantic_hash": ""
   },
   "lib/matwork/media/jobs/process_mux_webhook.ex": {
-    "mtime": 1784567400.9488869,
-    "ast_hash": "4b8e2f9c2860eab53bc3a3dd6b2da355",
+    "mtime": 1784564389.6873646,
+    "ast_hash": "68fde12db4c6525c6d72c95e90c17d7e",
     "semantic_hash": ""
   },
   "lib/matwork_web/controllers/webhook_controller.ex": {
@@ -1150,8 +1150,8 @@
     "semantic_hash": ""
   },
   "test/matwork/media/jobs/process_mux_webhook_test.exs": {
-    "mtime": 1784567441.9175122,
-    "ast_hash": "72291b61b6a56ee7800e2b606b083f55",
+    "mtime": 1784564338.4028778,
+    "ast_hash": "d0d7b456613bd31a9bf1c2d8c4f7bb08",
     "semantic_hash": ""
   },
   "test/matwork_web/controllers/webhook_controller_test.exs": {
@@ -1195,18 +1195,13 @@
     "semantic_hash": ""
   },
   "test/matwork_web/live/course_builder_upload_test.exs": {
-    "mtime": 1784567463.5714211,
-    "ast_hash": "4d897590182f0c7e9c58c1ffdae5a9b2",
+    "mtime": 1784566723.00786,
+    "ast_hash": "e1452bf98c72a443d1e50ffd18b3e0fc",
     "semantic_hash": ""
   },
   "test/stalwart_ui/video_upload_field_test.exs": {
     "mtime": 1784566070.7409487,
     "ast_hash": "57014e5bf441297feb5c75447fe90819",
-    "semantic_hash": ""
-  },
-  ".superpowers/sdd/final-review-fix-report.md": {
-    "mtime": 1784567520.794978,
-    "ast_hash": "72d38dbccf10cb9a5d9dfa68367d57e9",
     "semantic_hash": ""
   }
 }
