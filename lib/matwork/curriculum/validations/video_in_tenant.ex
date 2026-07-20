@@ -9,7 +9,7 @@ defmodule Matwork.Curriculum.Validations.VideoInTenant do
   require Ash.Query
 
   @impl true
-  def validate(changeset, _opts, _context) do
+  def validate(changeset, _opts, context) do
     video_id = Ash.Changeset.get_attribute(changeset, :video_id)
     tenant = changeset.tenant
 
@@ -19,7 +19,7 @@ defmodule Matwork.Curriculum.Validations.VideoInTenant do
 
       Matwork.Media.Video
       |> Ash.Query.filter(id == ^video_id)
-      |> Ash.exists?(tenant: tenant, authorize?: false) ->
+      |> Ash.exists?(tenant: tenant, actor: context.actor) ->
         :ok
 
       true ->

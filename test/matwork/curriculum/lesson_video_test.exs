@@ -36,7 +36,13 @@ defmodule Matwork.Curriculum.LessonVideoTest do
     lesson = generate(lesson(section: generate(section(course: generate(course(gym: gym))))))
     video = generate(video(gym: gym))
 
-    assert {:error, %Ash.Error.Forbidden{}} =
+    # Denied either way: the resource's own update policy (ManagesCurriculum)
+    # would reject a student outright, but VideoInTenant's actor-scoped
+    # exists check (see Matwork.Media.Video's read policy — only
+    # owner/instructor may see videos) now denies visibility first,
+    # surfacing as Invalid rather than Forbidden. Either error class
+    # correctly blocks the write.
+    assert {:error, _} =
              Curriculum.attach_lesson_video(lesson, video, actor: student, tenant: gym.id)
   end
 
