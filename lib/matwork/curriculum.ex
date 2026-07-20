@@ -101,7 +101,10 @@ defmodule Matwork.Curriculum do
   same as `get_course/2`.
   """
   def load_course_tree(course_id, opts) do
-    lessons_query = Ash.Query.sort(Matwork.Curriculum.Lesson, position: :asc)
+    lessons_query =
+      Matwork.Curriculum.Lesson
+      |> Ash.Query.sort(position: :asc)
+      |> Ash.Query.load(:video)
 
     sections_query =
       Matwork.Curriculum.CourseSection
