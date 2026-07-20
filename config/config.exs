@@ -68,7 +68,7 @@ config :spark,
 config :matwork,
   ecto_repos: [Matwork.Repo],
   generators: [timestamp_type: :utc_datetime],
-  ash_domains: [Matwork.Accounts, Matwork.Gyms, Matwork.Curriculum],
+  ash_domains: [Matwork.Accounts, Matwork.Gyms, Matwork.Curriculum, Matwork.Platform],
   ash_authentication: [return_error_on_invalid_magic_link_token?: true],
   default_application_fee_percent: "10.0"
 
