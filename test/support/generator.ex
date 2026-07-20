@@ -116,4 +116,23 @@ defmodule Matwork.Generator do
       overrides: opts
     )
   end
+
+  def video(opts \\ []) do
+    {owning_gym, opts} = Keyword.pop(opts, :gym)
+    {uploader, opts} = Keyword.pop(opts, :uploaded_by)
+
+    owning_gym = owning_gym || generate(gym())
+    uploader = uploader || %Matwork.Accounts.User{id: owning_gym.owner_id}
+
+    seed_generator(
+      %Matwork.Media.Video{
+        gym_id: owning_gym.id,
+        uploaded_by_id: uploader.id,
+        title: sequence(:video_title, &"Video #{&1}"),
+        mux_upload_id: sequence(:mux_upload_id, &"upload_#{&1}"),
+        status: :pending_upload
+      },
+      overrides: opts
+    )
+  end
 end
